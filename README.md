@@ -1,3 +1,3 @@
-Set `output` in `00_first.settings`.
+Set `output` in `settings/main.txt`.
 
-Edit any settings in the `*.settings` files.
+Edit settings in the `settings/*.txt` files.

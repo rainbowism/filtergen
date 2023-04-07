@@ -27,7 +27,7 @@ main :: () {
 
     watcher: File_Watcher(void);
     init(*watcher, file_change_callback, null, events_to_watch = .ALL_EVENTS);
-    add_directories(*watcher, "./filters");
+    add_directories(*watcher, ".");
 
     while true {
         changed, needs_wait, wait_seconds := process_changes(*watcher);

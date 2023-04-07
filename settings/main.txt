@@ -24,13 +24,13 @@
 ### Styles
 
 # To go `01_style` to edit colours.
-#include:style.txt
+#include:settings/style.txt
 
 ### Veils
-#include:veils.txt
+#include:settings/veils.txt
 
 ### Cards
-#include:cards.txt
+#include:settings/cards.txt
 
 # REQUIRED
 #include:filters/00_base_3.21.filter

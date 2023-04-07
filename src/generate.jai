@@ -4,7 +4,7 @@ generate_filter :: () {
     info("Starting filter generation at: %", calendar_to_string(calendar_local));
 
     start := get_time();
-    filter_filename :: "main.txt";
+    filter_filename :: "settings/main.txt";
     filter_data, success := read_entire_file(filter_filename);
     if !success {
         warn("Failed to load filter base: `%`.", filter_filename);

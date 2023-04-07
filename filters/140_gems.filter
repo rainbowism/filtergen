@@ -1,0 +1,139 @@
+# [14.0] Gems
+#top and rare gems
+Show
+    BaseType "Item Quantity" "Awakened Empower" "Awakened Enlighten" "Awakened Enhance" "Awakened Multistrike" "Awakened Greater Multiple Projectiles" "Awakened Spell Cascade" "Awakened Spell Echo" "Awakened Chain" "Awakened Fork" "Awakened Unleash"
+    %gem_t1
+    SetFontSize 45
+    PlayAlertSound 6 250
+    MinimapIcon 0 White Triangle
+    PlayEffect White
+Show
+    BaseType "Awakened"
+    %gem_t2
+    SetFontSize 45
+    PlayAlertSound 12 250
+    MinimapIcon 1 White Triangle
+    PlayEffect White
+Show
+    BaseType "Empower" "Enlighten" "Enhance"
+    Class Gem
+    GemLevel >= 3
+    %gem_t1
+    SetFontSize 45
+    PlayAlertSound 6 250
+    MinimapIcon 1 White Triangle
+    PlayEffect White
+Show
+    BaseType "Empower" "Enlighten" "Vaal Breach"
+    Class Gem
+    %gem_t1
+    SetFontSize 45
+    PlayAlertSound 12 250
+    MinimapIcon 1 White Triangle
+    PlayEffect White
+Show
+    BaseType "Portal" "Enhance"
+    Class Gem
+    %gem_t3
+    SetFontSize 40
+    PlayAlertSound 12 250
+    MinimapIcon 2 Green Triangle
+    PlayEffect Green Temp
+
+Show
+    Class "Active Skill Gem"
+    GemLevel >= 21
+    %gem_t2
+    SetFontSize 45
+    PlayAlertSound 12 150
+    MinimapIcon 1 White Triangle
+    PlayEffect Green
+
+#vaal gems
+Show
+    Class Gem
+    Quality >= 20
+    GemLevel >= 20
+    BaseType "Vaal"
+    Corrupted True
+    %gem_t2
+    SetFontSize 45
+    PlayAlertSound 12 150
+    MinimapIcon 1 White Triangle
+    PlayEffect Green
+
+#nonvaal gem highlighting
+Show
+    Class Gem
+    Quality >= 20
+    GemLevel >= 20
+    %gem_t3
+    SetFontSize 45
+    PlayAlertSound 12 150
+    MinimapIcon 1 White Triangle
+    PlayEffect Green
+Show
+    Class Gem
+    Quality >= 20
+    %gem_t3
+    SetFontSize 42
+    PlayAlertSound 12 150
+    MinimapIcon 1 Green Triangle
+    PlayEffect Green Temp
+Show
+    Class Gem
+    GemLevel >= 20
+    %gem_t3
+    SetFontSize 42
+    PlayAlertSound 12 150
+    MinimapIcon 1 Green Triangle
+    PlayEffect Green Temp
+#type:<strict
+Show
+    Class Gem
+    Quality >= 14
+    SetBorderColor 255 204 102
+    SetFontSize 40
+    PlayAlertSound 12 150
+    MinimapIcon 2 Green Triangle
+Show
+    Class Gem
+    Quality >= 10
+    SetBorderColor 200 160 80
+    SetFontSize 38
+#type:<semi
+Show
+    Class Gem
+    Quality >= 5
+    SetBorderColor 150 120 60
+    SetFontSize 36
+#type:<strict
+#other miscellaneous gems
+Show
+    Class Gem
+    BaseType "Vaal Haste" "Vaal Grace" "Vaal Discipline"
+    Corrupted True
+    SetBackgroundColor 50 0 0
+    SetFontSize 36
+    Class Gem
+Show
+    Class Gem
+    AreaLevel <= 1
+    SetFontSize 45
+#type:<semi
+Show
+    Class Gem
+    BaseType "Vaal"
+    Corrupted True
+    SetBackgroundColor 50 0 0
+Show
+    Class Gem
+    AreaLevel <= 1
+    SetFontSize 45
+Show
+    Class Gem
+    AreaLevel <= 30
+#type:default
+Hide
+    Class Gem
+    DisableDropSound

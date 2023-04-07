@@ -1,0 +1,338 @@
+# [13.0] Flasks
+#type:uber
+#if:uber_show_utility_flasks
+Show
+    BaseType "Quicksilver Flask"
+    ItemLevel >= 85
+    SetBorderColor 200 150 0
+    SetFontSize 36
+Show
+    BaseType "Basalt Flask" "Stibnite Flask" "Iron Flask" "Aquamarine Flask" "Gold Flask" "Amethyst Flask" "Bismuth Flask" "Quicksilver Flask" "Corundum Flask"
+    ItemLevel >= 84
+    SetBorderColor 150 100 0
+    SetFontSize 32
+Show
+    Class "Utility Flasks"
+    ItemLevel >= 84
+    SetBorderColor 150 100 0
+    SetFontSize 36
+#end
+#type:default
+Show
+    BaseType "Quicksilver Flask"
+    ItemLevel >= 85
+    SetBorderColor 200 150 0
+    SetFontSize 38
+Show
+    BaseType "Basalt Flask" "Stibnite Flask" "Iron Flask" "Aquamarine Flask" "Gold Flask" "Amethyst Flask" "Bismuth Flask" "Quicksilver Flask" "Corundum Flask"
+    ItemLevel >= 84
+    SetBorderColor 150 100 0
+    SetFontSize 36
+Show
+    Class "Utility Flasks"
+    ItemLevel >= 84
+    SetBorderColor 150 100 0
+    SetFontSize 38
+
+#type:>strict
+Hide
+    Class "Flasks"
+    SetBorderColor 150 100 0
+    SetFontSize 36
+#type:<semi
+#Sounded Flasks - General & Strict Only
+Show
+    BaseType "Quicksilver Flask" "Silver Flask"
+    ItemLevel <= 67
+    SetTextColor 250 0 125
+    PlayAlertSound 14 200
+    SetFontSize 40
+    MinimapIcon 2 Purple Raindrop
+Show
+    BaseType "Quartz Flask"
+    ItemLevel <= 72
+    SetTextColor 200 150 250
+    SetFontSize 38
+    PlayAlertSound 14 200
+    MinimapIcon 2 Cyan Raindrop
+Show
+    BaseType "Granite Flask" "Basalt Flask"
+    ItemLevel <= 72
+    SetTextColor 200 150 250
+    SetFontSize 38
+    PlayAlertSound 14 200
+    MinimapIcon 2 Orange Raindrop
+Show
+    BaseType "Jade Flask"
+    ItemLevel <= 72
+    SetTextColor 200 150 250
+    SetFontSize 38
+    PlayAlertSound 14 200
+    MinimapIcon 2 Green Raindrop
+Show
+    BaseType "Stibnite Flask"
+    ItemLevel <= 72
+    SetTextColor 200 150 250
+    SetFontSize 38
+    PlayAlertSound 14 200
+    MinimapIcon 2 Grey Raindrop
+Show
+    BaseType "Diamond Flask" "Sulphur Flask"
+    ItemLevel <= 72
+    SetTextColor 200 150 250
+    SetFontSize 38
+    MinimapIcon 2 Yellow Raindrop
+
+#Quality Flasks
+Show
+    BaseType "Divine Life Flask" "Eternal Mana Flask" "Basalt Flask" "Granite Flask" "Jade Flask" "Quicksilver Flask" "Silver Flask" "Quartz Flask" "Stibnite Flask" "Diamond Flask" "Sulphur Flask"
+    Quality = 20
+    SetBorderColor 255 204 102
+    SetTextColor 250 0 125
+    SetFontSize 34
+Show
+    BaseType "Jade Flask" "Ruby Flask" "Sapphire Flask" "Topaz Flask" "Basalt Flask" "Granite Flask" "Jade Flask" "Quicksilver Flask" "Silver Flask" "Quartz Flask" "Stibnite Flask" "Diamond Flask" "Sulphur Flask" "Iron Flask"
+    Quality >= 10
+    SetBorderColor 255 204 102
+    SetTextColor 200 150 250
+    SetFontSize 34
+#Rest of quality flasks
+Show
+    Class Flask
+    ItemLevel >= 78
+    Quality >= 10
+    SetBorderColor 100 100 100
+Show
+    Class Flask
+    ItemLevel >= 43
+    ItemLevel <= 77
+    Quality >= 7
+    SetBorderColor 100 100 100
+
+#Utility flasks
+Show
+    BaseType "Granite Flask" "Basalt Flask" "Jade Flask" "Quartz Flask" "Quicksilver Flask" "Silver Flask" "Stibnite Flask" "Diamond Flask" "Sulphur Flask"
+    ItemLevel <= 77
+    SetTextColor 200 150 250
+Show
+    BaseType "Bismuth Flask" "Ruby Flask" "Topaz Flask" "Sapphire Flask" "Amethyst Flask" "Corundum Flask" "Gold Flask" "Iron Flask" "Aquamarine Flask"
+    AreaLevel <= 67
+
+#Life flasks. current best tier shows with red border, large font and small minimap icon. 2nd best tier shows with smaller font and no extra highlighting or icon
+Show
+    BaseType "Small Life Flask"
+    AreaLevel <= 2
+    SetBorderColor 200 0 0
+    SetFontSize 42
+    MinimapIcon 2 Red Raindrop
+Show
+    BaseType "Small Life Flask"
+    AreaLevel <= 5
+    SetFontSize 38
+Show
+    BaseType "Medium Life Flask"
+    AreaLevel <= 5
+    SetBorderColor 200 0 0
+    SetFontSize 42
+    MinimapIcon 2 Red Raindrop
+Show
+    BaseType "Medium Life Flask"
+    AreaLevel <= 11
+    SetFontSize 38
+Show
+    BaseType "Large Life Flask"
+    AreaLevel <= 11
+    SetBorderColor 200 0 0
+    SetFontSize 42
+    MinimapIcon 2 Red Raindrop
+Show
+    BaseType "Large Life Flask"
+    AreaLevel <= 17
+    SetFontSize 38
+Show
+    BaseType "Greater Life Flask"
+    AreaLevel <= 17
+    SetBorderColor 200 0 0
+    SetFontSize 42
+    MinimapIcon 2 Red Raindrop
+Show
+    BaseType "Greater Life Flask"
+    AreaLevel <= 23
+    SetFontSize 38
+Show
+    BaseType "Grand Life Flask"
+    AreaLevel <= 23
+    SetBorderColor 200 0 0
+    SetFontSize 42
+    MinimapIcon 2 Red Raindrop
+Show
+    BaseType "Grand Life Flask"
+    AreaLevel <= 29
+    SetFontSize 38
+Show
+    BaseType "Giant Life Flask"
+    AreaLevel <= 29
+    SetBorderColor 200 0 0
+    SetFontSize 42
+    MinimapIcon 2 Red Raindrop
+Show
+    BaseType "Giant Life Flask"
+    AreaLevel <= 35
+    SetFontSize 38
+Show
+    BaseType "Colossal Life Flask"
+    AreaLevel <= 35
+    SetBorderColor 200 0 0
+    SetFontSize 42
+    MinimapIcon 2 Red Raindrop
+Show
+    BaseType "Colossal Life Flask"
+    AreaLevel <= 41
+    SetFontSize 38
+Show
+    BaseType "Sacred Life Flask"
+    AreaLevel <= 41
+    SetBorderColor 200 0 0
+    SetFontSize 42
+    MinimapIcon 2 Red Raindrop
+#endgame life flasks, after a5 kitava only hallowed/divine are shown
+Show
+    BaseType "Hallowed Life Flask"
+    AreaLevel <= 47
+    SetBorderColor 200 0 0
+    SetFontSize 45
+    MinimapIcon 1 Red Raindrop
+Show
+    BaseType "Hallowed Life Flask"
+    AreaLevel <= 62
+    SetBorderColor 200 0 0
+    SetFontSize 38
+Show
+    BaseType "Divine Life Flask"
+    AreaLevel <= 62
+    SetBorderColor 200 0 0
+    SetFontSize 42
+    MinimapIcon 2 Red Raindrop
+Show
+    BaseType "Divine Life Flask"
+    AreaLevel <= 67
+    SetBorderColor 200 0 0
+    SetFontSize 38
+Show
+    ItemLevel <= 72
+    BaseType "Divine Life Flask"
+
+#Mana flasks. same system as life flasks except blue border
+Show
+    BaseType "Small Mana Flask"
+    AreaLevel <= 2
+    SetBorderColor 75 150 255
+    SetFontSize 40
+    MinimapIcon 2 Blue Raindrop
+Show
+    BaseType "Small Mana Flask"
+    AreaLevel <= 5
+    SetFontSize 36
+Show
+    BaseType "Medium Mana Flask"
+    AreaLevel <= 5
+    SetBorderColor 75 150 255
+    SetFontSize 40
+    MinimapIcon 2 Blue Raindrop
+Show
+    BaseType "Medium Mana Flask"
+    AreaLevel <= 11
+    SetFontSize 36
+Show
+    BaseType "Large Mana Flask"
+    AreaLevel <= 11
+    SetBorderColor 75 150 255
+    SetFontSize 40
+    MinimapIcon 2 Blue Raindrop
+Show
+    BaseType "Large Mana Flask"
+    AreaLevel <= 17
+    SetFontSize 36
+Show
+    BaseType "Greater Mana Flask"
+    AreaLevel <= 17
+    SetBorderColor 75 150 255
+    SetFontSize 40
+    MinimapIcon 2 Blue Raindrop
+Show
+    BaseType "Greater Mana Flask"
+    AreaLevel <= 23
+    SetFontSize 36
+Show
+    BaseType "Grand Mana Flask"
+    AreaLevel <= 23
+    SetBorderColor 75 150 255
+    SetFontSize 40
+    MinimapIcon 2 Blue Raindrop
+Show
+    BaseType "Grand Mana Flask"
+    AreaLevel <= 29
+    SetFontSize 36
+Show
+    BaseType "Giant Mana Flask"
+    AreaLevel <= 29
+    SetBorderColor 75 150 255
+    SetFontSize 40
+    MinimapIcon 2 Blue Raindrop
+Show
+    BaseType "Giant Mana Flask"
+    AreaLevel <= 35
+    SetFontSize 36
+Show
+    BaseType "Colossal Mana Flask"
+    AreaLevel <= 35
+    SetBorderColor 75 150 255
+    SetFontSize 40
+    MinimapIcon 2 Blue Raindrop
+Show
+    BaseType "Colossal Mana Flask"
+    AreaLevel <= 41
+    SetFontSize 36
+Show
+    BaseType "Sacred Mana Flask"
+    AreaLevel <= 41
+    SetBorderColor 75 150 255
+    SetFontSize 40
+    MinimapIcon 2 Blue Raindrop
+#tightens after a5 kitava, 2nd tier no longer shown
+Show
+    BaseType "Hallowed Mana Flask"
+    AreaLevel <= 49
+    SetBorderColor 75 150 255
+    SetFontSize 40
+    MinimapIcon 2 Blue Raindrop
+Show
+    BaseType "Sanctified Mana Flask"
+    AreaLevel <= 59
+    SetBorderColor 75 150 255
+    SetFontSize 40
+    MinimapIcon 2 Blue Raindrop
+Show
+    BaseType "Divine Mana Flask"
+    AreaLevel <= 64
+    SetBorderColor 75 150 255
+    SetFontSize 40
+    MinimapIcon 2 Blue Raindrop
+#endgame mana flask
+Show
+    BaseType "Eternal Mana Flask"
+    ItemLevel <= 67
+    SetBorderColor 75 150 255
+    SetFontSize 38
+Show
+    BaseType "Eternal Mana Flask"
+    ItemLevel <= 70
+Hide
+    Class "Life Flasks" "Mana Flasks" "Hybrid Flasks"
+    SetFontSize 36
+#type:default
+
+#racing vendor recipe safety net
+Show
+    Class Flask
+    ItemLevel <= 11

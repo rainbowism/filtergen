@@ -1,0 +1,13 @@
+# Good veil highlights
+# Default: "Rin's Veil" "Leo's Veil" "Catarina's Veil" "Elreon's Veil" "Vagan's Veil" "Korell's Veil" "Gravicius' Veil"
+#def:veiled_primary,"Rin's Veil" "Leo's Veil" "Catarina's Veil" "Elreon's Veil" "Vagan's Veil" "Korell's Veil" "Gravicius' Veil"
+
+# Regular veil highlights
+# Default: "Riker's Veil" "Aisling's Veil" "Jorgin's Veil" "Cameria's Veil" "It That Fled's Veil" "Guff's Veil" "Janus' Veil" "Tora's Veil" "Haku's Veil" "Vorici's Veil" "Hillock's Veil"
+#def:veiled_secondary,"Riker's Veil" "Aisling's Veil" "Jorgin's Veil" "Cameria's Veil" "It That Fled's Veil" "Guff's Veil" "Janus' Veil" "Tora's Veil" "Haku's Veil" "Vorici's Veil" "Hillock's Veil"
+
+# Misc veil highlights
+#def:veiled_weapon,enable
+#def:veiled_jewellery,enable
+#def:veiled_off_hand,enable
+#def:veiled,enable

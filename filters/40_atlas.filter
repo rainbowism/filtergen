@@ -1,0 +1,286 @@
+# [4.0] Maps & Atlas
+# Invitations and ther special atlas items
+Show
+    BaseType "Maven's Writ" "Invitation"
+    %fragment_t1
+    SetFontSize 45
+    PlayAlertSound 8 150
+    MinimapIcon 0 Yellow Hexagon
+    PlayEffect Yellow
+Show
+    BaseType "Crescent Splinter"
+    %fragment_t2
+    SetFontSize 40
+    MinimapIcon 1 Pink Raindrop
+    PlayEffect Pink
+Show
+    BaseType "Einhar"
+    Class Memory
+    %fragment_t1
+    SetFontSize 45
+    PlayAlertSound 9 150
+    MinimapIcon 0 Brown Hexagon
+    PlayEffect Brown
+Show
+    Class Memory
+    %fragment_t2
+    SetFontSize 40
+    PlayAlertSound 9 150
+    MinimapIcon 0 Brown Hexagon
+    PlayEffect Brown
+
+# Voidstones
+Show
+    BaseType "Voidstone"
+    %fragment_t1
+    SetFontSize 45
+    PlayAlertSound 11 200
+    MinimapIcon 0 Yellow UpsideDownHouse
+    PlayEffect Yellow
+# Watchstones - Disabled in 3.17.0
+#Show
+#	BaseType "Watchstone"
+#	Rarity Unique
+#	SetBackgroundColor 50 50 50
+#	SetBorderColor 255 221 153
+#	SetTextColor 225 100 0
+#	PlayAlertSound 5 200
+#	MinimapIcon 0 Orange UpsideDownHouse
+#	PlayEffect Orange
+#	SetFontSize 45
+#Show
+#	BaseType "Watchstone"
+#	SetBackgroundColor 50 50 50
+#	SetBorderColor 255 221 153
+#	SetTextColor 255 221 153
+#	SetFontSize 45
+#	PlayAlertSound 11 200
+#	MinimapIcon 0 Yellow UpsideDownHouse
+#	PlayEffect Yellow
+
+# Pantheon
+Show
+    BaseType "Divine Vessel"
+    %fragment_t3
+    SetFontSize 45
+    PlayAlertSound 4 100
+    MinimapIcon 1 Blue UpsideDownHouse
+    PlayEffect Blue Temp
+Show
+    Class "Pantheon Soul"
+    %fragment_t2
+    SetFontSize 45
+    PlayAlertSound 4 100
+    MinimapIcon 1 Blue UpsideDownHouse
+    PlayEffect Blue Temp
+
+# Fragments
+Show
+    BaseType "Fragment" "Mortal" "Crest"
+    Class "Map Fragments"
+    %fragment_t1
+    SetFontSize 45
+    MinimapIcon 0 Brown Raindrop
+    PlayEffect Brown
+Show
+    Class "Map Fragments"
+    %fragment_t3
+    SetFontSize 40
+    MinimapIcon 2 Brown Raindrop
+
+# Unique
+Show
+    BaseType "Chateau" "Maze"
+    Class Map
+    Rarity Unique
+    %map_unique_t1
+    SetFontSize 45
+    PlayAlertSound 6 250
+    MinimapIcon 0 White Hexagon
+    PlayEffect White
+Show
+    BaseType "Synthesised Map" "Museum" "Moon Temple" "Cursed Crypt"
+    Class Map
+    Rarity Unique
+    %map_unique_t2
+    PlayAlertSound 5 150
+    SetFontSize 45
+    MinimapIcon 0 Orange Hexagon
+    PlayEffect Orange
+Show
+    Class Map
+    Rarity Unique
+    MapTier >= 14
+    %map_unique_t3
+    PlayAlertSound 4 150
+    SetFontSize 42
+    MinimapIcon 1 Orange Hexagon
+    PlayEffect Orange
+Show
+    Class Map
+    Rarity Unique
+    %map_unique_t4
+    PlayAlertSound 4 150
+    SetFontSize 38
+    MinimapIcon 2 Orange Hexagon
+    PlayEffect Orange Temp
+
+# Blighted
+Show
+    Class Map
+    UberBlightedMap True
+    %map_t1
+    SetFontSize 45
+    PlayAlertSound 6 200
+    MinimapIcon 0 White Hexagon
+    PlayEffect White
+Show
+    Class Map
+    BlightedMap True
+    MapTier >= 11
+    %map_t2
+    SetFontSize 45
+    PlayAlertSound 8 200
+    MinimapIcon 0 Yellow Hexagon
+    PlayEffect Red
+Show
+    Class Map
+    BlightedMap True
+    MapTier >= 6
+    %map_t3
+    SetFontSize 45
+    PlayAlertSound 9 200
+    MinimapIcon 1 Yellow Hexagon
+    PlayEffect Yellow
+Show
+    Class Map
+    BlightedMap True
+    %map_t4
+    SetFontSize 40
+    PlayAlertSound 9 200
+    MinimapIcon 2 Yellow Hexagon
+    PlayEffect Yellow
+
+# Guardians
+Show
+    Class Map
+    HasInfluence Shaper
+    MapTier >= 16
+    %map_t1
+    SetFontSize 45
+    PlayAlertSound 15 150
+    MinimapIcon 0 Pink Hexagon
+    PlayEffect Purple
+Show
+    Class Map
+    HasInfluence Elder
+    MapTier >= 14
+    %map_t1
+    SetFontSize 45
+    PlayAlertSound 15 150
+    MinimapIcon 0 Pink Hexagon
+    PlayEffect Grey
+
+# Corrupted
+Show
+    Class Map
+    Corrupted True
+    MapTier >= 16
+    %map_vaal_t1
+    PlayAlertSound 15 150
+    SetFontSize 45
+    MinimapIcon 0 Pink Hexagon
+    PlayEffect Pink
+Show
+    Class Map
+    Corrupted True
+    MapTier >= 14
+    %map_vaal_t1
+    SetFontSize 42
+    PlayAlertSound 8 150
+    MinimapIcon 1 Red Hexagon
+    PlayEffect Yellow
+Show
+    Class Map
+    Corrupted True
+    MapTier >= 11
+    %map_vaal_t2
+    SetFontSize 40
+    PlayAlertSound 8 150
+    MinimapIcon 1 Red Hexagon
+    PlayEffect Yellow
+Show
+    Class Map
+    Corrupted True
+    MapTier >= 8
+    SetBackgroundColor 255 185 115
+    SetBorderColor 150 0 255
+    SetTextColor 150 0 255
+    SetFontSize 40
+    PlayAlertSound 9 150
+    MinimapIcon 2 Blue Hexagon
+Show
+    Class Map
+    Corrupted True
+    %map_vaal_t3
+#type:>strict
+    SetFontSize 36
+#type:<semi
+    PlayAlertSound 9 125
+    SetFontSize 38
+    MinimapIcon 2 Blue Hexagon
+#type:default
+
+# Regular
+Show
+    Class Map
+    MapTier >= 14
+    %map_t1
+    SetFontSize 45
+    MinimapIcon 0 Red Hexagon
+    PlayEffect Pink
+Show
+    Class Map
+    ShapedMap True
+    MapTier >= 11
+    %map_t2
+    SetFontSize 42
+    PlayAlertSound 8 150
+    MinimapIcon 1 Red Hexagon
+    PlayEffect Red
+Show
+    Class Map
+    MapTier >= 11
+    %map_t2
+    SetFontSize 42
+    PlayAlertSound 8 150
+    MinimapIcon 1 Red Hexagon
+    PlayEffect Red
+Show
+    Class Map
+    ShapedMap True
+    %map_t2
+    SetFontSize 40
+    PlayAlertSound 9 150
+    MinimapIcon 2 Cyan Hexagon
+Show
+    Class Map
+    MapTier >= 8
+    %map_t3
+#type:uber
+    SetFontSize 38
+#type:<strict
+    SetFontSize 40
+    PlayAlertSound 9 150
+    MinimapIcon 2 Purple Hexagon
+#type:default
+Show
+    Class Map
+    %map_t4
+#type:>strict
+    SetFontSize 36
+#type:<semi
+    PlayAlertSound 9 125
+    SetFontSize 38
+    MinimapIcon 2 Blue Hexagon
+#type:default

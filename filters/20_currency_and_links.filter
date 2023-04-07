@@ -1,0 +1,319 @@
+### [2.0] Currency & 6L
+
+#type:basic
+#Basic only: leaguestart currency overrides - makes gum currency bigger early levels.
+Show
+    BaseType "Orb of Alchemy" "Chaos Orb" "Vaal Orb" "Orb of Chance"
+    AreaLevel <= 67
+    Class Currency
+    %$_alch
+    PlayAlertSound 2 100
+    SetFontSize 45
+    MinimapIcon 2 Cyan Circle
+    DisableDropSound
+Show
+    BaseType "Orb of Transmutation" "Orb of Alteration" "Chromatic Orb" "Jeweller's Orb"
+    AreaLevel <= 67
+    Class Currency
+    %$_gum
+    SetFontSize 45
+    PlayAlertSound 3 100
+    MinimapIcon 2 Green Circle
+    DisableDropSound
+Show
+    BaseType "Blacksmith's Whetstone" "Orb of Augmentation"
+    AreaLevel <= 67
+    Class Currency
+    %$_trash
+    SetFontSize 45
+    MinimapIcon 2 Green Circle
+Show
+    BaseType "Scroll of Wisdom"
+    AreaLevel <= 67
+    %$_trash
+    SetFontSize 45
+Show
+    BaseType "Portal Scroll"
+    AreaLevel <= 67
+    %$_trash
+    SetFontSize 45
+    SetTextColor 100 150 200
+Show
+    BaseType "Orb of Binding"
+    AreaLevel <= 69
+    %$_alch
+    PlayAlertSound 2 100
+    SetFontSize 45
+    MinimapIcon 1 Green Circle
+    PlayEffect Green
+    DisableDropSound
+#type:default
+
+#Tainted Currencies
+Show
+    BaseType "Tainted Divine Teardrop" "Tainted Mythic Orb" "Tainted Exalted Orb" "Tainted Chaos Orb" "Tainted Orb of Fusing" "Tainted Blessing" "Tainted Oil" "Reflective Oil"
+    Class Currency
+    %$_tainted_t1
+    SetFontSize 45
+    PlayAlertSound 10 250
+    MinimapIcon 1 Brown Circle
+    PlayEffect Brown
+    DisableDropSound
+Show
+    BaseType "Tainted"
+    Class Currency
+    %$_tainted_t2
+    SetFontSize 45
+    PlayAlertSound 11 100
+    MinimapIcon 1 Brown Circle
+    PlayEffect Brown
+    DisableDropSound
+
+
+#type:<semi
+#Eldritch Currencies (combo ones use standard highlights)
+Show
+    BaseType "Eldritch Ember"
+    %$_ember_t1
+    SetFontSize 45
+    PlayAlertSound 10 200
+    MinimapIcon 2 Red Diamond
+    PlayEffect Red
+Show
+    BaseType "Eldritch Ichor"
+    %$_ichor_t1
+    SetFontSize 45
+    PlayAlertSound 10 200
+    MinimapIcon 2 Cyan Diamond
+    PlayEffect Cyan
+#type:>strict
+Show
+    BaseType "Lesser Eldritch Ember"
+    %$_ember_t2
+    SetFontSize 40
+    MinimapIcon 2 Red Diamond
+    PlayEffect Red
+Show
+    BaseType "Lesser Eldritch Ichor"
+    %$_ichor_t2
+    SetFontSize 40
+    MinimapIcon 2 Cyan Diamond
+    PlayEffect Cyan
+Show
+    BaseType "Eldritch Ember"
+    %$_ember_t1
+    SetFontSize 45
+    PlayAlertSound 10 200
+    MinimapIcon 2 Red Diamond
+    PlayEffect Red
+Show
+    BaseType "Eldritch Ichor"
+    %$_ichor_t1
+    SetFontSize 45
+    PlayAlertSound 10 200
+    MinimapIcon 2 Cyan Diamond
+    PlayEffect Cyan
+#type:default
+
+#Higher value currency blocks
+Show
+    BaseType "Eternal Orb" "Mirror of Kalandra" "Fishing Rod" "Albino Rhoa Feather" "Mirror Shard"
+    %$_mirror
+    SetFontSize 45
+    PlayAlertSound 6 250
+    MinimapIcon 0 White Diamond
+    PlayEffect White
+    DisableDropSound
+Show
+    BaseType "Divine Orb" "Eldritch Chaos" "Orb of Conflict" "Fracturing Orb" "Awakener's Orb" "Orb of Dominance" "Warlord's" "Redeemer's" "Crusader's" "Hunter's"
+    Class Currency
+    %$_divine
+    PlayAlertSound 6 250
+    SetFontSize 45
+    MinimapIcon 0 Red Circle
+    PlayEffect Red
+    DisableDropSound
+Show
+    BaseType "Orb of Annulment" "Exalted Orb" "Ancient Orb" "Elevated Sextant" "Sacred Orb" "Imprint" "Fracturing Shard"
+    %$_annul
+    PlayAlertSound 10 250
+    SetFontSize 45
+    MinimapIcon 1 Pink Circle
+    PlayEffect Pink
+    DisableDropSound
+Show
+    BaseType "Sextant" "Unshaping Orb" "Compass" "Scouting Report"
+    %$_sextant
+    SetFontSize 45
+    PlayAlertSound 2 150
+    MinimapIcon 1 Purple Circle
+    PlayEffect Purple
+    DisableDropSound
+Show
+    BaseType "Veiled Chaos Orb" "Cartographer's Seal" "Enkindling Orb" "Instilling Orb" "Oil Extractor"
+    %$_veiled
+    SetFontSize 45
+    PlayAlertSound 3 100
+    MinimapIcon 2 Green Circle
+    PlayEffect Green Temp
+    DisableDropSound
+Show
+    BaseType "Chaos Orb" "Vaal Orb" "Regal Orb" "Gemcutter's Prism" "Orb of Scouring" "Blessed Orb" "Orb of Unmaking" "Orb of Regret" "Harbinger's Orb" "Exalted Shard" "Ancient Shard" "Stacked Deck"
+    %$_chaos
+    SetFontSize 45
+    PlayAlertSound 3 125
+    MinimapIcon 2 Cyan Circle
+    DisableDropSound
+Show
+    BaseType "Orb of Alchemy" "Orb of Binding" "Orb of Fusing" "Cartographer's Chisel" "Orb of Horizons" "Engineer's Orb"
+	%$_alch
+    SetFontSize 45
+    PlayAlertSound 3 100
+    MinimapIcon 2 Green Circle
+    DisableDropSound
+
+#Shards
+Show
+    BaseType "Annulment Shard" "Harbinger's Shard"
+    %$_gum
+    SetFontSize 38
+    MinimapIcon 2 Blue Circle
+    PlayEffect Blue Temp
+    DisableDropSound
+#hide:>strict
+    BaseType "Chaos Shard" "Regal Shard"
+    %$_gum
+    SetFontSize 38
+    DisableDropSound
+#hide:>semi
+    BaseType "Engineer's Shard" "Horizon Shard" "Binding Shard" "Alchemy Shard"
+    %$_trash
+    SetFontSize 40
+    DisableDropSound
+
+#type:>strict
+#Minor Currency, Scrolls, Etc
+Show
+    BaseType "Orb of Alteration" "Glassblower's Bauble" "Orb of Chance" "Orb of Augmentation"
+    %$_trash
+    StackSize >= 3
+    SetFontSize 40
+Show
+    BaseType "Chromatic Orb" "Jeweller's Orb" "Orb of Transmutation" "Armourer's Scrap" "Blacksmith's Whetstone"
+    %$_trash
+    StackSize >= 6
+    SetFontSize 40
+Show
+    BaseType "Portal Scroll"
+    %$_trash
+    StackSize >= 8
+    SetFontSize 40
+Hide
+    BaseType "Scroll of Wisdom" "Portal Scroll" "Orb of Transmutation" "Orb of Augmentation" "Armourer's Scrap" "Blacksmith's Whetstone" "Chromatic Orb" "Orb of Alteration" "Glassblower's Bauble" "Jeweller's Orb" "Orb of Chance"
+    %$_trash
+    SetFontSize 32
+#type:<semi
+Show
+    BaseType "Chromatic Orb" "Orb of Alteration" "Glassblower's Bauble" "Jeweller's Orb" "Orb of Chance"
+    %$_trash
+    SetFontSize 40
+Show
+    BaseType "Portal Scroll"
+    %$_trash
+    SetFontSize 40
+Show
+    BaseType "Orb of Transmutation" "Orb of Augmentation" "Armourer's Scrap" "Blacksmith's Whetstone"
+    %$_trash
+    SetFontSize 40
+Show
+    BaseType "Shard"
+    Class "Stackable Currency"
+    %$_trash
+    SetFontSize 38
+Show
+    BaseType "Scroll of Wisdom"
+    AreaLevel <= 67
+    %$_trash
+    SetFontSize 38
+#type:default
+
+#6L Blocks - located up here due to code priority issues. 5L and 6S blocks are in the Sockets section (7)
+#corrupted catcher
+Show
+    LinkedSockets = 6
+    Corrupted True
+    SetBackgroundColor 240 0 200
+    SetBorderColor 250 250 250
+    SetTextColor 0 0 0
+    PlayAlertSound 3 150
+    SetFontSize 45
+    MinimapIcon 0 Pink Pentagon
+    PlayEffect Pink
+#tabula exception
+Show
+    LinkedSockets = 6
+    Rarity Unique
+    BaseType "Simple Robe"
+    %unique_t3
+    PlayAlertSound 3 150
+    SetFontSize 45
+    MinimapIcon 0 Red Pentagon
+    PlayEffect Cyan
+#unique exception
+Show
+    LinkedSockets = 6
+    Rarity Unique
+    %unique_t2
+    PlayAlertSound 10 200
+    SetFontSize 45
+    MinimapIcon 0 Orange Pentagon
+    PlayEffect Orange
+#white bg for high ilvl high droplevel 6L's
+Show
+    LinkedSockets = 6
+    DropLevel >= 50
+    ItemLevel >= 80
+    Class "Body Armour"
+    Corrupted False
+    SetBackgroundColor 250 250 250
+    SetBorderColor 0 0 0
+    SetTextColor 0 200 200
+    PlayAlertSound 10 200
+    SetFontSize 45
+    MinimapIcon 0 White Pentagon
+    PlayEffect White
+#teal bg white border for all others (same as tabula highlight)
+Show
+    LinkedSockets = 6
+    Class "Body Armour"
+    Corrupted False
+    SetBackgroundColor 0 200 200
+    SetBorderColor 250 250 250
+    SetTextColor 0 0 0
+    PlayAlertSound 3 150
+    SetFontSize 45
+    MinimapIcon 0 Red Pentagon
+    PlayEffect Cyan
+#only high droplevel weapons get white bg
+Show
+    LinkedSockets = 6
+    Class "Bow" "Axe" "Sword" "Mace" "Staves"
+    ItemLevel >= 64
+    Corrupted False
+    SetBackgroundColor 250 250 250
+    SetBorderColor 0 0 0
+    SetTextColor 125 0 0
+    PlayAlertSound 3 150
+    SetFontSize 45
+    MinimapIcon 0 Brown Pentagon
+    PlayEffect Brown
+#catchall uses same highlighting as corrupted 6L - "divine" style highlihting cause that's usually what it's worth
+Show
+    LinkedSockets = 6
+    SetBackgroundColor 0 200 200
+    SetBorderColor 250 250 250
+    SetTextColor 0 0 0
+    PlayAlertSound 3 150
+    SetFontSize 45
+    MinimapIcon 0 Brown Pentagon
+    PlayEffect Brown

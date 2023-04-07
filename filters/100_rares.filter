@@ -1,0 +1,238 @@
+# [10.0] Misc base filtering
+#i86 Priority - Bases with consistently high (10c+) value even later into the league (tldr: shields) note: removed lacquered for now, need to check Synth econ to see if it should stay or not
+Show
+    BaseType "Titanium Spirit Shield" "Ezomyte Tower Shield" "Spine Bow"
+    ItemLevel >= 86
+    SetBorderColor 250 250 250
+    SetFontSize 40
+    PlayEffect White Temp
+    MinimapIcon 2 White Triangle
+
+#Rare Jewellery 84+ Highlighting
+Show
+    BaseType "Coral Ring" "Sapphire Ring" "Topaz Ring" "Ruby Ring" "Two-Stone Ring" "Prismatic Ring" "Unset Ring" "Leather Belt" "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Citrine Amulet" "Agate Amulet" "Turquoise Amulet" "Onyx Amulet" "Moonstone Ring" "Amethyst Ring" "Stygian Vise"
+    Rarity Rare
+    ItemLevel >= 86
+    SetBackgroundColor 50 0 100
+    SetBorderColor 250 200 175
+    SetFontSize 42
+Show
+    BaseType "Iron Ring" "Paua Ring" "Gold Ring" "Moonstone Ring" "Diamond Ring" "Rustic Sash" "Chain Belt" "Heavy Belt" "Studded Belt" "Cloth Belt" "Paua Amulet" "Coral Amulet" "Gold Amulet"
+    Height = 1
+    Rarity Rare
+    ItemLevel >= 86
+    SetBackgroundColor 0 50 100
+    SetBorderColor 250 200 175
+    SetFontSize 38
+    DisableDropSound
+Show
+    BaseType "Coral Ring" "Sapphire Ring" "Topaz Ring" "Ruby Ring" "Two-Stone Ring" "Prismatic Ring" "Unset Ring" "Leather Belt" "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Citrine Amulet" "Agate Amulet" "Turquoise Amulet" "Onyx Amulet" "Moonstone Ring" "Amethyst Ring" "Stygian Vise"
+    Rarity Rare
+    ItemLevel >= 84
+    SetBackgroundColor 50 0 100
+    SetBorderColor 200 135 0
+    SetFontSize 40
+Show
+    BaseType "Iron Ring" "Paua Ring" "Gold Ring" "Moonstone Ring" "Diamond Ring" "Rustic Sash" "Chain Belt" "Heavy Belt" "Studded Belt" "Cloth Belt" "Paua Amulet" "Coral Amulet" "Gold Amulet"
+    Height = 1
+    Rarity Rare
+    ItemLevel >= 84
+    SetBackgroundColor 0 50 100
+    SetBorderColor 200 135 0
+    SetFontSize 36
+    DisableDropSound
+
+# @Todo: Do a pass on atlas bases
+#Main filtering blocks
+#as of 3.11.5, have cut almost all non-meta bases. List of cuts: Imperial Bow, Sambar Sceptre, Copper/Golden/Platinum Kris, Profane Wand, Maelstrom Staff, Judgement Staff, Eclipse Staff, Lacquered Buckler, Assassin's Garb, Penetrating Arrow Quiver, Moonstone Ring. 3.18.1 re-added Profane
+Show
+    BaseType "Sorcerer Boots" "Hubris Circlet" "Sorcerer Gloves" "Eternal Burgonet" "Royal Burgonet" "Lion Pelt" "Titan Gauntlets" "Titan Greaves" "Slink Gloves" "Slink Boots" "Astral Plate" "Vaal Regalia" "Sadist Garb" "Vaal Axe" "Karui Chopper" "Siege Axe" "Royal Axe" "Citadel Bow" "Spine Bow" "Imbued Wand" "Profane Wand" "Opal Wand" "Opal Sceptre" "Void Sceptre" "Heavy Arrow Quiver" "Titanium Spirit Shield" "Fossilised Spirit Shield" "Harmonic Spirit Shield" "Ezomyte Tower Shield" "Colossal Tower Shield" "Agate Amulet" "Turquoise Amulet" "Citrine Amulet" "Two-Stone Ring" "Prismatic Ring" "Unset Ring" "Triumphant Lamellar" "Nightmare Bascinet" "Dragonscale Boots" "Dragonscale Gauntlets"
+    ItemLevel >= 86
+    Corrupted False
+    Mirrored False
+    SetBorderColor 250 200 150
+    SetFontSize 38
+Show
+    BaseType "Sorcerer Boots" "Hubris Circlet" "Sorcerer Gloves" "Eternal Burgonet" "Royal Burgonet" "Lion Pelt" "Titan Gauntlets" "Titan Greaves" "Slink Gloves" "Slink Boots" "Astral Plate" "Vaal Regalia" "Sadist Garb" "Vaal Axe" "Karui Chopper" "Siege Axe" "Royal Axe" "Citadel Bow" "Spine Bow" "Imbued Wand" "Profane Wand" "Opal Wand" "Opal Sceptre" "Void Sceptre" "Heavy Arrow Quiver" "Titanium Spirit Shield" "Fossilised Spirit Shield" "Harmonic Spirit Shield" "Ezomyte Tower Shield" "Colossal Tower Shield" "Agate Amulet" "Turquoise Amulet" "Citrine Amulet" "Two-Stone Ring" "Prismatic Ring" "Unset Ring" "Triumphant Lamellar" "Nightmare Bascinet" "Dragonscale Boots" "Dragonscale Gauntlets"
+    ItemLevel >= 84
+    Corrupted False
+    Mirrored False
+    SetBorderColor 150 100 0
+    SetFontSize 36
+
+Show
+    BaseType "Pig-Faced Bascinet" "Nightmare Bascinet"
+    Rarity Normal Magic Rare
+    ItemLevel >= 68
+    SetBorderColor 0 150 0
+    SetFontSize 36
+Show
+    BaseType "Dragonscale Gauntlets" "Slink Gloves"
+    Rarity Normal Magic Rare
+    ItemLevel >= 68
+    SetBorderColor 0 150 0
+    SetFontSize 36
+Show
+    BaseType "Dragonscale Boots" "Slink Boots"
+    Rarity Normal Magic Rare
+    ItemLevel >= 68
+    SetBorderColor 0 150 0
+    SetFontSize 36
+Show
+    BaseType "Full Dragonscale"
+    Rarity Normal Magic Rare
+    ItemLevel >= 67
+    SetBorderColor 0 150 0
+    SetFontSize 36
+Show
+    BaseType "Cardinal Round Shield" "Supreme Spiked Shield"
+    Rarity Normal Magic Rare
+    ItemLevel >= 67
+    SetBorderColor 0 150 0
+    SetFontSize 36
+
+#violet borders top rares
+Show
+    BaseType "Hubris Circlet" "Eternal Burgonet" "Royal Burgonet" "Lion Pelt" "Sorcerer Gloves" "Sorcerer Boots" "Titan Gauntlets" "Titan Greaves" "Slink Gloves" "Slink Boots" "Dragonscale Boots" "Dragonscale Gauntlets" "Nightmare Bascinet"
+    Rarity Rare
+    SetBorderColor 150 0 255
+    SetFontSize 38
+Show
+    BaseType "Titanium Spirit Shield" "Ezomyte Tower Shield" "Bronze Tower Shield" "Copper Tower Shield"
+    Rarity Rare
+    SetBorderColor 150 0 255
+    SetFontSize 38
+
+#blue borders 2nd tier rares
+Show
+    BaseType "Astral Plate" "Vaal Regalia" "Archon Kite Shield" "Angelic Kite Shield" "Ceremonial Kite Shield" "Supreme Spiked Shield"
+    Rarity Rare
+    SetBorderColor 75 150 255
+    SetFontSize 36
+Show
+    BaseType "Assassin's Garb" "Sadist Garb" "Triumphant Lamellar"
+    Rarity Rare
+    SetBorderColor 75 150 255
+
+Show
+    BaseType "Arcanist Gloves" "Hydrascale" "Vaal Greaves" "Vaal Gauntlets" "Stealth Boots" "Stealth Gloves" "Crusader Gloves" "Murder Mitts" "Crusader Boots"
+    Rarity Rare
+    Height = 2
+    Width = 2
+    SetBorderColor 75 150 255
+    SetFontSize 36
+#Expanded 2nd tier gloves, boots, shields due to meta demand
+Show
+    BaseType "Goliath Gauntlets" "Wyrmscale Gauntlets" "Ancient Gauntlets" "Serpentscale Gauntlets" "Shagreen Gloves"
+     Rarity Rare
+    Height = 2
+    Width = 2
+    SetBorderColor 75 150 255
+    SetFontSize 36
+Show
+    BaseType "Arcanist Slippers" "Assassin's Boots" "Legion Boots" "Conjurer Boots" "Shagreen Boots" "Goliath Greaves" "Soldier Boots" "Ambush Boots" "Carnal Boots" "Wyrmscale Boots" "Ancient Greaves" "Serpentscale Boots"
+    Rarity Rare
+    Height = 2
+    Width = 2
+    SetBorderColor 75 150 255
+    SetFontSize 36
+Show
+    Class "Boots"
+    Rarity Rare
+    DropLevel >= 60
+    SetBorderColor 75 150 255
+    SetFontSize 36
+
+#light blue borders on caster weapons
+Show
+    BaseType "Sambar Sceptre" "Opal Sceptre" "Void Sceptre" "Profane Wand" "Opal Wand" "Imbued Wand" "Tornado Wand" "Prophecy Wand"
+    Rarity Rare
+    SetBorderColor 150 200 250
+    SetFontSize 36
+Show
+    BaseType "Harmonic Spirit Shield" "Jingling Spirit Shield" "Chiming Spirit Shield"
+    Rarity Rare
+    SetBorderColor 150 200 250
+    SetFontSize 36
+
+#lime green on ranged weapons (removed Citadel/Broadhead in favor of Thicket/Sharktooth for the bleed->TR meta shift)
+Show
+    BaseType "Thicket Bow" "Sharktooth Arrow Quiver"
+    Rarity Rare
+    SetBorderColor 125 200 40
+    SetFontSize 36
+Show
+    BaseType "Imperial Bow" "Spine Bow" "Assassin Bow" "Thicket Bow"
+    Rarity Rare
+    SetBorderColor 125 200 40
+    SetFontSize 36
+
+#maroon on melee weapons
+Show
+    BaseType "Siege Axe" "Runic Hatchet" "Vaal Axe" "Karui Chopper" "Royal Axe"
+    Rarity Rare
+    SetBorderColor 128 0 0
+    SetFontSize 36
+Show
+    BaseType "Infernal Axe" "Vaal Hatchet" "Fleshripper"
+    Rarity Rare
+    SetBorderColor 128 0 0
+    SetFontSize 36
+
+Show
+    ItemLevel <= 25
+    BaseType "Coral Ring" "Sapphire Ring" "Topaz Ring" "Ruby Ring" "Two-Stone Ring" "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Citrine Amulet" "Agate Amulet" "Turquoise Amulet" "Leather Belt" "Heavy Belt" "Rustic Sash" "Iron Ring"
+    Rarity Rare
+    SetBackgroundColor 50 0 100
+    SetBorderColor 175 75 255
+    SetFontSize 45
+    MinimapIcon 1 Yellow Cross
+    PlayAlertSound 16 250
+Show
+    ItemLevel <= 67
+    BaseType "Coral Ring" "Sapphire Ring" "Topaz Ring" "Ruby Ring" "Two-Stone Ring" "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Citrine Amulet" "Agate Amulet" "Turquoise Amulet" "Leather Belt" "Heavy Belt" "Amethyst Ring"
+    Rarity Rare
+    SetBackgroundColor 50 0 100
+    SetBorderColor 175 75 255
+    SetFontSize 45
+    MinimapIcon 1 Yellow Cross
+    PlayAlertSound 16 250
+Show
+    ItemLevel <= 47
+#	BaseType "Iron Ring" "Paua Ring" "Gold Ring" "Moonstone Ring" "Amethyst Ring" "Rustic Sash" "Chain Belt" "Studded Belt" "Cloth Belt" "Paua Amulet" "Coral Amulet" "Gold Amulet" "Onyx Amulet"
+    BaseType " Ring" "Amulet" "Belt" "Rustic Sash"
+    Height = 1
+    Rarity Rare
+    SetBackgroundColor 0 50 100
+    SetBorderColor 75 150 255
+    SetFontSize 40
+
+#t1 bases - purple
+Show
+    BaseType "Coral Ring" "Leather Belt"
+    Rarity Rare
+    SetBackgroundColor 50 0 100
+    SetBorderColor 175 75 255
+    SetFontSize 40
+Show
+    BaseType "Sapphire Ring" "Topaz Ring" "Ruby Ring" "Two-Stone Ring" "Unset Ring" "Amethyst Ring" "Prismatic Ring" "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Citrine Amulet" "Agate Amulet" "Turquoise Amulet"
+    Rarity Rare
+    SetBackgroundColor 50 0 100
+    SetBorderColor 175 75 255
+    SetFontSize 38
+#t2 bases - blue
+Show
+#	BaseType "Iron Ring" "Paua Ring" "Gold Ring" "Moonstone Ring" "Diamond Ring" "Rustic Sash" "Chain Belt" "Heavy Belt" "Studded Belt" "Cloth Belt" "Paua Amulet" "Coral Amulet" "Gold Amulet" "Onyx Amulet" "Bone Ring"
+    BaseType " Ring" "Amulet" "Belt" "Rustic Sash"
+    Height = 1
+    Rarity Rare
+    SetBackgroundColor 0 50 100
+    SetBorderColor 75 150 255
+    SetFontSize 36
+
+#type:uber
+Hide
+    Rarity Rare
+    SetBorderColor 150 0 255
+    SetFontSize 36
+#type:default

@@ -1,0 +1,69 @@
+#style:$_mirror   bg=#FAFAFA, text=#FA0000, border=#000000
+#style:$_divine   bg=30 7 7, text=#FA007D, border=#FA007D
+#style:$_annul    bg=30 7 7, text=#F000C8, border=#F000C8
+#style:$_sextant  bg=30 7 7, text=255 100 0, border=255 100 0
+#style:$_veiled   bg=30 7 7, text=255 100 0, border=255 100 0
+#style:$_chaos    bg=30 7 7, text=255 100 0, border=255 100 0
+#style:$_alch     bg=#000000, text=255 207 132, border=#000000
+#style:$_gum      bg=#000000, text=235 212 165, border=#000000
+#style:$_trash    bg=#000000
+
+#style:$_tainted_t1  bg=30 7 7, text=#F000C8, border=#F000C8
+#style:$_tainted_t2  bg=#000000, text=210 0 0, border=#000000
+#style:$_ember_t1    bg=30 7 7, text=255 100 0, border=255 100 0
+#style:$_ember_t2    bg=#000000, text=235 212 165, border=#000000
+#style:$_ichor_t1    bg=30 7 7, text=255 100 0, border=255 100 0
+#style:$_ichor_t2    bg=#000000, text=235 212 165, border=#000000
+
+#style:unique_multi  bg=8 4 2, text=250 150 0, border=200 200 0
+#style:unique_t1     bg=#F0F0F0, text=250 125 0, border=#000000
+#style:unique_t2     bg=25 15 5, text=250 150 0, border=250 150 0
+#style:unique_t3     bg=8 4 2, text=250 150 0, border=#000000
+#style:unique_t4     bg=#000000, text=200 75 0, border=#000000
+
+#style:col_card_t1    bg=#FAFAFA, text=#F000F0, border=#000000
+#style:col_card_t2    bg=#000000, text=#FA96C8, border=#FA96C8
+#style:col_card_t3    bg=#000000, text=#77C7FF, border=#77C7FF
+#style:col_card_t4    bg=#000000, text=#278DC0, border=#000000
+#style:col_card_misc  bg=#000000, text=#C896FA, border=#C896FA
+##style:card_t2  bg=#960000, text=#C896FA, border=#C896FA
+
+#style:map_fav        bg=60 20 40, text=240 0 180, border=255 0 255
+#style:map_unique_t1  bg=#FAFAFA, text=225 100 0, border=225 100 0
+#style:map_unique_t2  bg=35 15 15, text=225 100 0, border=#FAFAFA
+#style:map_unique_t3  bg=35 15 15, text=225 100 0, border=225 100 0
+#style:map_unique_t4  bg=35 15 15, text=225 100 0, border=#000000
+#style:map_t1         bg=60 20 40, text=240 0 0, border=240 0 0
+#style:map_t2         bg=45 15 35, text=211 78 2, border=211 78 2
+#style:map_t3         bg=30 10 20, text=255 221 153, border=255 221 153
+#style:map_t4         bg=10 0 5, text=255 221 153, border=#000000
+#style:map_vaal_t1    bg=75 10 30, text=255 20 0, border=240 0 240
+#style:map_vaal_t2    bg=45 15 35, text=211 78 2, border=240 0 0
+#style:map_vaal_t3    bg=30 10 20, text=255 221 153, border=240 0 0
+#style:map_vaal_t4    bg=10 0 5, text=255 221 153, border=240 0 0
+
+#style:map_heist_t1    bg=75 10 30, text=255 20 0, border=240 0 240
+#style:map_heist_t2    bg=45 15 35, text=211 78 2, border=240 0 0
+#style:map_heist_t3    bg=0 0 0, text=255 221 153, border=0 0 0
+
+#style:gem_t1  bg=250 250 250, text=27 162 155, border=0 0 0
+#style:gem_t2  bg=#000000, text=75 255 250, border=250 250 250
+#style:gem_t3  bg=#000000, text=0 200 200, border=0 200 200
+
+#style:fragment_t1  bg=30 0 45, text=196 75 241, border=196 75 241
+#style:fragment_t2  bg=20 0 30, text=159 15 213, border=159 15 213
+#style:fragment_t3  bg=#000000, text=159 15 213, border=130 30 168
+
+#style:splinter_t1  bg=#000000, text=255 207 132, border=255 207 132
+#style:splinter_t2  bg=#000000, text=255 207 132, border=#000000
+#style:blessing_t1  bg=30 7 7, text=#F000C8, border=#F000C8
+#style:blessing_t2  bg=30 7 7, text=255 100 0, border=255 100 0
+
+#style:alva_vial_t1  bg=30 7 7, text=#F000C8, border=#F000C8
+#style:alva_vial_t2  bg=30 7 7, text=255 100 0, border=255 100 0
+
+#style:catalyst_t1  bg=30 7 7, text=255 100 0, border=255 100 0
+#style:catalyst_t2  bg=#000000, text=255 207 132, border=#000000
+
+#style:harvest_t1  bg=30 7 7, text=#F000C8, border=#F000C8
+#style:harvest_t2  bg=#000000, text=255 207 132, border=255 207 132

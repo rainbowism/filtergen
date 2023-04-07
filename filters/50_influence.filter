@@ -1,0 +1,348 @@
+# [5.0] Influence & Special Bases
+#High Value / Special Items that have same highlighting for all influences
+#list of stuff that has a very powerful mod at 85+ and therefore isn't listed in the white border bases:
+#stuff in white backgrounds: 85 shaper amulets (quant),  85 hunter gloves (unnerve AND intimidate!). 85 shaper helm (+1 mine max rank), 85 shaper sceptres (extra chaos)
+#stuff in white recessed: 85 elder amulets (envy), 85 shaper body armours (rarity, tons of other mods), 85 elder chests (best life), 85 hunter chests (best life), 80+ warlord/shaper quivers (+1 arrow), 85 shaper/hunter shields (+1 maxres), 85 shaper/crusader bows (chain), 85 shaper imbuedwands (KB, yeah old I know but they rare), 80+ warlord hp shields (+2 min end charge), 85 crusader chest ('splody)
+
+#note: hunter boots are set at 80, if tailwind really winds up being consistently expensive then move it to white recessed or something (it req 75). elusive redeemer boots also req 75. other mods like life on block which also have very low ilvl req have their extra highlighting also set to 80
+#bases with no standout mods / no white border or highlighting:
+#elder/crusader quiver (redeemer questionable)
+#for 1h'ers and claws, only shaper gets borders. rest seem awfully mediocre or just straight shit, any interesting mods have very low ilvls
+#for melee 2h'ers, no borders are added. too out of meta, any all good mods are super low level anyways.
+
+#uniques
+Show
+    HasInfluence Crusader Redeemer Hunter Warlord Shaper Elder
+    Rarity Unique
+    SetBackgroundColor 225 100 0
+    SetBorderColor 250 250 250
+    SetTextColor 0 0 0
+    SetFontSize 45
+    PlayAlertSound 5 200
+    MinimapIcon 0 Purple Star
+    PlayEffect Yellow
+Show
+    HasSearingExarchImplicit >= 1
+    Rarity Unique
+    SetBackgroundColor 225 100 0
+    SetBorderColor 250 250 250
+    SetTextColor 0 0 0
+    SetFontSize 45
+    PlayAlertSound 5 200
+    MinimapIcon 0 Purple Star
+    PlayEffect Yellow
+Show
+    HasEaterOfWorldsImplicit >= 1
+    Rarity Unique
+    SetBackgroundColor 225 100 0
+    SetBorderColor 250 250 250
+    SetTextColor 0 0 0
+    SetFontSize 45
+    PlayAlertSound 5 200
+    MinimapIcon 0 Purple Star
+    PlayEffect Yellow
+
+#atlas bases, white background red-purple text
+Show
+    BaseType "Accumulator Wand" "Aetherwind Gloves" "Alternating Sceptre" "Anarchic Spiritblade" "Apex Cleaver" "Archdemon Crown" "Assembler Wand" "Astrolabe Amulet" "Atonement Mask" "Banishing Blade" "Basemetal Treads" "Battery Staff" "Blasting Blade" "Blizzard Crown" "Blunt Force Condenser" "Boom Mace" "Brimstone Treads" "Capacity Rod" "Capricious Spiritblade" "Cloudwhisper Boots" "Cogwork Ring" "Cold-attuned Buckler" "Congregator Wand" "Crack Mace" "Crushing Force Magnifier" "Darksteel Treads" "Debilitation Gauntlets" "Demon Crown" "Disapprobation Axe" "Dreamquest Slippers" "Duskwalk Slippers" "Endothermic Buckler" "Eventuality Rod" "Exhausting Spirit Shield" "Exothermic Tower Shield" "Fickle Spiritblade" "Flare Mace" "Flashfire Blade" "Flickerflame Blade" "Foundry Bow" "Gale Crown" "Gauche Gloves" "Geodesic Ring" "Gruelling Gauntlets" "Heat-attuned Tower Shield" "Hedron Bow" "Hollowpoint Dagger" "Honed Cleaver" "Imp Crown" "Impact Force Propagator" "Infernal Blade" "Leyline Gloves" "Magmatic Tower Shield" "Malign Fangs" "Maltreatment Axe" "Mechalarm Belt" "Micro-Distillery Belt" "Nexus Gloves" "Nightwind Slippers" "Oscillating Sceptre" "Penitent Mask" "Pneumatic Dagger" "Polar Buckler" "Potentiality Rod" "Pressurised Dagger" "Prime Cleaver" "Psychotic Axe" "Rebuking Blade" "Reciprocation Staff" "Runic Crest" "Runic Crown" "Runic Gages" "Runic Gauntlets" "Runic Gloves" "Runic Greaves" "Runic Helm" "Runic Sabatons" "Runic Sollerets" "Shadow Fangs" "Simplex Amulet" "Sinistral Gloves" "Solarine Bow" "Sorrow Mask" "Southswing Gloves" "Stabilising Sceptre" "Stormrider Boots" "Subsuming Spirit Shield" "Taxing Gauntlets" "Transfer-attuned Spirit Shield" "Transformer Staff" "Void Fangs" "Windbreak Boots" "Winter Crown"
+    HasInfluence Crusader Redeemer Hunter Warlord Shaper Elder
+    SetBackgroundColor 100 100 100
+    SetBorderColor 250 250 250
+    SetFontSize 45
+    PlayAlertSound 1 200
+    MinimapIcon 0 Purple Diamond
+    PlayEffect White
+
+Show
+    HasInfluence Crusader
+    ItemLevel >= 82
+    Rarity Normal Magic Rare
+    BaseType "Crystal Belt" "Dusk Ring" "Iolite Ring" "Stygian Vise"
+    SetBackgroundColor 100 100 100
+    SetBorderColor 250 250 250
+    SetFontSize 45
+    PlayAlertSound 1 200
+    PlayEffect Red
+    MinimapIcon 0 Red Cross
+
+Show
+    HasInfluence Crusader
+    ItemLevel >= 85
+    Rarity Normal Magic Rare
+    BaseType "Opal Ring" "Sacrificial Garb"
+    SetBackgroundColor 100 100 100
+    SetBorderColor 250 250 250
+    SetFontSize 45
+    PlayAlertSound 1 200
+    PlayEffect Red
+    MinimapIcon 0 Red Cross
+
+Show
+    HasInfluence Crusader
+    ItemLevel >= 86
+    Rarity Normal Magic Rare
+    BaseType "Cerulean Ring" "Crystal Sceptre" "Sage Wand" "Vermillion Ring"
+    SetBackgroundColor 100 100 100
+    SetBorderColor 250 250 250
+    SetFontSize 45
+    PlayAlertSound 1 200
+    PlayEffect Red
+    MinimapIcon 0 Red Cross
+
+Show
+    HasInfluence Warlord
+    ItemLevel >= 82
+    Rarity Normal Magic Rare
+    BaseType "Apothecary's Gloves" "Steel Ring" "Vermillion Ring"
+    SetBackgroundColor 100 100 100
+    SetBorderColor 250 250 250
+    SetFontSize 45
+    PlayAlertSound 1 200
+    PlayEffect Red
+    MinimapIcon 0 Red Cross
+
+Show
+    HasInfluence Warlord
+    ItemLevel >= 85
+    Rarity Normal Magic Rare
+    BaseType "Dusk Ring" "Opal Ring" "Prismatic Ring" "Sacrificial Garb" "Spiked Gloves" "Stygian Vise"
+    SetBackgroundColor 100 100 100
+    SetBorderColor 250 250 250
+    SetFontSize 45
+    PlayAlertSound 1 200
+    PlayEffect Red
+    MinimapIcon 0 Red Cross
+
+Show
+    HasInfluence Warlord
+    ItemLevel >= 86
+    Rarity Normal Magic Rare
+    BaseType "Artillery Quiver"
+    SetBackgroundColor 100 100 100
+    SetBorderColor 250 250 250
+    SetFontSize 45
+    PlayAlertSound 1 200
+    PlayEffect Red
+    MinimapIcon 0 Red Cross
+
+Show
+    HasInfluence Redeemer
+    ItemLevel >= 82
+    Rarity Normal Magic Rare
+    BaseType "Opal Ring" "Stygian Vise"
+    SetBackgroundColor 100 100 100
+    SetBorderColor 250 250 250
+    SetFontSize 45
+    PlayAlertSound 1 200
+    PlayEffect Red
+    MinimapIcon 0 Red Cross
+
+Show
+    HasInfluence Redeemer
+    ItemLevel >= 85
+    Rarity Normal Magic Rare
+    BaseType "Dusk Ring" "Fugitive Boots"
+    SetBackgroundColor 100 100 100
+    SetBorderColor 250 250 250
+    SetFontSize 45
+    PlayAlertSound 1 200
+    PlayEffect Red
+    MinimapIcon 0 Red Cross
+
+Show
+    HasInfluence Redeemer
+    ItemLevel >= 86
+    Rarity Normal Magic Rare
+    BaseType "Cardinal Round Shield" "Cerulean Ring" "Crystal Belt" "Pagan Wand" "Sage Wand" "Shadow Sceptre" "Two-Toned Boots" "Vanguard Belt" "Vermillion Ring"
+    SetBackgroundColor 100 100 100
+    SetBorderColor 250 250 250
+    SetFontSize 45
+    PlayAlertSound 1 200
+    PlayEffect Red
+    MinimapIcon 0 Red Cross
+
+Show
+    HasInfluence Hunter
+    ItemLevel >= 82
+    Rarity Normal Magic Rare
+    BaseType "Broadhead Arrow Quiver" "Opal Ring" "Stygian Vise" "Vermillion Ring"
+    SetBackgroundColor 100 100 100
+    SetBorderColor 250 250 250
+    SetFontSize 45
+    PlayAlertSound 1 200
+    PlayEffect Red
+    MinimapIcon 0 Red Cross
+
+Show
+    HasInfluence Hunter
+    ItemLevel >= 85
+    Rarity Normal Magic Rare
+    BaseType "Apothecary's Gloves" "Grasping Mail" "Iolite Ring" "Sacrificial Garb" "Spiked Gloves" "Steel Ring"
+    SetBackgroundColor 100 100 100
+    SetBorderColor 250 250 250
+    SetFontSize 45
+    PlayAlertSound 1 200
+    PlayEffect Red
+    MinimapIcon 0 Red Cross
+
+Show
+    HasInfluence Hunter
+    ItemLevel >= 86
+    Rarity Normal Magic Rare
+    BaseType "Bone Helmet" "Cerulean Ring" "Fugitive Boots" "Gripped Gloves" "Marble Amulet" "Seaglass Amulet" "Two-Toned Boots"
+    SetBackgroundColor 100 100 100
+    SetBorderColor 250 250 250
+    SetFontSize 45
+    PlayAlertSound 1 200
+    PlayEffect Red
+    MinimapIcon 0 Red Cross
+
+Show
+    HasInfluence Shaper
+    ItemLevel >= 85
+    Rarity Normal Magic Rare
+    BaseType "Stygian Vise"
+    SetBackgroundColor 100 100 100
+    SetBorderColor 250 250 250
+    SetFontSize 45
+    PlayAlertSound 1 200
+    PlayEffect Red
+    MinimapIcon 0 Red Cross
+
+Show
+    HasInfluence Shaper
+    ItemLevel >= 86
+    Rarity Normal Magic Rare
+    BaseType "Crystal Belt" "Fingerless Silk Gloves" "Sacrificial Garb" "Vermillion Ring"
+    SetBackgroundColor 100 100 100
+    SetBorderColor 250 250 250
+    SetFontSize 45
+    PlayAlertSound 1 200
+    PlayEffect Red
+    MinimapIcon 0 Red Cross
+
+Show
+    HasInfluence Elder
+    ItemLevel >= 82
+    Rarity Normal Magic Rare
+    BaseType "Stygian Vise"
+    SetFontSize 45
+    SetTextColor 50 130 165 255
+    SetBorderColor 50 130 165 255
+    SetBackgroundColor 255 255 255 255
+    PlayAlertSound 1 200
+    PlayEffect Red
+    MinimapIcon 0 Red Cross
+
+Show
+    HasInfluence Elder
+    ItemLevel >= 86
+    Rarity Normal Magic Rare
+    BaseType "Bone Helmet" "Fingerless Silk Gloves" "Horned Sceptre" "Iolite Ring" "Sacrificial Garb"
+    SetFontSize 45
+    SetTextColor 50 130 165 255
+    SetBorderColor 50 130 165 255
+    SetBackgroundColor 255 255 255 255
+    PlayAlertSound 1 200
+    PlayEffect Red
+    MinimapIcon 0 Red Cross
+
+Show
+    HasInfluence Shaper
+    SetBackgroundColor 25 0 50
+    SetBorderColor 100 0 200
+    SetFontSize 36
+    MinimapIcon 2 Red Cross
+
+Show
+    HasInfluence Elder
+    SetBackgroundColor 25 25 50
+    SetBorderColor 150 150 200
+    SetFontSize 36
+    MinimapIcon 2 Red Cross
+
+Show
+    HasInfluence Crusader
+    SetBackgroundColor 40 0 0
+    SetBorderColor 200 0 0
+    SetFontSize 36
+    MinimapIcon 2 Red Cross
+
+Show
+    HasInfluence Redeemer
+    SetBackgroundColor 0 0 90
+    SetBorderColor 0 175 250
+    SetFontSize 36
+    MinimapIcon 2 Red Cross
+
+Show
+    HasInfluence Hunter
+    SetBackgroundColor 0 35 0
+    SetBorderColor 0 200 0
+    SetFontSize 36
+    MinimapIcon 2 Red Cross
+
+Show
+    HasInfluence Warlord
+    SetBackgroundColor 35 35 0
+    SetBorderColor 180 180 0
+    SetFontSize 36
+    MinimapIcon 2 Red Cross
+
+#Temporary Exarch/Eater Sections (will be fleshed out later)
+Show
+    HasSearingExarchImplicit >= 1
+    SetBackgroundColor 40 0 0
+    SetBorderColor 200 0 0
+    SetFontSize 36
+    MinimapIcon 2 Red Cross
+Show
+    HasEaterOfWorldsImplicit >= 1
+    SetBackgroundColor 0 40 40
+    SetBorderColor 0 200 200
+    SetFontSize 36
+    MinimapIcon 2 Red Cross
+
+##include:filters_influence_old.filter
+
+# League specific bases (consolidated here for ease of editing, all on the same cyan highlight)
+#heist bases
+Show
+    BaseType "Assembler Wand" "Congregator Wand" "Accumulator Wand" "Hollowpoint Dagger" "Pressurised Dagger" "Pneumatic Dagger" "Flickerflame Blade" "Flashfire Blade" "Infernal Blade" "Shadow Fangs" "Malign Fangs" "Void Fangs" "Maltreatment Axe" "Disapprobation Axe" "Psychotic Axe" "Fickle Spiritblade" "Capricious Spiritblade" "Anarchic Spiritblade" "Flare Mace" "Crack Mace" "Boom Mace" "Oscillating Sceptre" "Stabilising Sceptre" "Alternating Sceptre" "Hedron Bow" "Foundry Bow" "Solarine Bow" "Transformer Staff" "Reciprocation Staff" "Battery Staff" "Capacity Rod" "Potentiality Rod" "Eventuality Rod" "Prime Cleaver" "Honed Cleaver" "Apex Cleaver" "Rebuking Blade" "Blasting Blade" "Banishing Blade" "Blunt Force Condenser" "Crushing Force Magnifier" "Impact Force Propagator" "Micro-Distillery Belt" "Mechalarm Belt" "Astrolabe Amulet" "Simplex Amulet" "Cogwork Ring" "Geodesic Ring" "Exhausting Spirit Shield" "Subsuming Spirit Shield" "Transfer-attuned Spirit Shield" "Endothermic Buckler" "Polar Buckler" "Cold-attuned Buckler" "Exothermic Tower Shield" "Magmatic Tower Shield" "Heat-attuned Tower Shield"
+    Rarity Normal Magic Rare
+    SetBackgroundColor 0 75 75
+    SetBorderColor 0 250 250
+    SetFontSize 45
+    PlayAlertSound 13 200
+    MinimapIcon 0 Cyan Kite
+    PlayEffect Cyan
+#ritual bases
+Show
+    BaseType "Dreamquest Slippers" "Cloudwhisper Boots" "Brimstone Treads" "Nightwind Slippers" "Windbreak Boots" "Darksteel Treads" "Duskwalk Slippers" "Stormrider Boots" "Basemetal Treads" "Debilitation Gauntlets" "Gruelling Gauntlets" "Taxing Gauntlets" "Sinistral Gloves" "Southswing Gloves" "Gauche Gloves" "Nexus Gloves" "Aetherwind Gloves" "Leyline Gloves" "Blizzard Crown" "Winter Crown" "Gale Crown" "Archdemon Crown" "Demon Crown" "Imp Crown" "Atonement Mask" "Penitent Mask" "Sorrow Mask"
+    Rarity Normal Magic Rare
+    SetBackgroundColor 0 75 75
+    SetBorderColor 0 250 250
+    SetFontSize 45
+    PlayAlertSound 13 200
+    MinimapIcon 0 Cyan Kite
+    PlayEffect Cyan
+#expedition bases
+Show
+    BaseType "Runic Helm" "Runic Crest" "Runic Crown" "Runic Greaves" "Runic Sollerets" "Runic Sabatons" "Runic Gloves" "Runic Gages" "Runic Gauntlets"
+    Rarity Normal Magic Rare
+    SetBackgroundColor 0 75 75
+    SetBorderColor 0 250 250
+    SetFontSize 45
+    PlayAlertSound 13 200
+    MinimapIcon 0 Cyan Kite
+    PlayEffect Cyan
+#kalandra bases
+Show
+    Rarity Normal Magic Rare
+    BaseType "Dusk Ring" "Penumbra Ring" "Gloam Ring" "Tenebrous Ring" "Shadowed Ring"
+    SetBackgroundColor 0 75 75
+    SetBorderColor 0 250 250
+    SetFontSize 45
+    PlayAlertSound 13 200
+    MinimapIcon 0 Cyan Kite
+    PlayEffect Cyan

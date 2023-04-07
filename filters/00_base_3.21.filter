@@ -1,0 +1,16 @@
+#include:filters/10_chance.filter
+#include:filters/11_leveling.filter
+#include:filters/20_currency_and_links.filter
+#include:filters/30_league.filter
+#include:filters/40_atlas.filter
+#include:filters/50_influence.filter
+#include:filters/60_identify.filter
+#include:filters/70_jewel.filter
+#include:filters/80_unique.filter
+#include:filters/90_cards.filter
+#include:filters/100_rares.filter
+#include:filters/110_misc.filter
+#include:filters/120_rare_leveling.filter
+#include:filters/130_flasks.filter
+#include:filters/140_gems.filter
+#include:filters/150_catchalls.filter

@@ -1,0 +1,92 @@
+# [9.0] Divination Cards
+#Note: All div cards make sounds by default (meaning if a card isn't listed it'll make sound and have icon)
+
+#Maximum Tier: 100c+. White. Immortal Resolve is usually the low-end cutoff
+Show
+    BaseType == %cards_t1
+    %col_card_t1
+    SetFontSize 45
+    PlayAlertSound 6 250
+    MinimapIcon 0 White Square
+    PlayEffect White
+
+#High Tier: 20c to 100c. Fuschia. Relatively few cards should be in this tier. Fuschia background and max tier sound. Alluring Bounty should be high end cut-off
+Show
+    BaseType == %cards_t2
+    Class "Divination Card"
+    %col_card_t2
+    PlayAlertSound 6 200
+    SetFontSize 45
+    MinimapIcon 0 Red Square
+    PlayEffect Red
+
+#Upper Tier: 5c to 20c. Lavender. Saint's Treasure should be the highest card in this tier (roughly). All 6L cards should be in this tier (except Imperial Legacy).
+Show
+    BaseType == %cards_t3
+    Class "Divination Card"
+    %col_card_t3
+    PlayAlertSound 2 125
+    SetFontSize 45
+    MinimapIcon 1 Purple Square
+    PlayEffect Purple
+#Single turn ins - cards with a stack size of 1. Flagged same as lavender tier as a reminder to separate them when you pick them up. Really more for organizational purposes as the lavender tier block is getting kinda big.
+Show
+    BaseType == "Chaotic Disposition" "Divine Justice" "Society's Remorse" "The Cartographer" "The Heroic Shot" "The Shortcut" "The Void"
+    Class "Divination Card"
+    %col_card_misc
+    PlayAlertSound 2 125
+    SetFontSize 45
+    MinimapIcon 1 Purple Square
+    PlayEffect Purple
+
+#Low Tier: Shit or Very Common Div Cards: No sounds on these, darker blue color. IMPORTANT: More about removing cards that drop a lot to remove sound spam than removing low value cards - cards that are low value but actually rare should still show unless they're total dogshit. Everything here should be <1 chaos.
+#hide:>uber
+    BaseType == %cards_t4
+    Class "Divination Card"
+    %col_card_t4
+    SetFontSize 36
+#hide:>strict
+    BaseType == %cards_t5
+    Class "Divination Card"
+    %col_card_t4
+    SetFontSize 36
+
+#Beyond trash tier: Actually hidden in all filters, literally a waste of a click to pick up. Only the very worst get added here, used VERY sparingly.
+Hide
+    BaseType == "The Carrion Crow" "The Surgeon" "The King's Blade" "The Lunaris Priestess"
+    Class "Divination Card"
+    %col_card_t4
+
+#GENERAL FILTER ONLY - racing/leaguestart tabula exception block, bumps all remaining 6L cards up to lavender tier
+Show
+    BaseType "Humility" "Vanity" "Imperial Legacy"
+    Class "Divination Card"
+    AreaLevel <= 77
+    SetBackgroundColor 200 150 250
+    SetBorderColor 0 0 0
+    SetTextColor 0 0 0
+    PlayAlertSound 2 125
+    SetFontSize 45
+    MinimapIcon 1 Blue Square
+    PlayEffect Blue
+
+#Mid Tier Catchall: 1-4c. Light blue. This is the default tier for all div cards unless caught by another block.
+Show
+    Class "Divination Card"
+    %col_card_t4
+    PlayAlertSound 3 125
+    SetFontSize 40
+    MinimapIcon 2 Blue Square
+    PlayEffect Blue Temp
+
+#Stacked Decks - makes more sense in div card block even though it's technically a currency
+#Show
+#    BaseType "Stacked Deck"
+#    Class Currency
+#    SetBackgroundColor 0 200 250
+#    SetBorderColor 0 0 0
+#    SetTextColor 0 0 0
+#    PlayAlertSound 3 125
+#    SetFontSize 45
+#    MinimapIcon 2 Blue Square
+#    PlayEffect Blue Temp

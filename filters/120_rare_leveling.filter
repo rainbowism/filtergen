@@ -1,0 +1,1658 @@
+#type:<semi
+#Jewellery, ms boots, and other items that affect all archetypes
+#resist rings
+Show
+    BaseType "Sapphire Ring"
+    AreaLevel <= 33
+    SetBackgroundColor 50 40 80
+    SetBorderColor 150 120 255
+    SetFontSize 45
+    PlayAlertSound 13 150
+    MinimapIcon 2 Blue Moon
+Show
+    BaseType "Topaz Ring"
+    AreaLevel <= 33
+    SetBackgroundColor 50 40 80
+    SetBorderColor 150 120 255
+    SetFontSize 45
+    PlayAlertSound 13 150
+    MinimapIcon 2 Yellow Moon
+Show
+    BaseType "Ruby Ring"
+    AreaLevel <= 33
+    SetBackgroundColor 50 40 80
+    SetBorderColor 150 120 255
+    SetFontSize 45
+    PlayAlertSound 13 150
+    MinimapIcon 2 Red Moon
+Show
+    BaseType "Two-Stone Ring"
+    AreaLevel <= 33
+    SetBackgroundColor 50 40 80
+    SetBorderColor 150 120 255
+    SetFontSize 45
+    PlayAlertSound 13 150
+    MinimapIcon 2 Purple Moon
+Show
+    AreaLevel <= 47
+    BaseType "Ruby Ring" "Sapphire Ring" "Topaz Ring" "Two-Stone Ring"
+    Rarity Magic
+    SetBorderColor 150 120 255
+    SetFontSize 45
+Show
+    AreaLevel <= 47
+    BaseType "Ruby Ring" "Sapphire Ring" "Topaz Ring" "Two-Stone Ring"
+    SetBorderColor 150 120 255
+    SetFontSize 40
+Show
+    AreaLevel <= 67
+    BaseType "Ruby Ring" "Sapphire Ring" "Topaz Ring" "Two-Stone Ring" "Amethyst Ring"
+    Rarity Magic
+    SetBorderColor 150 120 255
+    SetFontSize 38
+Show
+    AreaLevel <= 63
+    BaseType "Two-Stone Ring"
+    SetBorderColor 150 120 255
+
+#life jewellery
+Show
+    AreaLevel <= 35
+    BaseType "Leather Belt" "Coral Ring"
+    SetBorderColor 255 204 102
+    SetFontSize 45
+    MinimapIcon 2 White Moon
+Show
+    AreaLevel <= 63
+    BaseType "Leather Belt" "Coral Ring"
+    SetBorderColor 255 204 102
+    SetFontSize 38
+    MinimapIcon 2 White Moon
+Show
+    AreaLevel <= 67
+    Rarity Magic
+    BaseType "Leather Belt" "Coral Ring"
+    SetBorderColor 255 204 102
+    SetFontSize 38
+Show
+    AreaLevel <= 67
+    Rarity Normal
+    BaseType "Leather Belt" "Coral Ring"
+    SetBorderColor 255 204 102
+    SetFontSize 34
+
+#amulets / attribute related stuff
+Show
+    AreaLevel <= 25
+    BaseType "Amber Amulet"
+    SetBackgroundColor 35 0 35
+    SetBorderColor 200 0 200
+    SetFontSize 45
+    PlayAlertSound 16 150
+    MinimapIcon 2 Red Kite
+Show
+    AreaLevel <= 25
+    BaseType "Jade Amulet"
+    SetBackgroundColor 35 0 35
+    SetBorderColor 200 0 200
+    SetFontSize 45
+    PlayAlertSound 16 150
+    MinimapIcon 2 Green Kite
+Show
+    AreaLevel <= 25
+    BaseType "Lapis Amulet"
+    SetBackgroundColor 35 0 35
+    SetBorderColor 200 0 200
+    SetFontSize 45
+    PlayAlertSound 16 150
+    MinimapIcon 2 Blue Kite
+Show
+    AreaLevel <= 40
+    BaseType "Citrine Amulet"
+    SetBackgroundColor 35 0 35
+    SetBorderColor 200 0 200
+    SetFontSize 45
+    PlayAlertSound 16 150
+    MinimapIcon 2 Yellow Kite
+Show
+    AreaLevel <= 40
+    BaseType "Turquoise Amulet"
+    SetBackgroundColor 35 0 35
+    SetBorderColor 200 0 200
+    SetFontSize 45
+    PlayAlertSound 16 150
+    MinimapIcon 2 Cyan Kite
+Show
+    AreaLevel <= 40
+    BaseType "Agate Amulet"
+    SetBackgroundColor 35 0 35
+    SetBorderColor 200 0 200
+    SetFontSize 45
+    PlayAlertSound 16 150
+    MinimapIcon 2 Pink Kite
+Show
+    AreaLevel <= 67
+    BaseType "Citrine Amulet" "Turquoise Amulet" "Agate Amulet"
+    Rarity Magic
+    SetBorderColor 200 0 200
+    SetFontSize 42
+Show
+    AreaLevel <= 47
+    BaseType "Citrine Amulet" "Turquoise Amulet" "Agate Amulet"
+    SetBorderColor 200 0 200
+    SetFontSize 40
+Show
+    AreaLevel <= 67
+    BaseType "Citrine Amulet" "Turquoise Amulet" "Agate Amulet"
+    SetBorderColor 200 0 200
+    SetFontSize 34
+
+#other misc
+Show
+    AreaLevel <= 15
+    BaseType "Rustic Sash"
+    SetBorderColor 200 80 0
+    SetFontSize 45
+Show
+    AreaLevel <= 47
+    BaseType "Rustic Sash"
+    Rarity Magic
+    SetBorderColor 250 100 0
+    SetFontSize 45
+Show
+    AreaLevel <= 47
+    BaseType "Rustic Sash"
+    SetBorderColor 200 80 0
+    SetFontSize 40
+Show
+    AreaLevel <= 67
+    BaseType "Rustic Sash"
+Show
+    AreaLevel <= 15
+    BaseType "Iron Ring"
+    SetBorderColor 200 80 0
+    SetFontSize 45
+Show
+    AreaLevel <= 25
+    BaseType "Iron Ring"
+    SetBorderColor 200 80 0
+    SetFontSize 40
+Show
+    AreaLevel <= 15
+    BaseType "Heavy Belt"
+    SetBorderColor 200 0 200
+    SetFontSize 45
+Show
+    AreaLevel <= 47
+    BaseType "Heavy Belt" "Iron Ring"
+Show
+    AreaLevel <= 69
+    BaseType "Leather Belt" "Coral Ring" "Two-Stone Ring" "Ruby Ring" "Sapphire Ring" "Topaz Ring" "Agate Amulet" "Turquoise Amulet" "Citrine Amulet"
+    Rarity Normal Magic
+Show
+    BaseType "Amethyst Ring"
+    AreaLevel <= 67
+    AreaLevel >= 60
+Show
+    AreaLevel <= 25
+    BaseType "Jade Amulet" "Lapis Amulet" "Amber Amulet" "Heavy Belt"
+    SetBorderColor 200 0 200
+    SetFontSize 38
+Show
+    Class "Ring" "Amulet" "Belt"
+    AreaLevel <= 15
+    Rarity Magic
+    SetFontSize 45
+Show
+    BaseType "Coral Amulet" "Paua Amulet" "Chain Belt"
+    AreaLevel <= 11
+    SetFontSize 42
+
+#tan border on magic and rare levelling boots
+Show
+    HasExplicitMod "Runner's" "Sprinter's"
+    AreaLevel <= 25
+    SetBorderColor 255 204 102
+    SetTextColor 250 0 125
+    SetFontSize 45
+Show
+    HasExplicitMod "Stallion's" "Gazelle's" "Cheetah's"
+    AreaLevel <= 67
+    SetBorderColor 255 204 102
+    SetTextColor 250 0 125
+    SetFontSize 45
+Show
+    Class "Boots"
+    AreaLevel <= 35
+    Rarity Magic Rare
+    SetBorderColor 255 204 102
+    SetFontSize 45
+Show
+    Class "Boots"
+    AreaLevel < 47
+    Rarity Magic
+    SetBorderColor 255 204 102
+    SetFontSize 40
+Show
+    Class "Boots"
+    Rarity Rare
+    AreaLevel < 67
+    SetBorderColor 255 204 102
+    SetFontSize 40
+
+#Shield Blocks
+Show
+    BaseType "Ceremonial Kite Shield" "Angelic Kite Shield" "Archon Kite Shield" "Supreme Spiked Shield" "Mirrored Spiked Shield"
+    AreaLevel <= 67
+    SetBorderColor 150 100 0
+    SetFontSize 34
+Show
+    BaseType "Copper Tower Shield" "Bronze Tower Shield" "Ezomyte Tower Shield"
+    AreaLevel <= 67
+    SetBorderColor 150 100 0
+    SetFontSize 34
+Show
+    BaseType "Layered Kite Shield"
+    AreaLevel <= 33
+
+Show
+    BaseType "Imbued Wand" "Opal Wand" "Opal Sceptre" "Void Sceptre"
+    ItemLevel >= 64
+    ItemLevel <= 65
+    SetBorderColor 150 200 250
+    SetFontSize 42
+    MinimapIcon 2 Blue Cross
+    PlayEffect Blue Temp
+Show
+    BaseType "Harmonic Spirit Shield"
+    ItemLevel >= 64
+    ItemLevel <= 65
+    SetBorderColor 150 200 250
+    SetFontSize 42
+    MinimapIcon 2 White Cross
+    PlayEffect White Temp
+
+#wands
+Show
+    Class "Wand"
+    ItemLevel = 2
+    SetBorderColor 150 200 250
+    SetFontSize 45
+    MinimapIcon 2 Blue Cross
+    PlayEffect Blue Temp
+Show
+    BaseType "Quartz Wand" "Carved Wand"
+    AreaLevel <= 47
+    LinkedSockets = 3
+    SetBackgroundColor 40 50 60
+    SetBorderColor 150 200 250
+    SetFontSize 40
+Show
+    BaseType "Crystal Wand" "Engraved Wand"
+    AreaLevel <= 61
+    LinkedSockets = 3
+    SetBackgroundColor 40 50 60
+    SetBorderColor 150 200 250
+    SetFontSize 38
+Show
+    BaseType "Opal Wand" "Imbued Wand"
+    AreaLevel <= 63
+    LinkedSockets = 3
+    SetBackgroundColor 40 50 60
+    SetBorderColor 150 200 250
+    SetFontSize 38
+Show
+    BaseType "Quartz Wand" "Carved Wand"
+    AreaLevel <= 47
+    SetBorderColor 100 150 200
+    SetFontSize 40
+Show
+    BaseType "Crystal Wand" "Engraved Wand"
+    AreaLevel <= 59
+    SetBorderColor 100 150 200
+    SetFontSize 38
+Show
+    BaseType "Opal Wand" "Imbued Wand"
+    AreaLevel <= 63
+    SetBorderColor 100 150 200
+Show
+    Class "Wand"
+    Rarity Magic Rare
+    AreaLevel <= 15
+    SetBorderColor 150 200 250
+    SetFontSize 45
+Show
+    Class "Wand"
+    Rarity Rare
+    AreaLevel <= 70
+    SetBorderColor 150 200 250
+    SetFontSize 38
+Show
+    Class "Wand"
+    AreaLevel <= 47
+    LinkedSockets = 3
+    SetBorderColor 150 200 250
+Show
+    Class "Wand"
+    Rarity Magic
+    AreaLevel <= 35
+    SetBorderColor 150 200 250
+    SetFontSize 38
+Show
+    Class "Wand"
+    AreaLevel <= 13
+    ItemLevel >= 2
+
+#sceptres
+Show
+    Class "Sceptre"
+    ItemLevel = 2
+    SetBorderColor 150 200 250
+    SetFontSize 45
+    MinimapIcon 2 Blue Cross
+    PlayEffect Blue Temp
+Show
+    BaseType "Quartz Sceptre" "Shadow Sceptre"
+    AreaLevel <= 47
+    LinkedSockets = 3
+    SetBackgroundColor 40 50 60
+    SetBorderColor 150 200 250
+    SetFontSize 40
+Show
+    BaseType "Crystal Sceptre" "Abyssal Sceptre"
+    AreaLevel <= 61
+    LinkedSockets = 3
+    SetBackgroundColor 40 50 60
+    SetBorderColor 150 200 250
+    SetFontSize 38
+Show
+    BaseType "Opal Sceptre" "Void Sceptre"
+    AreaLevel <= 63
+    LinkedSockets = 3
+    SetBackgroundColor 40 50 60
+    SetBorderColor 150 200 250
+    SetFontSize 38
+Show
+    BaseType "Quartz Sceptre" "Shadow Sceptre"
+    AreaLevel <= 47
+    SetBorderColor 100 150 200
+    SetFontSize 40
+Show
+    BaseType "Crystal Sceptre" "Abyssal Sceptre"
+    AreaLevel <= 59
+    SetBorderColor 100 150 200
+    SetFontSize 38
+Show
+    BaseType "Opal Sceptre" "Void Sceptre" "Sambar Sceptre"
+    AreaLevel <= 63
+    SetBorderColor 100 150 200
+Show
+    Class "Sceptre"
+    Rarity Magic Rare
+    AreaLevel <= 15
+    SetBorderColor 150 200 250
+    SetFontSize 45
+Show
+    Class "Sceptre"
+    Rarity Rare
+    AreaLevel <= 70
+    SetBorderColor 150 200 250
+    SetFontSize 38
+Show
+    Class "Sceptre"
+    AreaLevel <= 47
+    LinkedSockets = 3
+    SetBorderColor 150 200 250
+Show
+    Class "Sceptre"
+    Rarity Magic
+    AreaLevel <= 35
+    SetBorderColor 150 200 250
+    SetFontSize 38
+Show
+    Class "Sceptre"
+    AreaLevel <= 13
+    ItemLevel >= 2
+
+#shields
+Show
+    BaseType "Harmonic Spirit Shield" "Jingling Spirit Shield" "Chiming Spirit Shield"
+    AreaLevel <= 63
+    SetBorderColor 150 200 250
+
+Show
+    BaseType "Convening Wand"
+    AreaLevel <= 67
+    SetBorderColor 125 0 250
+    SetFontSize 38
+    MinimapIcon 2 Purple Cross
+Show
+    BaseType "Calling Wand"
+    AreaLevel <= 49
+    SetBorderColor 125 0 250
+    SetFontSize 38
+    MinimapIcon 2 Purple Cross
+Show
+    Class "Wand" "Sceptre"
+    Rarity Magic Rare
+    AreaLevel <= 15
+    SetBorderColor 125 0 250
+    SetFontSize 45
+Show
+    BaseType "Bone Spirit Shield" "Ivory Spirit Shield" "Fossilised Spirit Shield"
+    Rarity Normal Magic Rare
+    AreaLevel <= 67
+    SetBorderColor 125 0 250
+Show
+    Class "Wand"
+    ItemLevel <= 15
+    ItemLevel >= 2
+Show
+    AreaLevel <= 67
+    BaseType "Bone Ring"
+    SetFontSize 36
+Show
+    BaseType "Helmet"
+    AreaLevel <= 67
+    HasExplicitMod "Reanimator's"
+    SetBorderColor 125 0 250
+    SetFontSize 38
+Show
+    BaseType "Helmet"
+    AreaLevel <= 75
+    HasExplicitMod "Summoner's"
+    SetBorderColor 125 0 250
+    SetFontSize 40
+
+#As of 3.11.5 only shows axes by default
+#Early pre-specialization levelling, shows both axes and swords before roughly level ~20 zones
+Show
+    BaseType "Rusted Hatchet" "Rusted Sword" "Rusted Spike" "Whalebone Rapier" "Driftwood Club"
+    AreaLevel <= 5
+    SetBorderColor 128 0 0
+    SetFontSize 40
+Show
+    BaseType "Jade Hatchet" "Copper Sword"
+    AreaLevel <= 11
+    SetBorderColor 128 0 0
+    SetFontSize 45
+Show
+    BaseType "Boarding Axe" "Sabre"
+    AreaLevel <= 15
+    SetBorderColor 128 0 0
+    SetFontSize 45
+
+#Axes
+Show
+    BaseType "Cleaver"
+    AreaLevel <= 20
+    SetBorderColor 128 0 0
+    SetFontSize 45
+Show
+    BaseType "Broad Axe"
+    AreaLevel <= 24
+    SetBorderColor 128 0 0
+    SetFontSize 45
+Show
+    BaseType "Arming Axe"
+    AreaLevel <= 28
+    Rarity Rare
+    SetBorderColor 128 0 0
+    SetFontSize 45
+Show
+    BaseType "Arming Axe"
+    AreaLevel <= 28
+    SetBorderColor 128 0 0
+    SetFontSize 40
+Show
+    BaseType "Decorative Axe"
+    AreaLevel <= 32
+    Rarity Rare
+    SetBorderColor 128 0 0
+    SetFontSize 45
+Show
+    BaseType "Decorative Axe"
+    AreaLevel <= 32
+    SetBorderColor 128 0 0
+    SetFontSize 40
+Show
+    BaseType "Spectral Axe"
+    AreaLevel <= 34
+    Rarity Rare
+    SetBorderColor 128 0 0
+    SetFontSize 45
+Show
+    BaseType "Spectral Axe"
+    AreaLevel <= 34
+    SetBorderColor 128 0 0
+    SetFontSize 40
+Show
+    BaseType "Jasper Axe" "Etched Hatchet"
+    AreaLevel <= 38
+    Rarity Rare
+    SetBorderColor 128 0 0
+    SetFontSize 45
+Show
+    BaseType "Jasper Axe" "Etched Hatchet"
+    AreaLevel <= 38
+    SetBorderColor 128 0 0
+    SetFontSize 40
+Show
+    BaseType "Tomahawk"
+    AreaLevel <= 41
+    Rarity Rare
+    SetBorderColor 128 0 0
+    SetFontSize 45
+Show
+    BaseType "Tomahawk"
+    AreaLevel <= 41
+    SetBorderColor 128 0 0
+    SetFontSize 40
+Show
+    BaseType "Wrist Chopper"
+    AreaLevel <= 44
+    Rarity Rare
+    SetBorderColor 128 0 0
+    SetFontSize 45
+Show
+    BaseType "Wrist Chopper"
+    AreaLevel <= 44
+    SetBorderColor 128 0 0
+    SetFontSize 40
+#a5 kitava cutoff
+Show
+    BaseType "War Axe"
+    AreaLevel <= 47
+    Rarity Rare
+    SetBorderColor 128 0 0
+    SetFontSize 42
+Show
+    BaseType "War Axe"
+    AreaLevel <= 47
+    SetBorderColor 128 0 0
+    SetFontSize 38
+Show
+    BaseType "Chest Splitter"
+    AreaLevel <= 50
+    Rarity Rare
+    SetBorderColor 128 0 0
+    SetFontSize 42
+Show
+    BaseType "Chest Splitter"
+    AreaLevel <= 50
+    SetBorderColor 128 0 0
+    SetFontSize 38
+Show
+    BaseType "Ceremonial Axe"
+    AreaLevel <= 53
+    Rarity Rare
+    SetBorderColor 128 0 0
+    SetFontSize 42
+Show
+    BaseType "Ceremonial Axe"
+    AreaLevel <= 53
+    SetBorderColor 128 0 0
+    SetFontSize 38
+Show
+    BaseType "Wraith Axe"
+    AreaLevel <= 56
+    Rarity Rare
+    SetBorderColor 128 0 0
+    SetFontSize 42
+Show
+    BaseType "Wraith Axe"
+    AreaLevel <= 56
+    SetBorderColor 128 0 0
+    SetFontSize 38
+Show
+    BaseType "Engraved Hatchet" "Karui Axe"
+    AreaLevel <= 58
+    Rarity Rare
+    SetBorderColor 128 0 0
+    SetFontSize 42
+Show
+    BaseType "Engraved Hatchet" "Karui Axe"
+    AreaLevel <= 58
+    SetBorderColor 128 0 0
+    SetFontSize 38
+Show
+    BaseType "Vaal Hatchet"
+    AreaLevel <= 67
+    Rarity Rare
+    SetBorderColor 128 0 0
+    SetFontSize 40
+Show
+    BaseType "Vaal Hatchet"
+    AreaLevel <= 67
+    SetBorderColor 128 0 0
+    SetFontSize 38
+#endgame axes
+Show
+    Class "One Hand Axe"
+    DropLevel >= 59
+    AreaLevel <= 67
+    Rarity Rare
+    SetBorderColor 128 0 0
+    SetFontSize 38
+Show
+    BaseType "Siege Axe"
+    AreaLevel <= 67
+    SetBorderColor 128 0 0
+    SetFontSize 36
+Show
+    BaseType "Runic Hatchet"
+    AreaLevel <= 71
+    SetBorderColor 128 0 0
+
+###################################################################################
+##################### Section 16.2 - 2h Melee Levelling ###########################
+###################################################################################
+#As of 3.11.5 only shows axes by default
+Show
+    BaseType "Stone Axe" "Corroded Blade" "Driftwood Maul"
+    AreaLevel <= 8
+    SetBorderColor 128 0 0
+    SetFontSize 40
+Show
+    BaseType "Jade Chopper" "Longsword"
+    AreaLevel <= 12
+    SetBorderColor 128 0 0
+    SetFontSize 45
+Show
+    BaseType "Woodsplitter" "Bastard Sword"
+    AreaLevel <= 17
+    SetBorderColor 128 0 0
+    SetFontSize 45
+
+#Axes
+Show
+    BaseType "Poleaxe"
+    AreaLevel <= 22
+    Rarity Rare
+    SetBorderColor 128 0 0
+    SetFontSize 45
+Show
+    BaseType "Poleaxe"
+    AreaLevel <= 22
+    SetBorderColor 128 0 0
+    SetFontSize 40
+Show
+    BaseType "Double Axe"
+    AreaLevel <= 27
+    Rarity Rare
+    SetBorderColor 128 0 0
+    SetFontSize 45
+Show
+    BaseType "Double Axe"
+    AreaLevel <= 27
+    SetBorderColor 128 0 0
+    SetFontSize 40
+Show
+    BaseType "Gilded Axe"
+    AreaLevel <= 32
+    Rarity Rare
+    SetBorderColor 128 0 0
+    SetFontSize 45
+Show
+    BaseType "Gilded Axe"
+    AreaLevel <= 32
+    SetBorderColor 128 0 0
+    SetFontSize 40
+Show
+    BaseType "Shadow Axe"
+    AreaLevel <= 35
+    Rarity Rare
+    SetBorderColor 128 0 0
+    SetFontSize 45
+Show
+    BaseType "Shadow Axe"
+    AreaLevel <= 35
+    SetBorderColor 128 0 0
+    SetFontSize 40
+Show
+    BaseType "Jasper Chopper"
+    AreaLevel <= 40
+    Rarity Rare
+    SetBorderColor 128 0 0
+    SetFontSize 45
+Show
+    BaseType "Jasper Chopper"
+    AreaLevel <= 40
+    SetBorderColor 128 0 0
+    SetFontSize 40
+Show
+    BaseType "Timber Axe"
+    AreaLevel <= 44
+    Rarity Rare
+    SetBorderColor 128 0 0
+    SetFontSize 45
+Show
+    BaseType "Timber Axe"
+    AreaLevel <= 44
+    SetBorderColor 128 0 0
+    SetFontSize 40
+#a5 kitava cutoff
+Show
+    BaseType "Headsman Axe"
+    AreaLevel <= 48
+    Rarity Rare
+    SetBorderColor 128 0 0
+    SetFontSize 42
+Show
+    BaseType "Headsman Axe"
+    AreaLevel <= 48
+    SetBorderColor 128 0 0
+    SetFontSize 38
+Show
+    BaseType "Labrys"
+    AreaLevel <= 51
+    Rarity Rare
+    SetBorderColor 128 0 0
+    SetFontSize 42
+Show
+    BaseType "Labrys"
+    AreaLevel <= 51
+    SetBorderColor 128 0 0
+    SetFontSize 38
+Show
+    BaseType "Noble Axe"
+    AreaLevel <= 54
+    Rarity Rare
+    SetBorderColor 128 0 0
+    SetFontSize 42
+Show
+    BaseType "Noble Axe"
+    AreaLevel <= 54
+    SetBorderColor 128 0 0
+    SetFontSize 38
+Show
+    BaseType "Abyssal Axe"
+    AreaLevel <= 57
+    Rarity Rare
+    SetBorderColor 128 0 0
+    SetFontSize 42
+Show
+    BaseType "Abyssal Axe"
+    AreaLevel <= 57
+    SetBorderColor 128 0 0
+    SetFontSize 38
+#endgame axes
+Show
+    Class "Two Hand Axe"
+    DropLevel >= 60
+    AreaLevel <= 67
+    Rarity Rare
+    SetBorderColor 128 0 0
+    SetFontSize 38
+Show
+    BaseType "Vaal Axe" "Karui Chopper"
+    AreaLevel <= 67
+    SetBorderColor 128 0 0
+    SetFontSize 36
+Show
+    BaseType "Fleshripper"
+    AreaLevel <= 70
+    SetBorderColor 128 0 0
+
+#hyrri's quiver recipe
+Show
+    BaseType "Sharktooth Arrow Quiver"
+    AreaLevel <= 25
+    Rarity Normal Magic Rare
+    SetBorderColor 125 200 40
+    SetFontSize 40
+
+#quivershit
+Show
+    BaseType "Quiver"
+    Rarity Magic Rare
+    SetBorderColor 125 200 40
+    AreaLevel <= 15
+    SetFontSize 45
+Show
+    BaseType "Serrated Arrow Quiver" "Fire Arrow Quiver"
+    AreaLevel <= 20
+    SetBorderColor 125 200 40
+    SetFontSize 40
+Show
+    BaseType "Blunt Arrow Quiver" "Blazing Arrow Quiver"
+    AreaLevel <= 60
+    SetBorderColor 125 200 40
+    SetFontSize 36
+Show
+    BaseType "Broadhead Arrow Quiver" "Penetrating Arrow Quiver" "Heavy Arrow Quiver"
+    AreaLevel <= 67
+    SetBorderColor 125 200 40
+    SetFontSize 34
+
+#elemental bows (ele dmg implicit)
+Show
+    BaseType "Royal Bow"
+    AreaLevel <= 49
+    SetBorderColor 125 200 40
+    SetFontSize 40
+Show
+    BaseType "Highborn Bow"
+    AreaLevel <= 65
+    SetBorderColor 125 200 40
+    SetFontSize 38
+Show
+    BaseType "Imperial Bow"
+    AreaLevel <= 67
+    SetBorderColor 125 200 40
+    SetFontSize 36
+
+#chaos bows (fastest)
+Show
+    BaseType "Short Bow"
+    AreaLevel <= 34
+    SetBorderColor 125 200 40
+    SetFontSize 40
+Show
+    BaseType "Grove Bow"
+    AreaLevel <= 55
+    SetBorderColor 125 200 40
+    SetFontSize 38
+Show
+    BaseType "Thicket Bow"
+    AreaLevel <= 67
+    SetBorderColor 125 200 40
+    SetFontSize 36
+
+#bleed bows (highest avg dmg)
+Show
+    BaseType "Short Bow"
+    AreaLevel <= 8
+    SetBorderColor 125 200 40
+    SetFontSize 45
+Show
+    BaseType "Long Bow"
+    AreaLevel <= 13
+    SetBorderColor 125 200 40
+    SetFontSize 45
+Show
+    BaseType "Composite Bow"
+    AreaLevel <= 17
+    SetBorderColor 125 200 40
+    SetFontSize 45
+Show
+    BaseType "Recurve Bow"
+    AreaLevel <= 22
+    Rarity Rare
+    SetBorderColor 125 200 40
+    SetFontSize 45
+Show
+    BaseType "Recurve Bow"
+    AreaLevel <= 22
+    SetBorderColor 125 200 40
+    SetFontSize 40
+Show
+    BaseType "Bone Bow"
+    AreaLevel <= 27
+    Rarity Rare
+    SetBorderColor 125 200 40
+    SetFontSize 45
+Show
+    BaseType "Bone Bow"
+    AreaLevel <= 27
+    SetBorderColor 125 200 40
+    SetFontSize 40
+Show
+    BaseType "Royal Bow"
+    AreaLevel <= 31
+    Rarity Rare
+    SetBorderColor 125 200 40
+    SetFontSize 45
+Show
+    BaseType "Royal Bow"
+    AreaLevel <= 31
+    SetBorderColor 125 200 40
+    SetFontSize 40
+Show
+    BaseType "Death Bow"
+    AreaLevel <= 37
+    Rarity Rare
+    SetBorderColor 125 200 40
+    SetFontSize 45
+Show
+    BaseType "Death Bow"
+    AreaLevel <= 37
+    SetBorderColor 125 200 40
+    SetFontSize 40
+Show
+    BaseType "Decurve Bow"
+    AreaLevel <= 52
+    Rarity Rare
+    SetBorderColor 125 200 40
+    SetFontSize 45
+Show
+    BaseType "Decurve Bow"
+    AreaLevel <= 52
+    SetBorderColor 125 200 40
+    SetFontSize 40
+Show
+    BaseType "Decimation Bow"
+    AreaLevel <= 57
+    Rarity Rare
+    SetBorderColor 125 200 40
+    SetFontSize 42
+Show
+    BaseType "Decimation Bow"
+    AreaLevel <= 57
+    SetBorderColor 125 200 40
+    SetFontSize 38
+Show
+    BaseType "Citadel Bow"
+    AreaLevel <= 67
+    Rarity Rare
+    SetBorderColor 125 200 40
+    SetFontSize 42
+Show
+    BaseType "Citadel Bow"
+    AreaLevel <= 67
+    SetBorderColor 125 200 40
+    SetFontSize 38
+
+#phys bows
+Show
+    BaseType "Short Bow"
+    AreaLevel <= 8
+    SetBorderColor 125 200 40
+    SetFontSize 45
+Show
+    BaseType "Long Bow"
+    AreaLevel <= 13
+    SetBorderColor 125 200 40
+    SetFontSize 45
+Show
+    BaseType "Composite Bow"
+    AreaLevel <= 17
+    SetBorderColor 125 200 40
+    SetFontSize 45
+Show
+    BaseType "Recurve Bow"
+    AreaLevel <= 22
+    Rarity Rare
+    SetBorderColor 125 200 40
+    SetFontSize 45
+Show
+    BaseType "Recurve Bow"
+    AreaLevel <= 22
+    SetBorderColor 125 200 40
+    SetFontSize 40
+Show
+    BaseType "Bone Bow"
+    AreaLevel <= 27
+    Rarity Rare
+    SetBorderColor 125 200 40
+    SetFontSize 45
+Show
+    BaseType "Bone Bow"
+    AreaLevel <= 27
+    SetBorderColor 125 200 40
+    SetFontSize 40
+Show
+    BaseType "Royal Bow"
+    AreaLevel <= 31
+    Rarity Rare
+    SetBorderColor 125 200 40
+    SetFontSize 45
+Show
+    BaseType "Royal Bow"
+    AreaLevel <= 31
+    SetBorderColor 125 200 40
+    SetFontSize 40
+Show
+    BaseType "Death Bow"
+    AreaLevel <= 34
+    Rarity Rare
+    SetBorderColor 125 200 40
+    SetFontSize 45
+Show
+    BaseType "Death Bow"
+    AreaLevel <= 34
+    SetBorderColor 125 200 40
+    SetFontSize 40
+Show
+    BaseType "Grove Bow" "Reflex Bow"
+    AreaLevel <= 37
+    SetBorderColor 125 200 40
+    SetFontSize 40
+Show
+    BaseType "Grove Bow" "Reflex Bow"
+    AreaLevel <= 37
+    Rarity Rare
+    SetBorderColor 125 200 40
+    SetFontSize 45
+Show
+    BaseType "Decurve Bow" "Compound Bow"
+    AreaLevel <= 43
+    Rarity Rare
+    SetBorderColor 125 200 40
+    SetFontSize 45
+Show
+    BaseType "Decurve Bow" "Compound Bow"
+    AreaLevel <= 43
+    SetBorderColor 125 200 40
+    SetFontSize 40
+Show
+    BaseType "Sniper Bow"
+    AreaLevel <= 46
+    Rarity Rare
+    SetBorderColor 125 200 40
+    SetFontSize 45
+Show
+    BaseType "Sniper Bow"
+    AreaLevel <= 46
+    SetBorderColor 125 200 40
+    SetFontSize 40
+Show
+    BaseType "Ivory Bow"
+    AreaLevel <= 49
+    Rarity Rare
+    SetBorderColor 125 200 40
+    SetFontSize 42
+Show
+    BaseType "Ivory Bow"
+    AreaLevel <= 49
+    SetBorderColor 125 200 40
+    SetFontSize 38
+Show
+    BaseType "Highborn Bow"
+    AreaLevel <= 52
+    Rarity Rare
+    SetBorderColor 125 200 40
+    SetFontSize 42
+Show
+    BaseType "Highborn Bow"
+    AreaLevel <= 52
+    SetBorderColor 125 200 40
+    SetFontSize 38
+Show
+    BaseType "Decimation Bow"
+    AreaLevel <= 55
+    Rarity Rare
+    SetBorderColor 125 200 40
+    SetFontSize 42
+Show
+    BaseType "Decimation Bow"
+    AreaLevel <= 55
+    SetBorderColor 125 200 40
+    SetFontSize 38
+Show
+    BaseType "Thicket Bow" "Steelwood Bow"
+    AreaLevel <= 55
+    Rarity Rare
+    SetBorderColor 125 200 40
+    SetFontSize 42
+Show
+    BaseType "Thicket Bow" "Steelwood Bow"
+    AreaLevel <= 55
+    SetBorderColor 125 200 40
+    SetFontSize 38
+#endgame phys bows
+Show
+    Class "Bow"
+    DropLevel >= 60
+    AreaLevel <= 67
+    Rarity Rare
+    SetBorderColor 125 200 40
+    SetFontSize 38
+Show
+    BaseType "Spine Bow" "Assassin Bow" "Citadel Bow"
+    AreaLevel <= 65
+    Rarity Rare
+    SetBorderColor 125 200 40
+    SetFontSize 38
+Show
+    BaseType "Spine Bow" "Assassin Bow" "Citadel Bow"
+    AreaLevel <= 67
+    SetBorderColor 125 200 40
+    SetFontSize 36
+
+#Main Armor Filtering Blocks
+#more or less ends at t2 maps (bases that don't drop unless 70+ will show for 1 level only)
+Show
+    BaseType "Iron Hat" "Iron Gauntlets" "Iron Greaves"
+    ItemLevel <= 5
+    Rarity Magic Rare
+    SetFontSize 45
+Show
+    BaseType "Iron Hat" "Iron Gauntlets" "Iron Greaves"
+    ItemLevel <= 3
+    SetFontSize 40
+Show
+    BaseType "Leather Cap" "Rawhide Gloves" "Rawhide Boots"
+    ItemLevel <= 11
+    Rarity Magic Rare
+    SetBorderColor 150 100 0
+    SetFontSize 45
+Show
+    BaseType "Leather Cap" "Rawhide Gloves" "Rawhide Boots" "Battered Helm" "Fishscale Gauntlets" "Scale Vest" "Leatherscale Boots"
+    ItemLevel <= 11
+    SetBorderColor 150 100 0
+    SetFontSize 45
+Show
+    BaseType "Battered Helm" "Fishscale Gauntlets" "Leatherscale Boots"
+    Rarity Magic Rare
+    ItemLevel <= 15
+    SetBorderColor 150 100 0
+    SetFontSize 45
+Show
+    BaseType "Battered Helm" "Fishscale Gauntlets" "Leatherscale Boots"
+    ItemLevel <= 15
+    SetFontSize 40
+#BRUTUS RACES END HERE'ish
+Show
+    BaseType "Cone Helmet" "Steel Greaves" "Chestplate"
+    ItemLevel <= 15
+    SetBorderColor 150 100 0
+    Rarity Magic Rare
+    SetFontSize 45
+Show
+    BaseType "Cone Helmet" "Steel Greaves" "Chestplate"
+    ItemLevel <= 15
+    SetBorderColor 150 100 0
+    SetFontSize 40
+Show
+    BaseType "Cone Helmet" "Steel Greaves" "Chestplate"
+    ItemLevel <= 18
+    SetFontSize 36
+Show
+    BaseType "Plated Gauntlets" "Strapped Leather" "Light Brigandine" "Goathide Gloves"
+    ItemLevel <= 15
+    SetBorderColor 150 100 0
+    Rarity Magic Rare
+    SetFontSize 45
+Show
+    BaseType "Plated Gauntlets" "Strapped Leather" "Light Brigandine" "Goathide Gloves"
+    ItemLevel <= 15
+    SetBorderColor 150 100 0
+    SetFontSize 40
+Show
+    BaseType "Plated Gauntlets" "Strapped Leather" "Light Brigandine" "Goathide Gloves"
+    ItemLevel <= 18
+    SetFontSize 36
+#MERVAIL RACES END HERE
+Show
+    BaseType "Tricorne" "Sallet" "Goathide Boots" "Barbute Helmet" "Scale Doublet"
+    ItemLevel <= 25
+    SetBorderColor 150 100 0
+    Rarity Magic Rare
+    SetFontSize 45
+Show
+    BaseType "Tricorne" "Sallet" "Goathide Boots" "Barbute Helmet" "Scale Doublet"
+    ItemLevel <= 25
+    SetBorderColor 150 100 0
+    SetFontSize 40
+#VAAL RACES END HERE
+Show
+    BaseType "Ironscale Gauntlets" "Buckskin Tunic" "Ironscale Boots" "Copper Plate" "Leather Hood" "Deerskin Gloves" "Infantry Brigandine" "Deerskin Boots" "War Plate" "Wild Leather" "Plated Greaves" "Bronze Gauntlets" "Visored Sallet"
+    ItemLevel <= 30
+    SetBorderColor 150 100 0
+    Rarity Rare
+    SetFontSize 40
+Show
+    BaseType "Ironscale Gauntlets" "Buckskin Tunic" "Ironscale Boots" "Copper Plate" "Leather Hood" "Deerskin Gloves" "Infantry Brigandine" "Deerskin Boots" "War Plate" "Wild Leather" "Plated Greaves" "Bronze Gauntlets" "Visored Sallet"
+    ItemLevel <= 30
+    SetBorderColor 150 100 0
+    SetFontSize 38
+#DOMINUS/IZARO RACES GENERALLY END HERE
+#note - docks/lunaris normal 29
+Show
+    BaseType "Close Helmet" "Bronzescale Gauntlets" "Full Scale Armour" "Full Leather" "Full Plate"
+    ItemLevel <= 35
+    SetBorderColor 150 100 0
+    Rarity Rare
+    SetFontSize 40
+Show
+    BaseType "Close Helmet" "Bronzescale Gauntlets" "Full Scale Armour" "Full Leather" "Full Plate"
+    ItemLevel <= 35
+    SetBorderColor 150 100 0
+    SetFontSize 38
+Show
+    BaseType "Close Helmet" "Bronzescale Gauntlets" "Full Scale Armour" "Full Leather" "Full Plate"
+    ItemLevel <= 37
+Show
+    BaseType "Wolf Pelt" "Soldier's Brigandine" "Arena Plate" "Sun Leather" "Bronzescale Boots"
+    ItemLevel <= 37
+    SetBorderColor 150 100 0
+    Rarity Rare
+    SetFontSize 40
+Show
+    BaseType "Wolf Pelt" "Soldier's Brigandine" "Arena Plate" "Sun Leather" "Bronzescale Boots"
+    ItemLevel <= 37
+    SetBorderColor 150 100 0
+    SetFontSize 38
+Show
+    BaseType "Wolf Pelt" "Soldier's Brigandine" "Arena Plate" "Sun Leather" "Bronzescale Boots"
+    ItemLevel <= 39
+Show
+    BaseType "Gilded Sallet" "Nubuck Gloves" "Field Lamellar" "Thief's Garb" "Lordly Plate" "Reinforced Greaves" "Nubuck Boots"
+    ItemLevel <= 40
+    SetBorderColor 150 100 0
+    Rarity Rare
+    SetFontSize 40
+Show
+    BaseType "Gilded Sallet" "Nubuck Gloves" "Field Lamellar" "Thief's Garb" "Lordly Plate" "Reinforced Greaves" "Nubuck Boots"
+    ItemLevel <= 40
+    SetBorderColor 150 100 0
+    SetFontSize 38
+Show
+    BaseType "Gilded Sallet" "Nubuck Gloves" "Field Lamellar" "Thief's Garb" "Lordly Plate" "Reinforced Greaves" "Nubuck Boots"
+    ItemLevel <= 42
+Show
+    BaseType "Gladiator Helmet" "Secutor Helm" "Steel Gauntlets" "Steelscale Gauntlets" "Eelskin Gloves" "Bronze Plate" "Wyrmscale Doublet" "Eelskin Tunic" "Steelscale Boots" "Antique Greaves"
+    ItemLevel <= 43
+    SetBorderColor 150 100 0
+    Rarity Rare
+    SetFontSize 40
+Show
+    BaseType "Gladiator Helmet" "Secutor Helm" "Steel Gauntlets" "Steelscale Gauntlets" "Eelskin Gloves" "Bronze Plate" "Wyrmscale Doublet" "Eelskin Tunic" "Steelscale Boots" "Antique Greaves"
+    ItemLevel <= 43
+    SetBorderColor 150 100 0
+    SetFontSize 38
+Show
+    BaseType "Gladiator Helmet" "Secutor Helm" "Steel Gauntlets" "Steelscale Gauntlets" "Eelskin Gloves" "Bronze Plate" "Wyrmscale Doublet" "Eelskin Tunic" "Steelscale Boots" "Antique Greaves"
+    ItemLevel <= 45
+Show
+    BaseType "Reaver Helmet" "Hunter Hood" "Antique Gauntlets" "Battle Plate" "Frontier Leather" "Eelskin Boots"
+    ItemLevel <= 45
+    SetBorderColor 150 100 0
+    Rarity Rare
+    SetFontSize 40
+Show
+    BaseType "Reaver Helmet" "Hunter Hood" "Antique Gauntlets" "Battle Plate" "Frontier Leather" "Eelskin Boots"
+    ItemLevel <= 45
+    SetBorderColor 150 100 0
+    SetFontSize 38
+Show
+    BaseType "Reaver Helmet" "Hunter Hood" "Antique Gauntlets" "Battle Plate" "Frontier Leather" "Eelskin Boots"
+    ItemLevel <= 47
+Show
+    BaseType "Fencer Helm" "Serpentscale Gauntlets" "Hussar Brigandine" "Glorious Leather" "Serpentscale Boots"
+    ItemLevel <= 47
+    SetBorderColor 150 100 0
+    Rarity Rare
+    SetFontSize 40
+Show
+    BaseType "Fencer Helm" "Serpentscale Gauntlets" "Hussar Brigandine" "Glorious Leather" "Serpentscale Boots"
+    ItemLevel <= 47
+    SetBorderColor 150 100 0
+    SetFontSize 38
+Show
+    BaseType "Fencer Helm" "Serpentscale Gauntlets" "Hussar Brigandine" "Glorious Leather" "Serpentscale Boots"
+    ItemLevel <= 50
+Show
+    BaseType "Noble Tricorne" "Sharkskin Gloves" "Sun Plate" "Full Wyrmscale" "Ancient Greaves"
+    ItemLevel <= 48
+    SetBorderColor 150 100 0
+    Rarity Rare
+    SetFontSize 40
+Show
+    BaseType "Noble Tricorne" "Sharkskin Gloves" "Sun Plate" "Full Wyrmscale" "Ancient Greaves"
+    ItemLevel <= 48
+    SetBorderColor 150 100 0
+    SetFontSize 38
+Show
+    BaseType "Noble Tricorne" "Sharkskin Gloves" "Sun Plate" "Full Wyrmscale" "Ancient Greaves"
+    ItemLevel <= 51
+Show
+    BaseType "Siege Helmet" "Ancient Gauntlets" "Coronal Leather"
+    ItemLevel <= 51
+    SetBorderColor 150 100 0
+    Rarity Rare
+    SetFontSize 40
+Show
+    BaseType "Siege Helmet" "Ancient Gauntlets" "Coronal Leather"
+    ItemLevel <= 51
+    SetBorderColor 150 100 0
+    SetFontSize 38
+Show
+    BaseType "Siege Helmet" "Ancient Gauntlets" "Coronal Leather"
+    ItemLevel <= 53
+Show
+    BaseType "Lacquered Helmet" "Wyrmscale Gauntlets" "Colosseum Plate" "Commander's Brigandine" "Wyrmscale Boots"
+    ItemLevel <= 53
+    Rarity Rare
+    SetBorderColor 150 100 0
+    SetFontSize 40
+Show
+    BaseType "Lacquered Helmet" "Wyrmscale Gauntlets" "Colosseum Plate" "Commander's Brigandine" "Wyrmscale Boots"
+    ItemLevel <= 53
+    SetBorderColor 150 100 0
+Show
+    BaseType "Lacquered Helmet" "Wyrmscale Gauntlets" "Colosseum Plate" "Commander's Brigandine" "Wyrmscale Boots"
+    ItemLevel <= 56
+Show
+    BaseType "Ursine Pelt" "Samnite Helmet" "Goliath Gauntlets" "Shagreen Gloves" "Majestic Plate" "Battle Lamellar" "Goliath Greaves" "Cutthroat's Garb"
+    ItemLevel <= 56
+    Rarity Rare
+    SetBorderColor 150 100 0
+    SetFontSize 40
+Show
+    BaseType "Ursine Pelt" "Samnite Helmet" "Goliath Gauntlets" "Shagreen Gloves" "Majestic Plate" "Battle Lamellar" "Goliath Greaves" "Cutthroat's Garb"
+    ItemLevel <= 56
+    SetBorderColor 150 100 0
+Show
+    BaseType "Ursine Pelt" "Samnite Helmet" "Goliath Gauntlets" "Shagreen Gloves" "Majestic Plate" "Battle Lamellar" "Goliath Greaves" "Cutthroat's Garb"
+    ItemLevel <= 59
+Show
+    BaseType "Fluted Bascinet" "Golden Plate" "Dragonscale Doublet" "Hydrascale Boots" "Sharkskin Tunic"
+    ItemLevel <= 59
+    Rarity Rare
+    SetBorderColor 150 100 0
+    SetFontSize 40
+Show
+    BaseType "Fluted Bascinet" "Golden Plate" "Dragonscale Doublet" "Hydrascale Boots" "Sharkskin Tunic"
+    ItemLevel <= 59
+    SetBorderColor 150 100 0
+Show
+    BaseType "Fluted Bascinet" "Golden Plate" "Dragonscale Doublet" "Hydrascale Boots" "Sharkskin Tunic"
+    ItemLevel <= 62
+#note: oasis is 62 - EV/AR chests phase out entirely here (desert brigandine last one), ES is finally added in so only pure basetypes are shown
+Show
+    BaseType "Silken Hood" "Ezomyte Burgonet" "Hydrascale Gauntlets" "Stealth Gloves" "Crusader Plate" "Desert Brigandine" "Vaal Greaves" "Destiny Leather"
+    ItemLevel <= 62
+    Rarity Rare
+    SetBorderColor 150 100 0
+    SetFontSize 40
+Show
+    BaseType "Silken Hood" "Ezomyte Burgonet" "Hydrascale Gauntlets" "Stealth Gloves" "Crusader Plate" "Desert Brigandine" "Vaal Greaves" "Destiny Leather"
+    ItemLevel <= 62
+    SetBorderColor 150 100 0
+Show
+    BaseType "Silken Hood" "Ezomyte Burgonet" "Hydrascale Gauntlets" "Stealth Gloves" "Crusader Plate" "Desert Brigandine" "Vaal Greaves" "Destiny Leather"
+    ItemLevel <= 66
+Show
+    BaseType "Pig-Faced Bascinet" "Sinner Tricorne" "Vaal Gauntlets" "Gladiator Plate" "Dragonscale Boots" "Exquisite Leather"
+    ItemLevel <= 67
+    Rarity Rare
+    SetBorderColor 150 100 0
+    SetFontSize 40
+Show
+    BaseType "Pig-Faced Bascinet" "Sinner Tricorne" "Vaal Gauntlets" "Gladiator Plate" "Dragonscale Boots" "Exquisite Leather"
+    ItemLevel <= 67
+    SetBorderColor 150 100 0
+Show
+    BaseType "Pig-Faced Bascinet" "Sinner Tricorne" "Vaal Gauntlets" "Gladiator Plate"
+    ItemLevel <= 67
+Show
+    BaseType "Vaal Regalia" "Astral Plate" "Assassin's Garb" "Lacquered Garb" "Titanium Spirit Shield" "Triumphant Lamellar"
+    ItemLevel <= 70
+    SetBorderColor 150 100 0
+Show
+    BaseType "Nightmare Bascinet" "Eternal Burgonet" "Royal Burgonet" "Lion Pelt" "Hubris Circlet" "Dragonscale Gauntlets" "Titan Gauntlets" "Slink Gloves" "Sorcerer Gloves" "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Dragonscale Boots"
+    ItemLevel <= 70
+    SetBorderColor 150 100 0
+Show
+    BaseType "Nightmare Bascinet" "Eternal Burgonet" "Royal Burgonet" "Lion Pelt" "Hubris Circlet" "Dragonscale Gauntlets" "Titan Gauntlets" "Slink Gloves" "Sorcerer Gloves" "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Dragonscale Boots"
+    Rarity Normal
+    ItemLevel <= 70
+    SetBorderColor 150 100 0
+
+#ES & ES/EV blocks for orbs of binding - these blocks exist solely to provide targets for casters/summoners to use orbs of binding on (all other archetypes are covered by the fact the filter shows ar, ev, ar/ev gear by default). ES/AR is excluded because no build uses red/blue sockets equally.
+#As strict as possible with no more than one base is shown at a time. Starts at A3, ends at 67. dev notes: used gapped method instead of overlap but most gapped bases show for at least ~4 zones before the gap. watch and loosen if necessary. update: if anything it's probably showing too much
+Show
+    BaseType "Silken Garb" "Oiled Coat" "Iron Mask"
+    Rarity Normal
+    ItemLevel >= 23
+    AreaLevel <= 28
+    SetFontSize 28
+    SetBackgroundColor 0 0 0 100
+Show
+    BaseType "Silk Slippers" "Scarlet Raiment" "Strapped Mitts"
+    Rarity Normal
+    ItemLevel >= 23
+    AreaLevel <= 30
+    SetFontSize 28
+    SetBackgroundColor 0 0 0 100
+Show
+    BaseType "Mage's Vestment" "Tribal Circlet" "Clasped Boots"
+    Rarity Normal
+    ItemLevel >= 23
+    AreaLevel <= 32
+    SetFontSize 28
+    SetBackgroundColor 0 0 0 100
+Show
+    BaseType "Silk Robe" "Silk Gloves" "Waxed Garb" "Clasped Mitts" "Festival Mask"
+    Rarity Normal
+    ItemLevel >= 23
+    AreaLevel <= 34
+    SetFontSize 28
+    SetBackgroundColor 0 0 0 100
+Show
+    BaseType "Cabalist Regalia" "Scholar Boots" "Golden Mask"
+    Rarity Normal
+    AreaLevel <= 36
+    SetFontSize 28
+    SetBackgroundColor 0 0 0 100
+Show
+    BaseType "Bone Circlet" "Bone Armour"
+    Rarity Normal
+    AreaLevel <= 38
+    SetFontSize 28
+    SetBackgroundColor 0 0 0 100
+Show
+    BaseType "Sage's Robe" "Embroidered Gloves" "Shackled Boots"
+    Rarity Normal
+    AreaLevel <= 40
+    SetFontSize 28
+    SetBackgroundColor 0 0 0 100
+Show
+    BaseType "Satin Slippers" "Quilted Jacket"
+    Rarity Normal
+    AreaLevel <= 42
+    SetFontSize 28
+    SetBackgroundColor 0 0 0 100
+Show
+    BaseType "Silken Wrap" "Trapper Mitts" "Raven Mask"
+    Rarity Normal
+    AreaLevel <= 44
+    SetFontSize 28
+    SetBackgroundColor 0 0 0 100
+Show
+    BaseType "Satin Gloves" "Lunaris Circlet" "Sleek Coat" "Trapper Boots"
+    Rarity Normal
+    AreaLevel <= 46
+    SetFontSize 28
+    SetBackgroundColor 0 0 0 100
+Show
+    BaseType "Conjurer's Vestment" "Ambush Mitts"
+    Rarity Normal
+    AreaLevel <= 48
+    SetFontSize 28
+    SetBackgroundColor 0 0 0 100
+Show
+    BaseType "Crimson Raiment" "Callous Mask"
+    Rarity Normal
+    AreaLevel <= 50
+    SetFontSize 28
+    SetBackgroundColor 0 0 0 100
+Show
+    BaseType "Spidersilk Robe" "Samite Slippers" "Steel Circlet"
+    Rarity Normal
+    AreaLevel <= 52
+    SetFontSize 28
+    SetBackgroundColor 0 0 0 100
+Show
+    BaseType "Destroyer Regalia" "Samite Gloves" "Lacquered Garb" "Ambush Boots"
+    Rarity Normal
+    AreaLevel <= 54
+    SetFontSize 28
+    SetBackgroundColor 0 0 0 100
+Show
+    BaseType "Carnal Mitts" "Regicide Mask"
+    Rarity Normal
+    AreaLevel <= 56
+    SetFontSize 28
+    SetBackgroundColor 0 0 0 100
+Show
+    BaseType "Savant's Robe" "Conjurer Gloves" "Necromancer Circlet" "Crypt Armour"
+    Rarity Normal
+    AreaLevel <= 58
+    SetFontSize 28
+    SetBackgroundColor 0 0 0 100
+Show
+    BaseType "Necromancer Silks" "Conjurer Boots" "Sentinel Jacket" "Harlequin Mask"
+    Rarity Normal
+    AreaLevel <= 60
+    SetFontSize 28
+    SetBackgroundColor 0 0 0 100
+Show
+    BaseType "Carnal Boots"
+    Rarity Normal
+    AreaLevel <= 62
+    SetFontSize 28
+    SetBackgroundColor 0 0 0 100
+Show
+    BaseType "Solaris Circlet" "Varnished Coat"
+    Rarity Normal
+    AreaLevel <= 64
+    SetFontSize 28
+    SetBackgroundColor 0 0 0 100
+Show
+    BaseType "Arcanist Slippers" "Blood Raiment" "Assassin's Mitts" "Vaal Mask"
+    Rarity Normal
+    AreaLevel <= 66
+    SetFontSize 28
+    SetBackgroundColor 0 0 0 100
+Show
+    BaseType "Occultist's Vestment" "Arcanist Gloves" "Mind Cage" "Assassin's Boots"
+    Rarity Normal
+    AreaLevel <= 68
+    SetFontSize 28
+    SetBackgroundColor 0 0 0 100
+Show
+    BaseType "Vaal Regalia" "Sorcerer Gloves" "Sorcerer Boots" "Hubris Circlet" "Sadist Garb" "Murder Mitts" "Murder Boots" "Deicide Mask"
+    Rarity Normal
+    AreaLevel <= 69
+    SetFontSize 28
+    SetBackgroundColor 0 0 0 100
+Show
+    BaseType "Carnal Armour"
+    Rarity Normal
+    AreaLevel <= 71
+    SetFontSize 28
+    SetBackgroundColor 0 0 0 100
+
+#AR/ES BLOCKS BECAUSE I TOTALLY FORGOT SUMMONERS EXIST DESPITE PLAYING THEM FOR YEARS
+Show
+    BaseType "Chainmail Doublet"
+    Rarity Normal
+    ItemLevel >= 23
+    AreaLevel <= 28
+    SetFontSize 28
+    SetBackgroundColor 0 0 0 100
+Show
+    BaseType "Ringmail Gloves" "Great Helmet"
+    Rarity Normal
+    ItemLevel >= 23
+    AreaLevel <= 30
+    SetFontSize 28
+    SetBackgroundColor 0 0 0 100
+Show
+    BaseType "Full Ringmail"
+    Rarity Normal
+    ItemLevel >= 23
+    AreaLevel <= 32
+    SetFontSize 28
+    SetBackgroundColor 0 0 0 100
+Show
+    BaseType "Full Chainmail" "Mesh Boots"
+    Rarity Normal
+    ItemLevel >= 23
+    AreaLevel <= 34
+    SetFontSize 28
+    SetBackgroundColor 0 0 0 100
+Show
+    BaseType "Mesh Gloves" "Crusader Helmet"
+    Rarity Normal
+    AreaLevel <= 36
+    SetFontSize 28
+    SetBackgroundColor 0 0 0 100
+Show
+    BaseType "Holy Chainmail" "Riveted Boots"
+    Rarity Normal
+    AreaLevel <= 38
+    SetFontSize 28
+    SetBackgroundColor 0 0 0 100
+Show
+    BaseType "Latticed Ringmail" "Riveted Gloves" "Aventail Helmet"
+    Rarity Normal
+    AreaLevel <= 42
+    SetFontSize 28
+    SetBackgroundColor 0 0 0 100
+Show
+    BaseType "Crusader Chainmail"
+    Rarity Normal
+    AreaLevel <= 46
+    SetFontSize 28
+    SetBackgroundColor 0 0 0 100
+Show
+    BaseType "Zealot Boots"
+    Rarity Normal
+    AreaLevel <= 48
+    SetFontSize 28
+    SetBackgroundColor 0 0 0 100
+Show
+    BaseType "Ornate Ringmail" "Zealot Gloves"
+    Rarity Normal
+    AreaLevel <= 50
+    SetFontSize 28
+    SetBackgroundColor 0 0 0 100
+Show
+    BaseType "Zealot Helmet"
+    Rarity Normal
+    AreaLevel <= 52
+    SetFontSize 28
+    SetBackgroundColor 0 0 0 100
+Show
+    BaseType "Chain Hauberk"
+    Rarity Normal
+    AreaLevel <= 54
+    SetFontSize 28
+    SetBackgroundColor 0 0 0 100
+Show
+    BaseType "Devout Chainmail" "Soldier Boots" "Soldier Gloves" "Great Crown"
+    Rarity Normal
+    AreaLevel <= 56
+    SetFontSize 28
+    SetBackgroundColor 0 0 0 100
+Show
+    BaseType "Latticed Ringmail"
+    Rarity Normal
+    AreaLevel <= 60
+    SetFontSize 28
+    SetBackgroundColor 0 0 0 100
+Show
+    BaseType "Legion Boots" "Magistrate Crown"
+    Rarity Normal
+    AreaLevel <= 62
+    SetFontSize 28
+    SetBackgroundColor 0 0 0 100
+Show
+    BaseType "Legion Gloves"
+    Rarity Normal
+    AreaLevel <= 64
+    SetFontSize 28
+    SetBackgroundColor 0 0 0 100
+Show
+    BaseType "Elegant Ringmail" "Prophet Crown"
+    Rarity Normal
+    AreaLevel <= 66
+    SetFontSize 28
+    SetBackgroundColor 0 0 0 100
+Show
+    BaseType "Crusader Boots" "Crusader Gloves" "Praetor Crown"
+    Rarity Normal
+    AreaLevel <= 68
+    SetFontSize 28
+    SetBackgroundColor 0 0 0 100
+Show
+    BaseType "Saintly Chainmail"
+    Rarity Normal
+    AreaLevel <= 71
+    SetFontSize 28
+    SetBackgroundColor 0 0 0 100
+#type:default

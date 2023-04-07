@@ -1,0 +1,245 @@
+# [15.0] Catch All
+#Race Worst Case Scenario Insurance
+
+#Rare Catchalls
+Show
+    Class "Gloves" "Helm" "Boots"
+    Rarity Rare
+    ItemLevel <= 25
+    SetBorderColor 100 100 50
+    SetFontSize 45
+Show
+    Class "Gloves" "Helm" "Boots"
+    Rarity Rare
+    ItemLevel <= 47
+    SetBorderColor 100 100 50
+    SetFontSize 42
+Show
+    Class "Gloves" "Helm" "Boots"
+    Rarity Rare
+    ItemLevel <= 67
+    SetBorderColor 100 100 50
+    SetFontSize 40
+Show
+    Rarity Rare
+    ItemLevel <= 25
+    SetFontSize 45
+Show
+    Rarity Rare
+    ItemLevel <= 47
+    SetFontSize 38
+
+#Magic Catchalls
+Show
+    ItemLevel <= 47
+    Class Ring Amulet Belt
+    Rarity Magic
+    SetFontSize 45
+Show
+    ItemLevel <= 62
+    Class Ring Amulet Belt
+    Rarity Magic
+    SetFontSize 38
+Show
+    ItemLevel <= 35
+    Class "Gloves" "Helm" "Boots"
+    Rarity Magic
+    SetFontSize 45
+Show
+    ItemLevel <= 62
+    Class "Gloves" "Helm" "Boots"
+    Rarity Magic
+    SetFontSize 36
+Show
+    ItemLevel <= 15
+    Rarity Magic
+    SetFontSize 42
+Show
+    ItemLevel <= 47
+    Class "Shield"
+    Rarity Magic
+    SetFontSize 36
+Show
+    ItemLevel <= 47
+    Rarity Magic
+    Height <= 3
+    Width <= 2
+    SetFontSize 36
+Show
+    ItemLevel <= 62
+    Height <= 3
+    Width <= 1
+    Rarity Magic
+    SetFontSize 34
+
+#Low Level Exceptions (starter weapons, hillock items, shields for brutus kill races).
+Show
+    Class "Wand" "Sceptre" "Axe" "Sword" "Mace" "Dagger" "Bow"
+    Rarity Normal
+    ItemLevel = 1
+    LinkedSockets = 2
+    SetFontSize 45
+Show
+    Rarity Normal
+    AreaLevel = 1
+    ItemLevel = 1
+    Sockets RGB
+    SetFontSize 45
+    SetBorderColor 250 250 250
+Show
+    BaseType "Rusted Sword" "Crude Bow" "Glass Shank" "Driftwood Wand" "Driftwood Club" "Driftwood Sceptre"
+    Rarity Normal
+    ItemLevel = 1
+    SetFontSize 45
+    LinkedSockets = 2
+Show
+    Class "Gloves" "Boots" "Helm"
+    ItemLevel <= 5
+    SetFontSize 40
+Show
+    Class "Gloves" "Boots" "Helm"
+    ItemLevel <= 13
+    SetFontSize 36
+Show
+    Class "Body Armour" "Gloves" "Boots" "Helm" "Sword" "Axe" "Mace" "Claw" "Dagger" "Wand" "Sceptre" "Shield" "Bow" "Quiver" "Ring" "Amulet" "Belt" "Bow" "Staves" "Warstaves" "Flasks"
+    ItemLevel <= 3
+    AreaLevel <= 5
+    SetFontSize 36
+Show
+    Class "Body Armour" "Gloves" "Boots" "Helm" "Sword" "Axe" "Mace" "Claw" "Dagger" "Wand" "Sceptre" "Shield" "Bow" "Quiver" "Ring" "Amulet" "Belt" "Bow" "Staves" "Warstaves" "Flasks"
+    ItemLevel <= 5
+    AreaLevel <= 10
+Show
+    Class Shield
+    ItemLevel <= 11
+
+#Link Safety Blocks
+#note: 47 kitava cutoff, 59 pre harbor bridge cutoff. (may change)
+Show
+    Class "Gloves" "Helm" "Body Armour" "Boots"
+    ItemLevel <= 67
+    LinkedSockets = 4
+Show
+    Class "Gloves" "Helm" "Body Armour"
+    ItemLevel <= 62
+    LinkedSockets >= 3
+Show
+    Class "Body Armour"
+    ItemLevel <= 36
+    LinkedSockets >= 3
+#note: disabling to reduce clutter, really doesn't feel necessary
+#Show
+#	Class "Gloves" "Helm"
+#	ItemLevel <= 33
+#	LinkedSockets >= 2
+
+#Socket Safety Blocks
+Show
+    Class "Gloves" "Helm" "Body Armour"
+    ItemLevel <= 67
+    Sockets = 4
+Show
+    Class "Gloves" "Helm" "Body Armour"
+    SocketGroup BBB BBG
+    ItemLevel <= 59
+    Sockets = 3
+Show
+    Class "Gloves" "Helm" "Body Armour"
+    ItemLevel <= 47
+    Sockets = 3
+Show
+    Class "Gloves" "Boots" "Helm" "Body Armour"
+    SocketGroup BB
+    ItemLevel <= 35
+    Sockets = 2
+Show
+    Class "Gloves" "Boots" "Helm" "Body Armour"
+    ItemLevel <= 25
+    Sockets = 2
+
+#magic catchalls (mainly applies to racing levels, has to be located here or it'll overwrite whetstone recipe)
+Show
+    ItemLevel <= 25
+    Rarity Magic
+
+#Chisel recipe - off by default
+#Hide
+#	BaseType "Gavel" "Rock Breaker" "Stone Hammer"
+#	ItemLevel > 66
+#	Rarity Normal
+
+#Chaos Recipe 2x2's: faint yellow borders on low droplevel 2x2 items (this must be placed below Section 18 - Armour or it takes priority on rares)
+Show
+    Class "Gloves" "Helm" "Boots"
+    Rarity Rare
+    SetBorderColor 150 150 75
+    SetFontSize 34
+
+#CHAOS RECIPE TOGGLE BLOCKS - Hides a ton of shit rares that aren't caught by Section 11. Delete these three blocks if for some insane reason you want to do chaos recipe in currentyear (or remove the classes you want to show).
+Hide
+    Class "One Hand" "Two Hand" "Staves" "Warstaves" "Dagger" "Claw" "Bow" "Body Armour" "Quiver"
+    Rarity Rare
+    AreaLevel >= 63
+    DropLevel <= 50
+Hide
+    Class "One Hand" "Two Hand" "Staves" "Warstaves" "Dagger" "Claw" "Bow" "Body Armour" "Quiver"
+    Rarity Rare
+    AreaLevel >= 68
+
+#"thinning" blocks removes the rares not relevant to chaos recipe once maps start, only kicks in if chaos recipe is enabled. Assumes you're using 2h for chaos recipe b/c less clicks.
+Hide
+    Class "Quiver" "One Hand" "Dagger" "Claw"
+    Rarity Rare
+    AreaLevel >= 67
+Hide
+    Class "Wand" "Sceptre" "Shield"
+    Rarity Rare
+    AreaLevel >= 70
+
+#fading out of low droplevel rares at higher levels (only kicks in if chaos recipe is enabled)
+Show
+    Rarity Rare
+    ItemLevel >= 68
+    DropLevel <= 50
+    SetBackgroundColor 0 0 0 185
+    SetTextColor 255 255 119 185
+    SetFontSize 25
+Show
+    Rarity Rare
+    AreaLevel <= 67
+    SetFontSize 36
+Show
+    Rarity Rare
+    AreaLevel <= 82
+
+Hide
+    BaseType "Scroll Fragment" "Transmutation Shard" "Alteration Shard" "Scroll of Wisdom"
+    DisableDropSound
+
+#conditional hide block(s) - these only kick in if sections are deleted. if these blocks were not present then if blocks were deleted then their respective classes would show up as unknown (with the black highlight) instead of being hidden. therefore this is necessary to preserve modularity of filter
+#intentionally kept minimal to prevent people from ducking themselves with stupid edits. if you want to hide an item class that normally wouldn't ever be hidden (say, fossils) you need to add the class to this block or simply hide the blocks instead of deleting them
+Hide
+    BaseType "Splinter"
+
+#"Global" hide blocks targetting all remaining known item classes
+Hide
+    Class "Body Armour" "Gloves" "Boots" "Helm" "Sword" "Axe" "Mace" "Claw" "Dagger" "Wand" "Sceptre" "Shield" "Bow" "Quiver" "Ring" "Amulet" "Belt" "Staves" "Warstaves" "Flasks"
+    ItemLevel <= 67
+    SetFontSize 25
+    SetBackgroundColor 0 0 0 200
+    DisableDropSound
+Hide
+    Class "Body Armour" "Gloves" "Boots" "Helm" "Sword" "Axe" "Mace" "Claw" "Dagger" "Wand" "Sceptre" "Shield" "Bow" "Quiver" "Ring" "Amulet" "Belt" "Staves" "Warstaves" "Flasks"
+    SetFontSize 18
+    SetBackgroundColor 0 0 0 200
+    DisableDropSound
+
+#Emergency fall-through block. Catches any item class not recongized by the filter and shows it with an all black highlight and icon. If this is ever visible either you ducked up, I ducked up, or GGG ducked up. Check the item filter thread for updates and redownload if you've made edits.
+Show
+    SetBackgroundColor 0 0 0
+    SetBorderColor 255 255 255
+    SetTextColor 255 255 255
+    SetFontSize 40
+    PlayAlertSound 11 200
+    MinimapIcon 2 Grey UpsideDownHouse
+    PlayEffect Grey

@@ -1,0 +1,129 @@
+# [1.1] Leveling
+
+#Set preferred 4L colors in the SocketGroup lines in the next block and enable the sound. Note that multiple color groups can be entered, i.e. RRG RGG. If no colors are entered then the lines will apply to all 2L/3L/4L that drop.
+#note: melee RRRG, caster BBBG BBBB, ranged GGRR GGGR GGRB, summoner BBBB BBBR. Partial matches work, i.e. "BBB" in the 4L block will flag all 4L's with BBB included in the links
+Show
+    Class "Gloves" "Helm" "Boots" "Body Armour"
+    AreaLevel <= 67
+    LinkedSockets = 4
+    Sockets < 6
+    Rarity Normal Magic Rare
+    SocketGroup RRR BBB GGG BBG GGB GGRB RRGB
+    SetBackgroundColor 0 65 65
+    SetBorderColor 0 250 250
+    SetFontSize 45
+    PlayAlertSound 1 100
+    MinimapIcon 0 Cyan Pentagon
+
+#Set your preferred 3L colors in these next blocks. First block is for sounded 3L's in A1/A2, second block is for unsounded through A5.
+#note: melee RGG RRG, caster BBG BGG BBB, ranged GGG GGR, summoner BBB BBR
+Show
+    Class "Gloves" "Helm" "Boots" "Body Armour"
+    AreaLevel <= 25
+    LinkedSockets = 3
+    Rarity Normal Magic Rare
+    SocketGroup GGG GGR BBG BBB RRG
+    SetBackgroundColor 0 50 0
+    SetBorderColor 0 200 0
+    SetFontSize 45
+    PlayAlertSound 1 100
+    MinimapIcon 0 Green Pentagon
+Show
+    Class "Gloves" "Helm" "Body Armour"
+    AreaLevel <= 47
+    LinkedSockets = 3
+    Rarity Normal Magic Rare
+    SocketGroup GGG GGR BBG BBB RRG
+    SetBackgroundColor 0 50 0
+    SetBorderColor 0 200 0
+    SetFontSize 45
+    MinimapIcon 0 Green Pentagon
+
+#2L colors go here
+#note: melee RG RR, caster/summoner BB BG, ranger GG RG
+Show
+    Class "Gloves" "Helm" "Boots" "Body Armour"
+    AreaLevel <= 14
+    LinkedSockets = 2
+    Rarity Normal Magic Rare
+    SocketGroup BB RG GG RR BG
+    SetBackgroundColor 0 0 35
+    SetBorderColor 75 75 250
+    SetFontSize 45
+    MinimapIcon 0 Blue Pentagon
+
+#Archetype-specific blocks
+#caster weapon link colors
+Show
+    Class "Wand" "Sceptre"
+    AreaLevel <= 33
+    LinkedSockets = 3
+    Rarity Normal Magic Rare
+    SocketGroup BBB BBG BGG
+#	SetBackgroundColor 40 50 60
+    SetBackgroundColor 60 70 80
+    SetFontSize 45
+    PlayAlertSound 1 100
+    MinimapIcon 0 Green Pentagon
+
+#Safety Blocks (Don't need to modify these for normal use)
+#4L catchall
+Show
+    Class "Gloves" "Helm" "Boots" "Body Armour"
+    AreaLevel <= 67
+    LinkedSockets = 4
+    Sockets < 6
+    Rarity Normal Magic Rare
+    SetBackgroundColor 0 65 65
+    SetBorderColor 0 65 65
+    SetFontSize 40
+    MinimapIcon 2 Cyan Pentagon
+#3CL w/icon blocks
+Show
+    AreaLevel <= 62
+    Rarity Normal Magic Rare
+    SocketGroup RGB
+    Sockets < 6
+    Height <= 3
+    SetBackgroundColor 40 40 40
+    SetBorderColor 150 150 150
+    SetFontSize 45
+    MinimapIcon 2 Grey Pentagon
+Show
+    AreaLevel <= 62
+    Rarity Normal Magic Rare
+    SocketGroup RGB
+    Sockets < 6
+    Width <= 1
+    SetBackgroundColor 40 40 40
+    SetBorderColor 150 150 150
+    SetFontSize 45
+    MinimapIcon 2 Grey Pentagon
+#3L catchalls
+Show
+    Class "Gloves" "Helm" "Boots" "Body Armour"
+    AreaLevel <= 15
+    LinkedSockets = 3
+    Rarity Magic Rare
+    SetBackgroundColor 0 50 0
+    SetBorderColor 0 50 0
+    SetFontSize 45
+    MinimapIcon 2 Green Pentagon
+Show
+    Class "Gloves" "Helm" "Boots" "Body Armour"
+    AreaLevel <= 25
+    LinkedSockets = 3
+    Rarity Normal Magic Rare
+    SetBackgroundColor 0 50 0
+    SetBorderColor 0 50 0
+    SetFontSize 40
+    MinimapIcon 2 Green Pentagon
+Show
+    Class "Gloves" "Helm"
+    AreaLevel <= 36
+    LinkedSockets = 3
+    Sockets < 6
+    Rarity Normal Magic Rare
+    SetBackgroundColor 0 50 0
+    SetBorderColor 0 50 0
+    SetFontSize 36

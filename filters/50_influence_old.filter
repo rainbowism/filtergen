@@ -1,0 +1,847 @@
+
+#white tier - top value special mod/basetype combos, white background brown text. stuff in this tier should drop pretty infrequently, if it's common then it should be moved to offwhite tier. should mostly be specific base + ilvl (for the most popular/strongest mod) combinations
+#explody
+Show
+    BaseType "Astral Plate"
+    HasInfluence Elder Hunter Crusader Warlord
+    ItemLevel >= 85
+    SetBackgroundColor 250 250 250
+    SetBorderColor 0 0 0
+    SetTextColor 150 100 0
+    SetFontSize 45
+    PlayAlertSound 6 250
+    MinimapIcon 0 White Cross
+    PlayEffect White
+Show
+    BaseType "Vaal Regalia"
+    HasInfluence Crusader
+    ItemLevel >= 85
+    SetBackgroundColor 250 250 250
+    SetBorderColor 0 0 0
+    SetTextColor 150 100 0
+    SetFontSize 45
+    PlayAlertSound 6 250
+    MinimapIcon 0 White Cross
+    PlayEffect White
+#intimidate/unnerve
+Show
+    BaseType "Sorcerer Gloves" "Titan Gauntlets"
+    HasInfluence Hunter
+    ItemLevel >= 85
+    SetBackgroundColor 250 250 250
+    SetBorderColor 0 0 0
+    SetTextColor 150 100 0
+    SetFontSize 45
+    PlayAlertSound 6 250
+    MinimapIcon 0 White Cross
+    PlayEffect White
+
+#Semiwhite Tiers - high value but not worthy of solid white bg's. recessed white highlighting, different sound
+#explody and high life chests
+Show
+    Class "Body Armour"
+    HasInfluence Elder Hunter Crusader
+    ItemLevel >= 85
+    DropLevel >= 65
+    SetBackgroundColor 100 100 100
+    SetBorderColor 250 250 250
+    SetFontSize 45
+    PlayAlertSound 1 250
+    MinimapIcon 1 White Cross
+    PlayEffect White
+#malevolence/hatred aura effect
+Show
+    BaseType "Opal Wand" "Imbued Wand" "Void Sceptre" "Opal Sceptre"
+    HasInfluence Hunter Redeemer
+    ItemLevel >= 80
+    SetBackgroundColor 100 100 100
+    SetBorderColor 250 250 250
+    SetFontSize 45
+    PlayAlertSound 1 250
+    MinimapIcon 1 White Cross
+    PlayEffect White
+#mana reservation
+Show
+    BaseType "Fossilised Spirit Shield" "Harmonic Spirit Shield" "Titanium Spirit Shield"
+    Class Shield
+    HasInfluence Shaper Hunter
+    ItemLevel >= 80
+    SetBackgroundColor 100 100 100
+    SetBorderColor 250 250 250
+    SetFontSize 45
+    PlayAlertSound 1 250
+    MinimapIcon 1 White Cross
+    PlayEffect White
+#min end charges
+Show
+    BaseType "Ezomyte Tower Shield" "Bronze Tower Shield" "Copper Tower Shield"
+    HasInfluence Warlord
+    ItemLevel >= 80
+    SetBackgroundColor 100 100 100
+    SetBorderColor 250 250 250
+    SetFontSize 45
+    PlayAlertSound 1 250
+    MinimapIcon 1 White Cross
+    PlayEffect White
+#max allres
+Show
+    Class Shield
+    HasInfluence Hunter
+    ItemLevel >= 85
+    SetBackgroundColor 100 100 100
+    SetBorderColor 250 250 250
+    SetFontSize 45
+    PlayAlertSound 1 250
+    MinimapIcon 1 White Cross
+    PlayEffect White
+#ailment avoidance
+Show
+    BaseType "Titan Greaves" "Sorcerer Boots"
+    HasInfluence Shaper
+    ItemLevel >= 81
+    SetBackgroundColor 100 100 100
+    SetBorderColor 250 250 250
+    SetFontSize 45
+    PlayAlertSound 1 250
+    MinimapIcon 1 White Cross
+    PlayEffect White
+#bleed
+Show
+    BaseType "Citadel Bow" "Siege Axe" "Royal Axe" "Karui Chopper" "Vaal Axe"
+    HasInfluence Elder
+    ItemLevel >= 83
+    SetBackgroundColor 100 100 100
+    SetBorderColor 250 250 250
+    SetFontSize 45
+    PlayAlertSound 1 250
+    MinimapIcon 1 White Cross
+    PlayEffect White
+#+1 arrow / dot multi
+Show
+    BaseType "Broadhead Arrow Quiver" "Penetrating Arrow Quiver" "Heavy Arrow Quiver"
+    HasInfluence Shaper Warlord Hunter
+    ItemLevel >= 80
+    SetBackgroundColor 100 100 100
+    SetBorderColor 250 250 250
+    SetFontSize 45
+    PlayAlertSound 1 250
+    MinimapIcon 1 White Cross
+    PlayEffect White
+#-9% res aura
+Show
+    BaseType "Royal Burgonet" "Eternal Burgonet" "Lion Pelt" "Hubris Circlet"
+    HasInfluence "Crusader" "Redeemer" "Hunter" "Warlord" "Elder" "Shaper"
+    ItemLevel >= 85
+    SetBackgroundColor 100 100 100
+    SetBorderColor 250 250 250
+    SetFontSize 45
+    PlayAlertSound 1 250
+    MinimapIcon 1 White Cross
+    PlayEffect White
+#thicc life
+Show
+    BaseType "Leather Belt"
+    HasInfluence Elder Hunter
+    ItemLevel >= 75
+    SetBackgroundColor 100 100 100
+    SetBorderColor 250 250 250
+    SetFontSize 45
+    PlayAlertSound 1 250
+    MinimapIcon 1 White Cross
+    PlayEffect White
+#envy
+Show
+    Class Amulet
+    HasInfluence Elder
+    ItemLevel >= 85
+    SetBackgroundColor 100 100 100
+    SetBorderColor 250 250 250
+    SetFontSize 45
+    PlayAlertSound 1 250
+    MinimapIcon 1 White Cross
+    PlayEffect White
+#+gems
+Show
+    Class Amulet
+    HasInfluence Crusader Redeemer Warlord Hunter
+    ItemLevel >= 82
+    SetBackgroundColor 100 100 100
+    SetBorderColor 250 250 250
+    SetFontSize 45
+    PlayAlertSound 1 250
+    MinimapIcon 1 White Cross
+    PlayEffect White
+#curse on hit
+Show
+    BaseType "Coral Ring" "Unset Ring"
+    HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
+    ItemLevel >= 80
+    SetBackgroundColor 100 100 100
+    SetBorderColor 250 250 250
+    SetFontSize 45
+    PlayAlertSound 1 250
+    MinimapIcon 1 White Cross
+    PlayEffect White
+#life on block (actual req 68)
+Show
+    BaseType "Fossilised Spirit Shield" "Harmonic Spirit Shield" "Ezomyte Tower Shield" "Bronze Tower Shield" "Copper Tower Shield" "Archon Kite Shield" "Angelic Kite Shield" "Ceremonial Kite Shield" "Colossal Tower Shield" "Supreme Spiked Shield"
+    Class Shield
+    HasInfluence Shaper Warlord
+    ItemLevel >= 80
+    SetBackgroundColor 100 100 100
+    SetBorderColor 250 250 250
+    SetFontSize 45
+    PlayAlertSound 1 250
+    MinimapIcon 1 White Cross
+    PlayEffect White
+#es on block (actual req 68)
+Show
+    BaseType "Titanium Spirit Shield"
+    Class Shield
+    HasInfluence Shaper Crusader
+    ItemLevel >= 80
+    SetBackgroundColor 100 100 100
+    SetBorderColor 250 250 250
+    SetFontSize 45
+    PlayAlertSound 1 250
+    MinimapIcon 1 White Cross
+    PlayEffect White
+#bases that don't drop often (mainly shields) for harvest influence rotation
+Show
+    BaseType "Titanium Spirit Shield" "Fossilised Spirit Shield" "Harmonic Spirit Shield"
+    HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
+    ItemLevel >= 80
+    SetBackgroundColor 100 100 100
+    SetBorderColor 250 250 250
+    SetFontSize 45
+    PlayAlertSound 1 250
+    MinimapIcon 1 White Cross
+    PlayEffect White
+
+#catchalls for good basetypes
+Show
+    BaseType "Sorcerer Boots" "Hubris Circlet" "Sorcerer Gloves" "Eternal Burgonet" "Royal Burgonet" "Lion Pelt" "Titan Gauntlets" "Titan Greaves" "Slink Gloves" "Slink Boots" "Saintly Chainmail" "Astral Plate" "Assassin's Garb" "Vaal Regalia" "Sambar Sceptre" "Copper Kris" "Platinum Kris" "Profane Wand" "Eclipse Staff" "Imbued Wand" "Opal Wand" "Opal Sceptre" "Void Sceptre" "Titanium Spirit Shield" "Fossilised Spirit Shield" "Harmonic Spirit Shield" "Crusader Buckler" "Copper Tower Shield" "Bronze Tower Shield" "Ezomyte Tower Shield" "Archon Kite Shield" "Angelic Kite Shield" "Ceremonial Kite Shield" "Supreme Spiked Shield"
+    HasInfluence Crusader Hunter Shaper Elder
+    ItemLevel >= 85
+    SetBackgroundColor 100 100 100
+    SetBorderColor 250 250 250
+    SetFontSize 45
+    PlayAlertSound 1 250
+    MinimapIcon 1 White Cross
+    PlayEffect White
+Show
+    BaseType "Sorcerer Boots" "Hubris Circlet" "Sorcerer Gloves" "Eternal Burgonet" "Royal Burgonet" "Lion Pelt" "Titan Gauntlets" "Titan Greaves" "Slink Gloves" "Slink Boots" "Saintly Chainmail" "Astral Plate" "Assassin's Garb" "Vaal Regalia" "Sambar Sceptre" "Copper Kris" "Platinum Kris" "Profane Wand" "Eclipse Staff" "Imbued Wand" "Opal Wand" "Opal Sceptre" "Void Sceptre" "Titanium Spirit Shield" "Fossilised Spirit Shield" "Harmonic Spirit Shield" "Crusader Buckler" "Copper Tower Shield" "Bronze Tower Shield" "Ezomyte Tower Shield" "Archon Kite Shield" "Angelic Kite Shield" "Ceremonial Kite Shield" "Supreme Spiked Shield"
+    HasInfluence Redeemer Warlord
+    ItemLevel >= 83
+    SetBackgroundColor 100 100 100
+    SetBorderColor 250 250 250
+    SetFontSize 45
+    PlayAlertSound 1 250
+    MinimapIcon 1 White Cross
+    PlayEffect White
+
+#6s exception with slightly different highlight from regular 6s
+Show
+    Sockets = 6
+    HasInfluence Crusader Redeemer Hunter Warlord Shaper Elder
+    SetBackgroundColor 0 150 150
+    SetBorderColor 0 250 250
+    SetTextColor 0 0 0
+    SetFontSize 45
+    PlayAlertSound 2 200
+    MinimapIcon 0 Green Square
+    PlayEffect Green
+
+#Shaper
+Show
+    Class "Gloves" "Body Armour"
+    HasInfluence Shaper
+    ItemLevel >= 84
+    DropLevel >= 65
+    SetBackgroundColor 25 0 50
+    SetBorderColor 250 250 250
+    SetFontSize 45
+    PlayAlertSound 16 250
+    MinimapIcon 0 Purple Cross
+    PlayEffect Purple
+Show
+    Class "One Hand" "Claw" "Staves"
+    HasInfluence Shaper
+    ItemLevel >= 83
+    DropLevel >= 65
+    SetBackgroundColor 25 0 50
+    SetBorderColor 250 250 250
+    SetFontSize 45
+    PlayAlertSound 16 250
+    MinimapIcon 0 Purple Cross
+    PlayEffect Purple
+Show
+    Class "Amulet"
+    HasInfluence Shaper
+    ItemLevel >= 82
+    SetBackgroundColor 25 0 50
+    SetBorderColor 250 250 250
+    SetFontSize 45
+    PlayAlertSound 16 250
+    MinimapIcon 0 Purple Cross
+    PlayEffect Purple
+Show
+    Class Boots
+    HasInfluence Shaper
+    ItemLevel >= 81
+    DropLevel >= 65
+    SetBackgroundColor 25 0 50
+    SetBorderColor 250 250 250
+    SetFontSize 45
+    PlayAlertSound 16 250
+    MinimapIcon 0 Purple Cross
+    PlayEffect Purple
+Show
+    BaseType "Ruby Ring" "Sapphire Ring" "Topaz Ring" "Two-Stone Ring" "Prismatic Ring" "Coral Ring" "Unset Ring" "Moonstone Ring" "Amethyst Ring" "Iron Ring" "Chain Belt" "Leather Belt" "Heavy Belt"
+    HasInfluence Shaper
+    ItemLevel >= 80
+    SetBackgroundColor 25 0 50
+    SetBorderColor 250 250 250
+    SetFontSize 45
+    PlayAlertSound 16 200
+    MinimapIcon 0 Purple Cross
+    PlayEffect Purple
+Show
+    HasInfluence Shaper
+    ItemLevel >= 75
+    DropLevel >= 59
+    SetBackgroundColor 25 0 50
+    SetBorderColor 100 0 200
+    SetFontSize 40
+    PlayAlertSound 16 200
+    MinimapIcon 1 Purple Cross
+    PlayEffect Purple Temp
+Show
+    HasInfluence Shaper
+    SetBackgroundColor 25 0 50
+    SetBorderColor 100 0 200
+    SetFontSize 40
+    MinimapIcon 2 Purple Cross
+
+#Elder
+Show
+    Class "Sceptre" "Wand"
+    HasInfluence Elder
+    ItemLevel >= 85
+    DropLevel >= 65
+    SetBackgroundColor 25 25 50
+    SetBorderColor 250 250 250
+    SetFontSize 45
+    PlayAlertSound 16 250
+    MinimapIcon 0 Grey Cross
+    PlayEffect Grey
+Show
+    Class "Gloves" "Body Armour" "Shield" "Staves"
+    HasInfluence Elder
+    ItemLevel >= 84
+    DropLevel >= 65
+    SetBackgroundColor 25 25 50
+    SetBorderColor 250 250 250
+    SetFontSize 45
+    PlayAlertSound 16 250
+    MinimapIcon 0 Grey Cross
+    PlayEffect Grey
+Show
+    Class "Boots" "Helmets"
+    HasInfluence Elder
+    ItemLevel >= 83
+    DropLevel >= 65
+    SetBackgroundColor 25 25 50
+    SetBorderColor 250 250 250
+    SetFontSize 45
+    PlayAlertSound 16 250
+    MinimapIcon 0 Grey Cross
+    PlayEffect Grey
+Show
+    Class "Bow"
+    HasInfluence Elder
+    ItemLevel >= 82
+    DropLevel >= 65
+    SetBackgroundColor 25 25 50
+    SetBorderColor 250 250 250
+    SetFontSize 45
+    PlayAlertSound 16 250
+    MinimapIcon 0 Grey Cross
+    PlayEffect Grey
+Show
+    Class "Amulet"
+    HasInfluence Elder
+    ItemLevel >= 83
+    SetBackgroundColor 25 25 50
+    SetBorderColor 250 250 250
+    SetFontSize 45
+    PlayAlertSound 16 250
+    MinimapIcon 0 Grey Cross
+    PlayEffect Grey
+Show
+    BaseType "Ruby Ring" "Sapphire Ring" "Topaz Ring" "Two-Stone Ring" "Prismatic Ring" "Coral Ring" "Unset Ring" "Moonstone Ring" "Amethyst Ring" "Iron Ring" "Chain Belt" "Leather Belt" "Heavy Belt"
+    HasInfluence Elder
+    ItemLevel >= 80
+    SetBackgroundColor 25 25 50
+    SetBorderColor 250 250 250
+    SetFontSize 45
+    PlayAlertSound 16 200
+    MinimapIcon 0 Grey Cross
+    PlayEffect Grey
+Show
+    HasInfluence Elder
+    ItemLevel >= 75
+    DropLevel >= 59
+    SetBackgroundColor 25 25 50
+    SetBorderColor 150 150 200
+    SetFontSize 40
+    PlayAlertSound 16 200
+    MinimapIcon 1 Grey Cross
+    PlayEffect Grey Temp
+Show
+    HasInfluence Elder
+    SetBackgroundColor 25 25 50
+    SetBorderColor 150 150 200
+    SetFontSize 40
+    MinimapIcon 2 Grey Cross
+
+#Crusader
+Show
+    Class "Helmet"
+    HasInfluence Crusader
+    ItemLevel >= 83
+    DropLevel >= 65
+    SetBackgroundColor 40 0 0
+    SetBorderColor 250 250 250
+    SetFontSize 45
+    PlayAlertSound 16 250
+    MinimapIcon 0 Red Cross
+    PlayEffect Red
+Show
+    Class "Amulet"
+    HasInfluence Crusader
+    ItemLevel >= 82
+    SetBackgroundColor 40 0 0
+    SetBorderColor 250 250 250
+    SetFontSize 45
+    PlayAlertSound 16 250
+    MinimapIcon 0 Red Cross
+    PlayEffect Red
+Show
+    Class "Gloves" "Boots" "Shield" "Sceptre" "Wand"
+    HasInfluence Crusader
+    ItemLevel >= 80
+    DropLevel >= 65
+    SetBackgroundColor 40 0 0
+    SetBorderColor 250 250 250
+    SetFontSize 45
+    PlayAlertSound 16 250
+    MinimapIcon 0 Red Cross
+    PlayEffect Red
+Show
+    BaseType "Ruby Ring" "Sapphire Ring" "Topaz Ring" "Two-Stone Ring" "Prismatic Ring" "Coral Ring" "Unset Ring" "Moonstone Ring" "Amethyst Ring" "Iron Ring" "Leather Belt" "Heavy Belt"
+    HasInfluence Crusader
+    ItemLevel >= 80
+    SetBackgroundColor 40 0 0
+    SetBorderColor 250 250 250
+    SetFontSize 45
+    PlayAlertSound 16 200
+    MinimapIcon 0 Red Cross
+    PlayEffect Red
+Show
+    HasInfluence Crusader
+    ItemLevel >= 75
+    DropLevel >= 59
+    SetBackgroundColor 40 0 0
+    SetBorderColor 200 0 0
+    SetFontSize 40
+    PlayAlertSound 16 200
+    MinimapIcon 1 Red Cross
+    PlayEffect Red Temp
+Show
+    HasInfluence Crusader
+    SetBackgroundColor 40 0 0
+    SetBorderColor 200 0 0
+    SetFontSize 40
+    MinimapIcon 2 Red Cross
+
+#Redeemer
+Show
+    Class "Helmets" "Body Armour"
+    HasInfluence Redeemer
+    ItemLevel >= 83
+    DropLevel >= 65
+    SetBackgroundColor 0 0 90
+    SetBorderColor 250 250 250
+    SetFontSize 45
+    PlayAlertSound 16 250
+    MinimapIcon 0 Blue Cross
+    PlayEffect Blue
+Show
+    Class "Amulet"
+    HasInfluence Redeemer
+    ItemLevel >= 82
+    SetBackgroundColor 0 0 90
+    SetBorderColor 250 250 250
+    SetFontSize 45
+    PlayAlertSound 16 250
+    MinimapIcon 0 Blue Cross
+    PlayEffect Blue
+Show
+    BaseType "Leather Belt" "Heavy Belt" "Chain Belt"
+    HasInfluence Redeemer
+    ItemLevel >= 81
+    SetBackgroundColor 0 0 90
+    SetBorderColor 250 250 250
+    SetFontSize 45
+    PlayAlertSound 16 250
+    MinimapIcon 0 Blue Cross
+    PlayEffect Blue
+Show
+    Class "Gloves" "Boots" "Quiver" "Shield" "Sceptre" "Wand"
+    HasInfluence Redeemer
+    ItemLevel >= 80
+    DropLevel >= 60
+    SetBackgroundColor 0 0 90
+    SetBorderColor 250 250 250
+    SetFontSize 45
+    PlayAlertSound 16 250
+    MinimapIcon 0 Blue Cross
+    PlayEffect Blue
+Show
+    BaseType "Ruby Ring" "Sapphire Ring" "Topaz Ring" "Two-Stone Ring" "Prismatic Ring" "Coral Ring" "Unset Ring" "Moonstone Ring" "Amethyst Ring" "Iron Ring"
+    HasInfluence Redeemer
+    ItemLevel >= 80
+    SetBackgroundColor 0 0 90
+    SetBorderColor 250 250 250
+    SetFontSize 45
+    PlayAlertSound 16 200
+    MinimapIcon 0 Blue Cross
+    PlayEffect Blue
+Show
+    HasInfluence Redeemer
+    ItemLevel >= 75
+    DropLevel >= 59
+    SetBackgroundColor 0 0 90
+    SetBorderColor 0 175 250
+    SetFontSize 40
+    PlayAlertSound 16 200
+    MinimapIcon 1 Blue Cross
+    PlayEffect Blue Temp
+Show
+    HasInfluence Redeemer
+    SetBackgroundColor 0 0 90
+    SetBorderColor 0 175 250
+    SetFontSize 40
+    MinimapIcon 2 Blue Cross
+
+#Hunter
+Show
+    BaseType "Leather Belt" "Heavy Belt"
+    HasInfluence Hunter
+    ItemLevel >= 84
+    SetBackgroundColor 0 35 0
+    SetBorderColor 250 250 250
+    SetFontSize 45
+    PlayAlertSound 16 250
+    MinimapIcon 0 Green Cross
+    PlayEffect Green
+Show
+    Class "Body Armour"
+    HasInfluence Hunter
+    ItemLevel >= 84
+    DropLevel >= 65
+    SetBackgroundColor 0 35 0
+    SetBorderColor 250 250 250
+    SetFontSize 45
+    PlayAlertSound 16 250
+    MinimapIcon 0 Green Cross
+    PlayEffect Green
+Show
+    Class "Amulet"
+    HasInfluence Hunter
+    ItemLevel >= 82
+    SetBackgroundColor 0 35 0
+    SetBorderColor 250 250 250
+    SetFontSize 45
+    PlayAlertSound 16 250
+    MinimapIcon 0 Green Cross
+    PlayEffect Green
+Show
+    Class "Sceptre" "Wand"
+    HasInfluence Hunter
+    ItemLevel >= 81
+    DropLevel >= 65
+    SetBackgroundColor 0 35 0
+    SetBorderColor 250 250 250
+    SetFontSize 45
+    PlayAlertSound 16 250
+    MinimapIcon 0 Green Cross
+    PlayEffect Green
+Show
+    Class "Gloves" "Boots" "Helmet"
+    HasInfluence Hunter
+    ItemLevel >= 80
+    DropLevel >= 65
+    SetBackgroundColor 0 35 0
+    SetBorderColor 250 250 250
+    SetFontSize 45
+    PlayAlertSound 16 250
+    MinimapIcon 0 Green Cross
+    PlayEffect Green
+Show
+    Class "Quiver"
+    HasInfluence Hunter
+    ItemLevel >= 80
+    SetBackgroundColor 0 35 0
+    SetBorderColor 250 250 250
+    SetFontSize 45
+    PlayAlertSound 16 250
+    MinimapIcon 0 Green Cross
+    PlayEffect Green
+Show
+    BaseType "Ruby Ring" "Sapphire Ring" "Topaz Ring" "Two-Stone Ring" "Prismatic Ring" "Coral Ring" "Unset Ring" "Moonstone Ring" "Amethyst Ring" "Iron Ring" "Chain Belt"
+    HasInfluence Hunter
+    ItemLevel >= 80
+    SetBackgroundColor 0 35 0
+    SetBorderColor 250 250 250
+    SetFontSize 45
+    PlayAlertSound 16 200
+    MinimapIcon 0 Green Cross
+    PlayEffect Green
+Show
+    HasInfluence Hunter
+    ItemLevel >= 75
+    DropLevel >= 59
+    SetBackgroundColor 0 35 0
+    SetBorderColor 0 250 0
+    SetFontSize 40
+    PlayAlertSound 16 200
+    MinimapIcon 1 Green Cross
+    PlayEffect Green Temp
+Show
+    HasInfluence Hunter
+    SetBackgroundColor 0 35 0
+    SetBorderColor 0 200 0
+    SetFontSize 40
+    MinimapIcon 2 Green Cross
+
+#Warlord
+Show
+    Class "Helmet" "Body Armour"
+    HasInfluence Warlord
+    ItemLevel >= 83
+    DropLevel >= 65
+    SetBackgroundColor 35 35 0
+    SetBorderColor 250 250 100
+    SetFontSize 45
+    PlayAlertSound 16 250
+    MinimapIcon 0 Yellow Cross
+    PlayEffect Yellow
+Show
+    Class "Gloves" "Staves" "Bow"
+    HasInfluence Warlord
+    ItemLevel >= 82
+    DropLevel >= 65
+    SetBackgroundColor 35 35 0
+    SetBorderColor 250 250 100
+    SetFontSize 45
+    PlayAlertSound 16 250
+    MinimapIcon 0 Yellow Cross
+    PlayEffect Yellow
+Show
+    Class "Boots" "Shield" "Sceptre" "Wand"
+    HasInfluence Warlord
+    ItemLevel >= 80
+    DropLevel >= 65
+    SetBackgroundColor 35 35 0
+    SetBorderColor 250 250 100
+    SetFontSize 45
+    PlayAlertSound 16 250
+    MinimapIcon 0 Yellow Cross
+    PlayEffect Yellow
+Show
+    Class "Amulet"
+    HasInfluence Warlord
+    ItemLevel >= 82
+    SetBackgroundColor 35 35 0
+    SetBorderColor 250 250 100
+    SetFontSize 45
+    PlayAlertSound 16 250
+    MinimapIcon 0 Yellow Cross
+    PlayEffect Yellow
+Show
+    BaseType "Ruby Ring" "Sapphire Ring" "Topaz Ring" "Two-Stone Ring" "Prismatic Ring" "Coral Ring" "Unset Ring" "Moonstone Ring" "Amethyst Ring" "Iron Ring" "Leather Belt" "Heavy Belt" "Chain Belt"
+    HasInfluence Warlord
+    ItemLevel >= 80
+    SetBackgroundColor 35 35 0
+    SetBorderColor 250 250 250
+    SetFontSize 45
+    PlayAlertSound 16 200
+    MinimapIcon 0 Yellow Cross
+    PlayEffect Yellow
+Show
+    HasInfluence Warlord
+    ItemLevel >= 75
+    DropLevel >= 59
+    SetBackgroundColor 35 35 0
+    SetBorderColor 180 180 0
+    SetFontSize 40
+    PlayAlertSound 16 200
+    MinimapIcon 1 Yellow Cross
+    PlayEffect Yellow Temp
+Show
+    HasInfluence Warlord
+    SetBackgroundColor 35 35 0
+    SetBorderColor 180 180 0
+    SetFontSize 40
+    MinimapIcon 2 Yellow Cross
+
+#Temporary Exarch/Eater Sections (will be fleshed out later)
+Show
+    HasSearingExarchImplicit >= 1
+    SetBackgroundColor 40 0 0
+    SetBorderColor 200 0 0
+    SetFontSize 40
+    MinimapIcon 2 Red Cross
+Show
+    HasEaterOfWorldsImplicit >= 1
+    SetBackgroundColor 0 40 40
+    SetBorderColor 0 200 200
+    SetFontSize 40
+    MinimapIcon 2 Cyan Cross
+
+#Atlas Basetypes
+#Ultra Rare Top Ilvl Atlas Base Highlighting (offwhite)
+Show
+    BaseType "Bone Helmet"
+    ItemLevel >= 86
+    SetBackgroundColor 100 100 100
+    SetBorderColor 250 250 250
+    SetFontSize 45
+    PlayAlertSound 1 250
+    MinimapIcon 0 White Cross
+    PlayEffect White
+
+#Atlas Jewellery
+#top bases with sound
+Show
+    BaseType "Opal Ring" "Steel Ring" "Crystal Belt" "Marble Amulet" "Vermillion Ring" "Stygian Vise" "Blue Pearl Amulet" "Seaglass Amulet" "Iolite Ring"
+    Rarity Normal Magic Rare
+    ItemLevel >= 86
+    SetBackgroundColor 65 0 65
+    SetBorderColor 250 250 250
+    SetFontSize 45
+    PlayAlertSound 13 250
+    MinimapIcon 0 Red Kite
+    PlayEffect Red
+Show
+    BaseType "Opal Ring" "Steel Ring" "Crystal Belt" "Marble Amulet" "Vermillion Ring" "Stygian Vise" "Blue Pearl Amulet" "Seaglass Amulet" "Iolite Ring"
+    Rarity Normal Magic Rare
+    ItemLevel >= 85
+    SetBackgroundColor 65 0 65
+    SetBorderColor 250 200 150
+    SetFontSize 45
+    PlayAlertSound 13 250
+    MinimapIcon 1 Purple Kite
+    PlayEffect Purple
+Show
+    BaseType "Opal Ring" "Steel Ring" "Crystal Belt" "Marble Amulet" "Vermillion Ring" "Stygian Vise" "Blue Pearl Amulet" "Seaglass Amulet" "Iolite Ring"
+    Rarity Normal Magic Rare
+    ItemLevel >= 84
+    SetBackgroundColor 65 0 65
+    SetBorderColor 200 150 0
+    SetFontSize 45
+    PlayAlertSound 13 250
+    MinimapIcon 1 Blue Kite
+    PlayEffect Blue
+Show
+    BaseType "Opal Ring" "Steel Ring" "Crystal Belt" "Marble Amulet" "Vermillion Ring" "Stygian Vise" "Blue Pearl Amulet" "Seaglass Amulet" "Iolite Ring"
+    Rarity Normal Magic Rare
+    SetBackgroundColor 65 0 65
+    SetBorderColor 220 0 220
+    SetFontSize 45
+    PlayAlertSound 13 250
+    MinimapIcon 2 Blue Kite
+    PlayEffect Blue Temp
+#same highlight but no sound and smaller font size on 2nd tier jewellery bases
+Show
+    BaseType "Vanguard Belt" "Cerulean Ring"
+    Rarity Normal Magic Rare
+    ItemLevel >= 86
+    SetBackgroundColor 65 0 65
+    SetBorderColor 250 250 250
+    SetFontSize 40
+    MinimapIcon 0 Red Kite
+    PlayEffect Red
+Show
+    BaseType "Vanguard Belt" "Cerulean Ring"
+    Rarity Normal Magic Rare
+    ItemLevel >= 85
+    SetBackgroundColor 65 0 65
+    SetBorderColor 250 200 150
+    SetFontSize 40
+    MinimapIcon 1 Purple Kite
+    PlayEffect Purple
+Show
+    BaseType "Vanguard Belt" "Cerulean Ring"
+    Rarity Normal Magic Rare
+    ItemLevel >= 84
+    SetBackgroundColor 65 0 65
+    SetBorderColor 200 150 0
+    SetFontSize 40
+    MinimapIcon 1 Blue Kite
+    PlayEffect Blue
+Show
+    BaseType "Vanguard Belt" "Cerulean Ring"
+    Rarity Rare
+    SetBackgroundColor 65 0 65
+    SetBorderColor 220 0 220
+    SetFontSize 40
+Show
+    BaseType "Vanguard Belt" "Cerulean Ring"
+    Rarity Normal Magic
+    SetBackgroundColor 65 0 65
+    SetBorderColor 220 0 220
+    SetFontSize 40
+
+#Atlas Armour
+Show
+    BaseType "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Convoking Wand" "Fugitive Boots" "Apothecary's Gloves" "Artillery Quiver"
+    Rarity Normal Magic Rare
+    ItemLevel >= 86
+    SetBackgroundColor 75 0 75
+    SetBorderColor 250 250 250
+    SetFontSize 40
+    PlayAlertSound 13 250
+    MinimapIcon 0 Red Kite
+    PlayEffect Red
+Show
+    BaseType "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Convoking Wand" "Fugitive Boots" "Apothecary's Gloves" "Artillery Quiver"
+    Rarity Normal Magic Rare
+    ItemLevel >= 85
+    SetBackgroundColor 75 0 75
+    SetBorderColor 250 200 150
+    SetFontSize 40
+    PlayAlertSound 13 250
+    MinimapIcon 1 Purple Kite
+    PlayEffect Purple
+Show
+    BaseType "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Convoking Wand" "Fugitive Boots" "Apothecary's Gloves" "Artillery Quiver"
+    Rarity Normal Magic Rare
+    ItemLevel >= 84
+    SetBackgroundColor 75 0 75
+    SetBorderColor 200 150 0
+    SetFontSize 40
+    PlayAlertSound 13 250
+    MinimapIcon 2 Blue Kite
+    PlayEffect Blue
+Show
+    BaseType "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Convoking Wand" "Fugitive Boots" "Apothecary's Gloves" "Artillery Quiver"
+    Rarity Rare
+    SetBorderColor 200 0 200
+    SetFontSize 38
+Show
+    BaseType "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Convoking Wand" "Fugitive Boots" "Apothecary's Gloves" "Artillery Quiver"
+    Rarity Normal Magic
+    SetBorderColor 200 0 200

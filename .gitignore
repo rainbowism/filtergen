@@ -1,0 +1,8 @@
+# Build
+bin/
+.build/
+*.zip
+
+# Temporary ignore
+third_party/
+data/

@@ -1,0 +1,280 @@
+# [6.0] Rare identify
+#rarer mods (these mods must have sub-100 weighting)
+Show
+    BaseType "Wand" "Sceptre"
+    HasExplicitMod "Magister's"
+    Corrupted False
+    Mirrored False
+    SetTextColor 240 0 200
+    SetFontSize 38
+    PlayAlertSound 1 150
+    MinimapIcon 1 Pink Triangle
+    PlayEffect Pink
+Show
+    BaseType "Void Sceptre" "Opal Sceptre" "Sambar Sceptre" "Harmonic Spirit Shield" "Profane Wand" "Prophecy Wand" "Tornado Wand" "Opal Wand" "Imbued Wand"
+    HasExplicitMod "Glyphic" "Runic" "Heartstopping" "Gelid" "Fanatical" "Zealous" "Tul's" "Cryomancer's" "Esh's" "Ionising" "Xoph's" "Pyroclastic"
+    Corrupted False
+    Mirrored False
+    SetTextColor 240 0 200
+    SetFontSize 38
+    PlayAlertSound 1 150
+    MinimapIcon 1 Purple Triangle
+    PlayEffect Purple
+Show
+    BaseType "Convoking Wand"
+    HasExplicitMod "Empress's" "Queen's" "Martinet's"
+    Corrupted False
+    Mirrored False
+    SetTextColor 240 0 200
+    SetFontSize 38
+    PlayAlertSound 1 150
+    MinimapIcon 1 Purple Triangle
+    PlayEffect Purple
+Show
+    BaseType "Copper Kris" "Golden Kris" "Platinum Kris" "Harmonic Spirit Shield"
+    HasExplicitMod "Glyphic" "Runic" "Heartstopping" "Gelid" "Tul's" "Cryomancer's" "Esh's" "Ionising" "Xoph's" "Pyroclastic"
+    Corrupted False
+    Mirrored False
+    SetTextColor 240 0 200
+    SetFontSize 38
+    PlayAlertSound 1 150
+    MinimapIcon 1 Purple Triangle
+    PlayEffect Purple
+Show
+    BaseType "Convoking Wand"
+    HasExplicitMod "Empress's" "Queen's" "Martinet's"
+    Corrupted False
+    Mirrored False
+    SetTextColor 240 0 200
+    SetFontSize 38
+    PlayAlertSound 1 150
+    MinimapIcon 1 Purple Triangle
+    PlayEffect Purple
+Show
+    BaseType "Vaal Axe" "Karui Chopper" "Assassin Bow" "Spine Bow" "Siege Axe" "Runic Hatchet"
+    HasExplicitMod "Tyrannical" "Merciless"
+    Corrupted False
+    Mirrored False
+    SetTextColor 240 0 200
+    SetFontSize 38
+    PlayAlertSound 1 150
+    MinimapIcon 1 Purple Triangle
+    PlayEffect Purple
+
+#noteworthy but not as hard to roll mods (100-200 weighting on generic or t1/t2 restricted to top bases only). less meta / more common stuff has no icon/light
+Show
+    Class "Helmet"
+    HasExplicitMod "Necromancer's"
+    Corrupted False
+    Mirrored False
+    SetTextColor 150 50 250
+    SetFontSize 36
+    MinimapIcon 1 Blue Triangle
+    PlayEffect Blue Temp
+Show
+    BaseType "Vaal Axe" "Karui Chopper" "Assassin Bow" "Spine Bow" "Siege Axe" "Runic Hatchet"
+    HasExplicitMod "Flaring"
+    Corrupted False
+    Mirrored False
+    SetTextColor 150 50 250
+    SetFontSize 36
+    MinimapIcon 1 Blue Triangle
+    PlayEffect Blue Temp
+Show
+    BaseType "Wand" "Sceptre" "Shield"
+    HasExplicitMod "Flame Shaper's" "Frost Singer's" "Thunderhand's" "Mad Lord's" "Lithomancer's"
+    Corrupted False
+    Mirrored False
+    SetTextColor 150 50 250
+    SetFontSize 36
+    MinimapIcon 1 Blue Triangle
+    PlayEffect Blue Temp
+Show
+    BaseType "Staff"
+    HasExplicitMod "Magister's" "Lava Conjurer's" "Winter Beckoner's" "Tempest Master's" "Splintermind's" "Tecton's"
+    Corrupted False
+    Mirrored False
+    SetTextColor 150 50 250
+    MinimapIcon 1 Blue Triangle
+    PlayEffect Blue Temp
+
+#less noteworthy - no icon or light
+Show
+    BaseType "Jewelled Foil" "Spiraled Foil"
+    HasExplicitMod "Electrocuting"
+    Corrupted False
+    Mirrored False
+    SetTextColor 150 50 250
+    SetFontSize 36
+Show
+    BaseType "Vaal Regalia"
+    HasExplicitMod "Resplendent" "Incandescent" "Unfaltering" "Unassailable"
+    Corrupted False
+    Mirrored False
+    SetTextColor 150 50 250
+    SetFontSize 36
+Show
+    BaseType "Titanium Spirit Shield"
+    HasExplicitMod "Incandescent" "Scintillating" "Unfaltering" "Unassailable"
+    Corrupted False
+    Mirrored False
+    SetTextColor 150 50 250
+    SetFontSize 36
+Show
+    BaseType "Astral Plate"
+    HasExplicitMod "Rapturous" "Prime"
+    Corrupted False
+    Mirrored False
+    SetTextColor 150 50 250
+    SetFontSize 36
+Show
+    BaseType "Ezomyte Tower Shield" "Archon Kite Shield" "Angelic Kite Shield" "Ceremonial Kite Shield" "Harmonic Spirit Shield" "Fossilised Spirit Shield" "Titanium Spirit Shield" "Supreme Spiked Shield"
+    HasExplicitMod "Vigorous" "Fecund"
+    Corrupted False
+    Mirrored False
+    SetTextColor 150 50 250
+    SetFontSize 36
+Show
+    BaseType "Leather Belt"
+    HasExplicitMod "Fecund" "Overpowering" "Devastating"
+    Corrupted False
+    SetTextColor 150 50 250
+    SetFontSize 36
+Show
+    BaseType "Coral Ring" "Two-Stone Ring" "Sapphire Ring" "Ruby Ring" "Topaz Ring" "Jade Amulet" "Amber Amulet" "Lapis Amulet" "Agate Amulet" "Citrine Amulet" "Turquoise Amulet" "Onyx Amulet" "Unset Ring" "Blue Pearl Amulet"
+    HasExplicitMod "Athlete's" "Virile" "Rotund" "of Ferocity" "of Destruction" "Flawless"
+    Corrupted False
+    SetTextColor 150 50 250
+    SetFontSize 36
+Show
+    BaseType "Quicksilver Flask" "Basalt Flask" "Granite Flask" "Jade Flask" "Diamond Flask" "Quartz Flask" "Stibnite Flask"
+    HasExplicitMod "Chemist's"
+    Corrupted False
+    Mirrored False
+    SetTextColor 200 150 250
+    SetFontSize 36
+Show
+    BaseType "Divine Life Flask"
+    HasExplicitMod "Seething"
+    Corrupted False
+    Mirrored False
+    SetTextColor 200 150 250
+    SetFontSize 36
+Show
+    Class Jewel
+    HasExplicitMod "Vivid" "Shimmering" "Leadership" "Hale" "Healthy" "Sanguine" "Stalwart" "Shining" "Seething" "Incandescent" "Resplendent" "of Blinding" "of Onslaught" "of Phasing" "of Stifling" "of Distraction"
+    Corrupted False
+    Mirrored False
+    SetBackgroundColor 135 135 254
+    SetBorderColor 0 0 0
+    SetTextColor 125 0 250
+    SetFontSize 40
+    PlayEffect Blue Temp
+Show
+    Class Jewel
+    HasExplicitMod "Vivid" "Shimmering" "Leadership" "Hale" "Healthy" "Sanguine" "Stalwart" "Shining" "Seething" "Incandescent" "Resplendent" "of Blinding" "of Onslaught" "of Phasing" "of Stifling" "of Distraction"
+    Corrupted False
+    Mirrored False
+    SetBackgroundColor 225 225 110
+    SetBorderColor 0 0 0
+    SetTextColor 125 0 250
+    SetFontSize 40
+    PlayEffect Blue Temp
+#re-enabled for now hopefully not too spammy. update: WAY too spammy, enable only if you're really low on gear or trying to minmax what you get out of your maps. update2: trying out just gloves/boots only, hopefully not to spammy again. update3: TOO DUCKIN SPAMMY leaving this one as optional
+#Show
+#	Class "Helm"
+#	HasExplicitMod "Fecund" "of Exile" "of Bameth" "Hellion's" "Cheetah's"
+#	Corrupted False
+#	Mirrored False
+#	SetTextColor 150 50 250
+#	SetFontSize 36
+#Show
+#	Class "Gloves" "Boots"
+#	HasExplicitMod "Athlete's" "of Exile" "of Bameth" "Hellion's" "Cheetah's"
+#	Corrupted False
+#	Mirrored False
+#	SetTextColor 150 50 250
+#	SetFontSize 36
+
+#Corrupted Items with limited ID filtering (mainly jewels)
+Show
+    Rarity Rare
+    CorruptedMods 2
+    SetBackgroundColor 50 0 0
+    SetTextColor 175 0 0
+    SetFontSize 40
+    PlayEffect Red
+Show
+    Class Jewel
+    Corrupted True
+    Rarity Rare
+    HasExplicitMod "Vivid" "Shimmering" "Leadership" "Hale" "Healthy" "Sanguine" "Stalwart" "Shining" "Seething" "Incandescent" "Resplendent" "of Blinding" "of Onslaught" "of Phasing" "of Stifling" "of Distraction"
+    SetBackgroundColor 50 0 0
+    SetBorderColor 0 0 0
+    SetTextColor 150 50 250
+    SetFontSize 40
+    PlayEffect Blue Temp
+Show
+    Class Jewel
+    Corrupted True
+    Rarity Magic
+    HasExplicitMod "Vivid" "Shimmering" "Leadership" "Hale" "Healthy" "Sanguine" "Stalwart" "Shining" "Seething" "Incandescent" "Resplendent" "of Blinding" "of Onslaught" "of Phasing" "of Stifling" "of Distraction"
+    SetBackgroundColor 50 0 0
+    SetBorderColor 0 0 0
+    SetTextColor 150 50 250
+    SetFontSize 40
+    PlayEffect Blue Temp
+Show
+    Class "Jewel"
+    Corrupted True
+    Rarity Rare
+    SetBackgroundColor 50 0 0
+    SetBorderColor 0 0 0
+    SetTextColor 255 255 119
+    SetFontSize 36
+Show
+    Class "Jewel"
+    Corrupted True
+    Rarity Magic
+    SetBackgroundColor 50 0 0
+    SetBorderColor 0 0 0
+    SetTextColor 136 136 255
+    SetFontSize 36
+Show
+    BaseType "Breach Ring"
+    HasExplicitMod "of Exile" "of Bameth"
+    SetBackgroundColor 0 50 100
+    SetBorderColor 75 150 255
+    SetTextColor 150 50 250
+    SetFontSize 36
+Show
+    BaseType "Breach Ring"
+    SetBackgroundColor 0 50 100
+    SetBorderColor 75 150 255
+    SetFontSize 34
+    DisableDropSound
+Show
+    BaseType "Leather Belt"
+    Rarity Magic Rare
+    Corrupted True
+    HasExplicitMod "Fecund"
+    SetBackgroundColor 50 0 0
+    SetBorderColor 0 0 0
+    SetTextColor 150 50 250
+    SetFontSize 38
+Show
+    Class "Ring"
+    Rarity Magic Rare
+    Corrupted True
+    HasExplicitMod "Virile" "Rotund" "Athlete's"
+    SetBackgroundColor 50 0 0
+    SetBorderColor 0 0 0
+    SetTextColor 150 50 250
+    SetFontSize 38
+Show
+    Class "Ring" "Belt"
+    Rarity Magic Rare
+    Corrupted True
+    SetBackgroundColor 50 0 0
+    SetBorderColor 0 0 0
+    SetFontSize 38

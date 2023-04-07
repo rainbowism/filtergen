@@ -1,0 +1,36 @@
+### Main
+
+# Add another `#` at the beginning of any line to disable it.
+
+# PoE's directory: C:/Users/<user>/Documents/My Games/Path of Exile
+# REQUIRED
+#def:output,
+
+# Chancing bases
+##def:chance,"Praetor Crown"
+
+# Favourite maps
+##def:favourite_maps,== "Underground Sea Map"
+
+# Show 6 sockets
+#def:6sockets,enabled
+
+# Add alert sounds and minimap icons to ALL uniques
+##def:all_unique_alerts,enabled
+
+# Show i84+ utility flasks in Uber
+#def:uber_show_utility_flasks
+
+### Styles
+
+# To go `01_style` to edit colours.
+#include:style.txt
+
+### Veils
+#include:veils.txt
+
+### Cards
+#include:cards.txt
+
+# REQUIRED
+#include:filters/00_base_3.21.filter

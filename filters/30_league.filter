@@ -31,6 +31,10 @@ Show
     Rarity Unique
     %unique_t4
     SetFontSize 38
+Hide
+    BaseType "Talisman"
+    Rarity Rare
+    Class Amulet
 #type:<semi
 Show
     BaseType "Talisman"
@@ -884,17 +888,37 @@ Show
     PlayEffect Blue
 Show
     SynthesisedItem True
+    Corrupted False
     SetBackgroundColor 40 90 140
     SetBorderColor 225 190 70
     SetFontSize 45
     PlayAlertSound 16 200
     MinimapIcon 1 Blue Moon
     PlayEffect Blue
+#Show
+#    FracturedItem True
+#    Corrupted False
+#    SetBackgroundColor 40 90 140
+#    SetBorderColor 150 150 150
+#    SetFontSize 40
+#    PlayAlertSound 16 200
+#    MinimapIcon 2 Blue Moon
+#    PlayEffect Grey
+Show
+    SynthesisedItem True
+    Corrupted True
+    SetBackgroundColor 40 90 140
+    SetBorderColor 225 70 20
+    SetFontSize 34
+    PlayAlertSound 16 200
+    MinimapIcon 1 Blue Moon
+    PlayEffect Blue
 Show
     FracturedItem True
+    Corrupted True
     SetBackgroundColor 40 90 140
-    SetBorderColor 150 150 150
-    SetFontSize 40
+    SetBorderColor 150 50 50
+    SetFontSize 32
     PlayAlertSound 16 200
     MinimapIcon 2 Blue Moon
     PlayEffect Grey
@@ -904,38 +928,55 @@ Show
     Rarity Normal Magic Rare
     BaseType "Agate Amulet" "Alder Spiked Shield" "Amber Amulet" "Amethyst Ring" "Apothecary's Gloves" "Arcanist Slippers" "Archon Kite Shield" "Assassin's Boots" "Assassin's Garb" "Assassin's Mitts" "Astral Plate" "Blood Raiment" "Blue Pearl Amulet" "Bone Helmet" "Cardinal Round Shield" "Carnal Armour" "Carnal Boots" "Carnal Sceptre" "Cerulean Ring" "Champion Kite Shield" "Citadel Bow" "Citrine Amulet" "Colossal Tower Shield" "Convening Wand" "Convoking Wand" "Copper Kris" "Coral Ring" "Corsair Sword" "Crusader Boots" "Crusader Buckler" "Crusader Gloves" "Crystal Belt" "Crystal Wand" "Deicide Mask" "Demon Dagger" "Demon's Horn" "Despot Axe" "Diamond Ring" "Dragonscale Boots" "Dragonscale Gauntlets" "Eclipse Staff" "Elegant Round Shield" "Eternal Burgonet" "Exquisite Blade" "Ezomyte Spiked Shield" "Ezomyte Tower Shield" "Fiend Dagger" "Fingerless Silk Gloves" "Fleshripper" "Fossilised Spirit Shield" "Fugitive Boots" "Full Dragonscale" "Gemini Claw" "General's Brigandine" "Golden Kris" "Gripped Gloves" "Harbinger Bow" "Harmonic Spirit Shield" "Heathen Wand" "Heavy Arrow Quiver" "Heavy Belt" "Hubris Circlet" "Hydrascale Boots" "Hydrascale Gauntlets" "Imbued Wand" "Imp Dagger" "Imperial Bow" "Imperial Buckler" "Imperial Claw" "Iolite Ring" "Ironwood Buckler" "Jade Amulet" "Jewelled Foil" "Lacquered Buckler" "Lapis Amulet" "Leather Belt" "Lion Pelt" "Maraketh Bow" "Marble Amulet" "Mirrored Spiked Shield" "Murder Boots" "Murder Mitts" "Nightmare Bascinet" "Omen Wand" "Onyx Amulet" "Opal Ring" "Opal Sceptre" "Opal Wand" "Pagan Wand" "Penetrating Arrow Quiver" "Pig-Faced Bascinet" "Piledriver" "Pinnacle Tower Shield" "Platinum Kris" "Primal Arrow Quiver" "Profane Wand" "Prophecy Wand" "Royal Burgonet" "Ruby Ring" "Runic Hatchet" "Rustic Sash" "Sadist Garb" "Saint's Hauberk" "Saintly Chainmail" "Sambar Sceptre" "Sapphire Ring" "Seaglass Amulet" "Shagreen Boots" "Sharkskin Boots" "Short Bow" "Siege Axe" "Sinner Tricorne" "Skean" "Slink Boots" "Slink Gloves" "Sorcerer Boots" "Sorcerer Gloves" "Sovereign Spiked Shield" "Spike-Point Arrow Quiver" "Spiked Gloves" "Spine Bow" "Spiny Round Shield" "Spiraled Foil" "Stealth Boots" "Stealth Gloves" "Steel Ring" "Stygian Vise" "Supreme Spiked Shield" "Thicket Bow" "Titan Gauntlets" "Titan Greaves" "Titanium Spirit Shield" "Topaz Ring" "Tornado Wand" "Triumphant Lamellar" "Turquoise Amulet" "Two-Stone Ring" "Two-Toned Boots" "Unset Ring" "Vaal Buckler" "Vaal Greaves" "Vaal Mask" "Vaal Regalia" "Vaal Sceptre" "Vaal Spirit Shield" "Vermillion Ring" "Void Sceptre" "Wyrmscale Boots" "Zodiac Leather"
     SetFontSize 45
-    SetTextColor 0 240 190 255
-    SetBorderColor 0 240 190 255
-    SetBackgroundColor 0 0 0 255
+    SetBackgroundColor 40 90 140
+    SetBorderColor 150 150 150
     PlayAlertSound 3 200
     PlayEffect Blue
     MinimapIcon 2 Blue Moon
 #type:>strict
 Show
 	FracturedItem True
+    Corrupted False
+    Mirrored False
 	Rarity Normal Magic Rare
-    BaseType "Stygian Vise Belt" "Crystal Belt" "Leather Belt" "Heavy Belt" "Micro-Distillery Belt"
+    BaseType "Stygian Vise" "Crystal Belt" "Leather Belt" "Heavy Belt" "Micro-Distillery Belt"
 	Class == "Belts"
 	SetFontSize 45
-	SetBorderColor 0 240 190 255
+    SetBackgroundColor 40 90 140
+    SetBorderColor 150 150 150
 	PlayAlertSound 16 200
 	PlayEffect Blue
     MinimapIcon 1 Blue Moon
 Show
 	FracturedItem True
+    Corrupted False
+    Mirrored False
 	Rarity Normal Magic Rare
 	Class == "Amulets" "Rings" "Heist Brooches" "Heist Cloaks" "Heist Gear" "Heist Tools" "Jewels" "Abyss Jewels" "Maps" "Quivers" "Utility Flasks" "Bows" "Rune Daggers" "Sceptres" "Shields"
 	SetFontSize 45
-	SetBorderColor 0 240 190 255
+    SetBackgroundColor 40 90 140
+    SetBorderColor 150 150 150
 	PlayAlertSound 16 200
 	PlayEffect Blue
     MinimapIcon 1 Blue Moon
 Show
 	FracturedItem True
+    Corrupted False
+    Mirrored False
 	Rarity Normal Magic Rare
-	Class == "Amulets" "Belts" "Boots" "Bows" "Gloves" "Heist Brooches" "Heist Cloaks" "Heist Gear" "Heist Tools" "Jewels" "Maps" "Quivers" "Rings" "Rune Daggers" "Sceptres" "Shields" "Flasks" "Wands"
-	SetFontSize 36
-	SetBorderColor 0 240 190 255
+	Class == "Amulets" "Belts" "Boots" "Bows" "Gloves" "Heist Brooches" "Heist Cloaks" "Heist Gear" "Heist Tools" "Jewels" "Maps" "Quivers" "Rings" "Rune Daggers" "Sceptres" "Shields" "Flask" "Wands"
+	SetFontSize 38
+    SetBackgroundColor 40 90 140
+    SetBorderColor 150 150 150
+Show
+    FracturedItem True
+    Corrupted False
+    SetBackgroundColor 40 90 140 150
+    SetBorderColor 150 150 150 150
+    SetFontSize 24
+    PlayAlertSound 16 200
+    MinimapIcon 2 Blue Moon
+    PlayEffect Grey
 #type:<semi
 Show
 	FracturedItem True
@@ -946,12 +987,13 @@ Show
 	PlayAlertSound 16 200
 	PlayEffect Blue
     MinimapIcon 1 Blue Moon
-#type:Basic
+#type:basic
 Show
 	FracturedItem True
 	Rarity Normal Magic Rare
+    SetBackgroundColor 40 90 140
+    SetBorderColor 150 150 150
 	SetFontSize 45
-	SetBorderColor 0 240 190 255
 #type:default
 
 # [3.15] (3.7) Legion
@@ -1329,10 +1371,8 @@ Show
     PlayEffect Cyan Temp
 Show
     BaseType "Regrading Lens" "Tempering Orb" "Tailoring Orb"
-    SetBackgroundColor 240 0 200
-    SetBorderColor 0 0 0
-    SetTextColor 0 0 0
-    PlayAlertSound 10 250
+    %$_chaos
+    PlayAlertSound 3 200
     SetFontSize 45
     MinimapIcon 1 Pink Circle
     PlayEffect Pink
@@ -1541,9 +1581,21 @@ Show
 	MinimapIcon 1 Yellow Square
 	PlayEffect Yellow
 
-#Show
-#    HasCruciblePassiveTree True
-#    SetBackgroundColor 86 20 4
-#    SetBorderColor 250 168 83
-#    SetTextColor 250 168 83
-#    SetFontSize 45
+Show
+    Rarity Unique
+    HasCruciblePassiveTree True
+    SetBackgroundColor 86 20 4
+    SetBorderColor 250 168 83
+    SetTextColor 250 168 83
+    SetFontSize 42
+    PlayAlertSound 5 150
+    MinimapIcon 0 Orange Star
+    PlayEffect Orange
+
+Show
+    Rarity Normal Magic Rare
+    HasCruciblePassiveTree True
+    SetBackgroundColor 86 20 4
+    SetBorderColor 250 168 83
+    SetTextColor 250 168 83
+    SetFontSize 40

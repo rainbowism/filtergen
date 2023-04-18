@@ -15,6 +15,22 @@ Show
     SetFontSize 36
 #end
 
+#if:bases
+#Set your preferred basetype(s) here.
+Show
+    BaseType %bases
+    Rarity Normal Magic Rare
+    HasInfluence None
+    Corrupted False
+    FracturedItem False
+    HasCruciblePassiveTree False
+    Mirrored False
+    Sockets < 6
+    SetBorderColor 200 80 0
+    ItemLevel >= 84
+    SetFontSize 36
+#end
+
 #if:favourite_maps
 #Favorite Maps - replace these with your favorites. Keep in mind this highlighting will be used for shaper/elder maps of those basetypes as well.
 Show
@@ -22,6 +38,7 @@ Show
     Class Map
     Rarity Normal Magic Rare
     HasInfluence None
+    MapTier 16
     %map_fav
     SetFontSize 45
     PlayAlertSound 15 150

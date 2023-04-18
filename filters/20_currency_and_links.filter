@@ -165,7 +165,16 @@ Show
     MinimapIcon 2 Cyan Circle
     DisableDropSound
 Show
-    BaseType "Orb of Alchemy" "Orb of Binding" "Orb of Fusing" "Cartographer's Chisel" "Orb of Horizons" "Engineer's Orb"
+    BaseType "Glassblower's Bauble" "Orb of Chance"
+    StackSize >= 3
+	%$_alch
+    SetFontSize 45
+    PlayAlertSound 3 100
+    MinimapIcon 2 Green Circle
+    DisableDropSound
+Show
+    BaseType "Orb of Alteration" "Orb of Augmentation"
+    StackSize >= 6
 	%$_alch
     SetFontSize 45
     PlayAlertSound 3 100
@@ -194,6 +203,18 @@ Show
 #type:>strict
 #Minor Currency, Scrolls, Etc
 Show
+    BaseType "Orb of Alchemy" "Orb of Binding" "Orb of Fusing" "Cartographer's Chisel" "Orb of Horizons" "Engineer's Orb"
+	%$_alch
+    StackSize >= 2
+    SetFontSize 45
+    PlayAlertSound 3 100
+    MinimapIcon 2 Green Circle
+    DisableDropSound
+Show
+    BaseType "Orb of Alchemy" "Orb of Binding" "Orb of Fusing" "Cartographer's Chisel" "Orb of Horizons" "Engineer's Orb"
+	%$_alch
+    SetFontSize 40
+Show
     BaseType "Orb of Alteration" "Glassblower's Bauble" "Orb of Chance" "Orb of Augmentation"
     %$_trash
     StackSize >= 3
@@ -208,6 +229,10 @@ Show
     %$_trash
     StackSize >= 8
     SetFontSize 40
+Show
+    BaseType "Glassblower's Bauble"
+    %$_trash
+    SetFontSize 38
 Hide
     BaseType "Scroll of Wisdom" "Portal Scroll" "Orb of Transmutation" "Orb of Augmentation" "Armourer's Scrap" "Blacksmith's Whetstone" "Chromatic Orb" "Orb of Alteration" "Glassblower's Bauble" "Jeweller's Orb" "Orb of Chance"
     %$_trash
@@ -236,6 +261,14 @@ Show
     %$_trash
     SetFontSize 38
 #type:default
+
+Show
+    BaseType "Orb of Alchemy" "Orb of Binding" "Orb of Fusing" "Cartographer's Chisel" "Orb of Horizons" "Engineer's Orb"
+	%$_alch
+    SetFontSize 45
+    PlayAlertSound 3 100
+    MinimapIcon 2 Green Circle
+    DisableDropSound
 
 #6L Blocks - located up here due to code priority issues. 5L and 6S blocks are in the Sockets section (7)
 #corrupted catcher

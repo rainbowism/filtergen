@@ -1,4 +1,36 @@
 # [10.0] Misc base filtering
+#type:>strict
+Show
+    BaseType "Spine Bow" "Dragonscale Boots" "Two-Toned Boots"
+    ItemLevel >= 86
+    SetBorderColor 250 250 250
+    SetFontSize 40
+    PlayEffect White Temp
+    MinimapIcon 2 White Triangle
+
+Show
+    BaseType "Royal Burgonet" "Hubris Circlet" "Lion Pelt" "Nightmare Bascinet" "Pig-Faced Bascinet" "Dragonscale Gauntlets"
+    ItemLevel >= 85
+    SetBorderColor 100 250 100
+    SetFontSize 34
+
+Show
+    BaseType "Coral Ring" "Sapphire Ring" "Topaz Ring" "Ruby Ring" "Two-Stone Ring" "Prismatic Ring" "Unset Ring" "Leather Belt" "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Citrine Amulet" "Agate Amulet" "Turquoise Amulet" "Onyx Amulet" "Moonstone Ring" "Amethyst Ring" "Stygian Vise"
+    Rarity Rare
+    ItemLevel >= 68
+    SetBackgroundColor 50 0 100
+    SetBorderColor 200 135 0
+    SetFontSize 40
+
+Show
+    BaseType  "Royal Burgonet" "Lion Pelt" "Despot Axe" "Spine Bow" "Profane Wand" "Opal Sceptre" "Void Sceptre" "Karui Sceptre" "Broadhead Arrow Quiver" "Feathered Arrow Quiver" "Fossilised Spirit Shield" "Agate Amulet" "Turquoise Amulet" "Citrine Amulet" "Two-Stone Ring" "Prismatic Ring" "Unset Ring"  "Dragonscale Boots" "Dragonscale Gauntlets"
+    ItemLevel >= 84
+    Rarity Rare
+    Corrupted False
+    Mirrored False
+    SetBorderColor 150 100 0
+    SetFontSize 38
+#type:<semi
 #i86 Priority - Bases with consistently high (10c+) value even later into the league (tldr: shields) note: removed lacquered for now, need to check Synth econ to see if it should stay or not
 Show
     BaseType "Titanium Spirit Shield" "Ezomyte Tower Shield" "Spine Bow"
@@ -229,8 +261,9 @@ Show
     SetBackgroundColor 0 50 100
     SetBorderColor 75 150 255
     SetFontSize 36
+#type:default
 
-#type:uber
+#type:>strict
 Hide
     Rarity Rare
     SetBorderColor 150 0 255

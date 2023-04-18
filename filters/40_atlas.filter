@@ -4,7 +4,7 @@ Show
     BaseType "Maven's Writ" "Invitation"
     %fragment_t1
     SetFontSize 45
-    PlayAlertSound 8 150
+    PlayAlertSound 9 150
     MinimapIcon 0 Yellow Hexagon
     PlayEffect Yellow
 Show
@@ -140,7 +140,7 @@ Show
     MapTier >= 11
     %map_t2
     SetFontSize 45
-    PlayAlertSound 8 200
+    PlayAlertSound 9 200
     MinimapIcon 0 Yellow Hexagon
     PlayEffect Red
 Show
@@ -197,7 +197,7 @@ Show
     MapTier >= 14
     %map_vaal_t1
     SetFontSize 42
-    PlayAlertSound 8 150
+    PlayAlertSound 9 150
     MinimapIcon 1 Red Hexagon
     PlayEffect Yellow
 Show
@@ -206,7 +206,7 @@ Show
     MapTier >= 11
     %map_vaal_t2
     SetFontSize 40
-    PlayAlertSound 8 150
+    PlayAlertSound 9 150
     MinimapIcon 1 Red Hexagon
     PlayEffect Yellow
 Show
@@ -237,6 +237,7 @@ Show
     MapTier >= 14
     %map_t1
     SetFontSize 45
+    PlayAlertSound 9 150
     MinimapIcon 0 Red Hexagon
     PlayEffect Pink
 Show
@@ -245,7 +246,7 @@ Show
     MapTier >= 11
     %map_t2
     SetFontSize 42
-    PlayAlertSound 8 150
+    PlayAlertSound 9 150
     MinimapIcon 1 Red Hexagon
     PlayEffect Red
 Show
@@ -253,7 +254,7 @@ Show
     MapTier >= 11
     %map_t2
     SetFontSize 42
-    PlayAlertSound 8 150
+    PlayAlertSound 9 150
     MinimapIcon 1 Red Hexagon
     PlayEffect Red
 Show

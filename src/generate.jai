@@ -38,10 +38,10 @@ generate_filter :: () {
     } else if output_dir.count == 0 || !is_directory(output_dir) {
         warn("Failed to save filters: `output` is an invalid path, set it.");
     } else {
-        write_entire_file(tprint("%/1.basic.filter",  output_dir),  *basic_builder,  do_reset = false);
-        write_entire_file(tprint("%/2.semi.filter",   output_dir),   *semi_builder,   do_reset = false);
+        write_entire_file(tprint("%/1.basic.filter",  output_dir),  *basic_builder, do_reset = false);
+        write_entire_file(tprint("%/2.semi.filter",   output_dir),   *semi_builder, do_reset = false);
         write_entire_file(tprint("%/3.strict.filter", output_dir), *strict_builder, do_reset = false);
-        write_entire_file(tprint("%/4.uber.filter",   output_dir),   *uber_builder,   do_reset = false);
+        write_entire_file(tprint("%/4.uber.filter",   output_dir),   *uber_builder, do_reset = false);
     }
 
     end := (get_time() - start) * 1000;
@@ -78,7 +78,7 @@ process_filter :: (filename: string, text_data: string, starting_line_number: s6
                 if !split_found  continue filter_loop;
                 comma_found, def_lhs, def_rhs := split_from_left(rhs, Comma);
                 if !comma_found  continue filter_loop;
-                table_add(*data_table, def_lhs, def_rhs);
+                table_add(*data_table, trim(def_lhs), trim(def_rhs));
             case "style";
                 if !split_found  continue filter_loop;
                 comma_found, style_lhs, style_rhs := split_from_left(rhs, Space);

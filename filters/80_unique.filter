@@ -69,13 +69,13 @@ Show
 
 #type:>strict
 Hide
-    BaseType "Talisman" "Deicide Mask" "Iron Mask" "Golden Mask" "Zealot Helmet" "Aventail Helmet" "Great Helmet" "Leather Cap" "Bone Circlet" "Tribal Circlet" "Nightmare Bascinet" "Visored Sallet" "Secutor Helm" "Gilded Sallet" "Soldier Helmet" "Mind Cage" "Festival Mask" "Bone Helmet" "Lunaris Circlet" "Vine Circlet" "Sinner Tricorne" "Ursine Pelt" "Iron Hat" "Asassin's Mitts" "Close Helmet" "Samnite Helmet" "Ezomyte Burgonet" "Tricorne" "Mesh Gloves" "Wrapped Mitts" "Chain Gloves" "Dragonscale Gauntlets" "Wyrmscale Gauntlets" "Steelscale Gauntlets" "Mesh Boots" "Dragonscale Boots" "Sharkskin Boots" "Goliath Gauntlets"
+    BaseType "Talisman" "Deicide Mask" "Iron Mask" "Golden Mask" "Zealot Helmet" "Aventail Helmet" "Great Helmet" "Leather Cap" "Bone Circlet" "Tribal Circlet" "Nightmare Bascinet" "Visored Sallet" "Secutor Helm" "Gilded Sallet" "Soldier Helmet" "Mind Cage" "Festival Mask" "Bone Helmet" "Lunaris Circlet" "Vine Circlet" "Sinner Tricorne" "Ursine Pelt" "Iron Hat" "Assassin's Mitts" "Close Helmet" "Samnite Helmet" "Tricorne" "Mesh Gloves" "Wrapped Mitts" "Chain Gloves" "Dragonscale Gauntlets" "Steelscale Gauntlets" "Mesh Boots" "Dragonscale Boots" "Sharkskin Boots" "Goliath Gauntlets"
     Rarity Unique
     %unique_t4
     SetFontSize 32
 #type:uber
 Hide
-    BaseType "Antique Greaves" "Antique Rapier" "Assassin's Mitts" "Auric Mace" "Aventail Helmet" "Awl" "Baroque Round Shield" "Basket Rapier" "Bastard Sword" "Bone Circlet" "Boot Blade" "Boot Knife" "Brass Maul" "Bronze Gauntlets" "Bronze Sceptre" "Buckskin Tunic" "Carnal Armour" "Chain Gloves" "Chiming Spirit Shield" "Clasped Boots" "Cleaver" "Compound Spiked Shield" "Conquest Chainmail" "Copper Plate" "Crude Bow" "Crusader Chainmail" "Crystal Sceptre" "Crystal Wand" "Cutthroat's Garb" "Death Bow" "Decorative Axe" "Deerskin Boots" "Dragonscale Boots" "Dread Maul" "Dream Mace" "Elder Sword" "Elegant Foil" "Elegant Sword" "Engraved Wand" "Estoc" "Ezomyte Axe" "Ezomyte Blade" "Fire Arrow Quiver" "Flaying Knife" "Gilded Sallet" "Gnarled Branch" "Goat's Horn" "Gut Ripper" "Great Helmet" "Greater Mana Flask" "Grinning Fetish" "Hallowed Hybrid Flask" "Harmonic Spirit Shield" "Headsman Axe" "Highland Blade" "Imbued Wand" "Infernal Axe" "Infernal Sword" "Iron Hat" "Iron Mask" "Ironscale Boots" "Jade Hatchet" "Jagged Foil" "Jagged Maul" "Latticed Ringmail" "Long Bow" "Lunaris Circlet" "Marble Amulet" "Mesh Boots" "Military Staff" "Mosaic Kite Shield" "Nailed Fist" "Necromancer Silks" "Opal Sceptre" "Ornate Mace" "Ornate Ringmail" "Ornate Sword" "Painted Buckler" "Plague Mask" "Plank Kite Shield" "Plate Vest" "Platinum Kris" "Primordial Staff" "Poleaxe" "Quartz Wand" "Ranger Bow" "Recurve Bow" "Rock Breaker" "Rotted Round Shield" "Royal Staff" "Rusted Sword" "Samite Gloves" "Samnite Helmet" "Secutor Helm" "Scholar Boots" "Serpentine Staff" "Serrated Arrow Quiver" "Shadow Axe" "Shadow Sceptre" "Shagreen Boots" "Sharktooth Arrow Quiver" "Short Bow" "Silk Slippers" "Simple Robe" "Skinning Knife" "Sledgehammer" "Soldier Boots" "Spiked Club" "Steel Gauntlets" "Stiletto" "Strapped Boots" "Strapped Leather" "Studded Round Shield" "Sundering Axe" "Supreme Spiked Shield" "Tarnished Spirit Shield" "Terror Maul" "Thresher Claw" "Throat Stabber" "Tiger Sword" "Tomahawk" "Tribal Circlet" "Tricorne" "Twilight Blade" "Ursine Pelt" "War Buckler" "Wild Leather" "Woodsplitter" "Wrapped Mitts" "Wyrmscale Gauntlets" "Vaal Buckler" "Velvet Gloves" "Velvet Slippers" "Vine Circlet" "Visored Sallet" "Fright Claw" "Ambusher" "Harbinger Bow" "Satin Gloves" "Slink Gloves" "Ezomyte Staff" "Gladius" "Timeworn Claw" "Conjurer Boots" "Mind Cage" "Iron Gauntlets" "Leather Cap" "Platinum Sceptre" "Plated Greaves" "Primal Arrow Quiver" "Colossal Tower Shield" "Reinforced Tower Shield" "Pine Buckler" "Deerskin Gloves" "Wool Shoes"
+    BaseType "Antique Greaves" "Antique Rapier" "Assassin's Mitts" "Auric Mace" "Aventail Helmet" "Awl" "Baroque Round Shield" "Basket Rapier" "Bastard Sword" "Bone Circlet" "Boot Blade" "Boot Knife" "Brass Maul" "Bronze Gauntlets" "Bronze Sceptre" "Buckskin Tunic" "Carnal Armour" "Chain Gloves" "Chiming Spirit Shield" "Clasped Boots" "Cleaver" "Compound Spiked Shield" "Conquest Chainmail" "Copper Plate" "Crude Bow" "Crusader Chainmail" "Crystal Sceptre" "Crystal Wand" "Cutthroat's Garb" "Death Bow" "Decorative Axe" "Deerskin Boots" "Dragonscale Boots" "Dread Maul" "Dream Mace" "Elder Sword" "Elegant Foil" "Elegant Sword" "Engraved Wand" "Estoc" "Ezomyte Axe" "Ezomyte Blade" "Fire Arrow Quiver" "Flaying Knife" "Gilded Sallet" "Gnarled Branch" "Goat's Horn" "Gut Ripper" "Great Helmet" "Greater Mana Flask" "Grinning Fetish" "Hallowed Hybrid Flask" "Harmonic Spirit Shield" "Headsman Axe" "Highland Blade" "Imbued Wand" "Infernal Axe" "Infernal Sword" "Iron Hat" "Iron Mask" "Ironscale Boots" "Jade Hatchet" "Jagged Foil" "Jagged Maul" "Latticed Ringmail" "Long Bow" "Lunaris Circlet" "Marble Amulet" "Mesh Boots" "Military Staff" "Mosaic Kite Shield" "Nailed Fist" "Necromancer Silks" "Opal Sceptre" "Ornate Mace" "Ornate Ringmail" "Ornate Sword" "Painted Buckler" "Plague Mask" "Plank Kite Shield" "Plate Vest" "Platinum Kris" "Primordial Staff" "Poleaxe" "Quartz Wand" "Ranger Bow" "Recurve Bow" "Rock Breaker" "Rotted Round Shield" "Royal Staff" "Rusted Sword" "Samite Gloves" "Samnite Helmet" "Secutor Helm" "Scholar Boots" "Serpentine Staff" "Serrated Arrow Quiver" "Shadow Axe" "Shadow Sceptre" "Shagreen Boots" "Sharktooth Arrow Quiver" "Short Bow" "Silk Slippers" "Simple Robe" "Skinning Knife" "Sledgehammer" "Soldier Boots" "Spiked Club" "Steel Gauntlets" "Stiletto" "Strapped Boots" "Strapped Leather" "Studded Round Shield" "Sundering Axe" "Supreme Spiked Shield" "Tarnished Spirit Shield" "Terror Maul" "Thresher Claw" "Throat Stabber" "Tiger Sword" "Tomahawk" "Tribal Circlet" "Tricorne" "Twilight Blade" "Ursine Pelt" "War Buckler" "Wild Leather" "Woodsplitter" "Wrapped Mitts" "Wyrmscale Gauntlets" "Vaal Buckler" "Velvet Gloves" "Velvet Slippers" "Vine Circlet" "Visored Sallet" "Fright Claw" "Ambusher" "Harbinger Bow" "Satin Gloves" "Slink Gloves" "Ezomyte Staff" "Gladius" "Timeworn Claw" "Conjurer Boots" "Mind Cage" "Iron Gauntlets" "Leather Cap" "Platinum Sceptre" "Plated Greaves" "Primal Arrow Quiver" "Colossal Tower Shield" "Reinforced Tower Shield" "Pine Buckler" "Deerskin Gloves" "Wool Shoes" "Ezomyte Burgonet" "Wyrmscale Gauntlets"
     Rarity Unique
     %unique_t4
     SetFontSize 32
@@ -93,7 +93,16 @@ Show
 
 #High Value Tier (World) - Basetypes with guaranteed valuable uniques. Should be worth ~20c minimum.
 Show
-    BaseType "Occultist's Vestment" "Silk Gloves" "Rawhide Boots" "Savant's Robe" "Wyrmscale Doublet" "Imperial Maul" "Titan Greaves" "Void Axe" "Highborn Staff" "Siege Axe" "Jingling Spirit Shield" "Jewelled Foil" "Steelwood Bow" "Zodiac Leather" "Crimson Round Shield" "Ornate Quiver" "Vaal Rapier" "Heavy Belt" "Leather Belt" "Raven Mask" "Leather Hood" "Praetor Crown" "Karui Maul" "Gladiator Plate" "Golden Buckler"
+    BaseType "Heavy Belt" "Leather Belt"
+    Rarity Unique
+    ItemLevel >= 75
+    %unique_t2
+    SetFontSize 42
+    PlayAlertSound 5 150
+    MinimapIcon 0 Orange Star
+    PlayEffect Orange
+Show
+    BaseType "Occultist's Vestment" "Silk Gloves" "Rawhide Boots" "Savant's Robe" "Wyrmscale Doublet" "Imperial Maul" "Titan Greaves" "Void Axe" "Highborn Staff" "Siege Axe" "Jingling Spirit Shield" "Jewelled Foil" "Steelwood Bow" "Zodiac Leather" "Crimson Round Shield" "Ornate Quiver" "Vaal Rapier" "Raven Mask" "Leather Hood" "Praetor Crown" "Karui Maul" "Gladiator Plate" "Golden Buckler" "Steel Kite Shield"
     Rarity Unique
     %unique_t2
     SetFontSize 42
@@ -102,7 +111,7 @@ Show
     PlayEffect Orange
 #High Value Tier (Fixed Location) - Main game boss specific uniques (Shaper, Elder, etc). League-specific bosses should be in the next block. 20c+ value. Includes prophecy uniques with no shared bases. Still WIP, some may be in other tiers.
 Show
-    BaseType "Tyrant's Sekhem" "Ezomyte Dagger" "Assassin's Boots" "Hydrascale Gauntlets" "Ambush Mitts" "Ezomyte Tower Shield" "Blood Raiment" "Painted Tower Shield"
+    BaseType "Assassin's Boots" "Hydrascale Gauntlets" "Ezomyte Tower Shield" "Blood Raiment" "Painted Tower Shield"
     Rarity Unique
     %unique_t3
     SetFontSize 42
@@ -131,7 +140,7 @@ Show
 
 #Upper Variable Value / Shared Basetypes Tier - shared bases where at least one is a world drop and has 10c or higher value. Teal border.
 Show
-    BaseType "Onyx Amulet" "Ebony Tower Shield" "Imperial Bow" "Sadist Garb" "Lacquered Garb" "Carved Wand" "Goathide Boots" "Sorcerer Boots" "Fiend Dagger" "Sage Wand" "Studded Belt" "Cloth Belt" "Archon Kite Shield" "Vaal Blade" "Moonstone Ring" "Agate Amulet" "Imperial Skean" "Spine Bow" "Serpentscale Gauntlets" "Sage's Robe" "Stibnite Flask" "Astral Plate" "Titan Gauntlets"
+    BaseType "Onyx Amulet" "Ebony Tower Shield" "Imperial Bow" "Sadist Garb" "Lacquered Garb" "Carved Wand" "Goathide Boots" "Sorcerer Boots" "Fiend Dagger" "Sage Wand" "Studded Belt" "Cloth Belt" "Archon Kite Shield" "Vaal Blade" "Moonstone Ring" "Agate Amulet" "Imperial Skean" "Spine Bow" "Serpentscale Gauntlets" "Sage's Robe" "Stibnite Flask" "Astral Plate" "Titan Gauntlets" "Saintly Chainmail"
     Rarity Unique
     %unique_multi
     SetFontSize 40

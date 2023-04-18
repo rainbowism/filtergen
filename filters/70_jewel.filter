@@ -193,6 +193,7 @@ Show
 #type:default
 #if:6sockets
 #6s catchall
+#type:<semi
 Show
     Rarity Normal Magic Rare
     Sockets = 6
@@ -202,4 +203,12 @@ Show
     SetFontSize 45
     PlayAlertSound 3 65
     MinimapIcon 2 Green Square
+#type:>strict
+Show
+    Rarity Normal Magic Rare
+    Sockets = 6
+    %$_gum
+    SetFontSize 36
+    DisableDropSound
+#type:default
 #end

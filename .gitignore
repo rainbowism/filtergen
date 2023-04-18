@@ -1,6 +1,7 @@
 # Build
 bin/
 .build/
+*.exe
 *.zip
 
 # Temporary ignore

@@ -9,6 +9,9 @@
 # Chancing bases
 ##def:chance,"Praetor Crown"
 
+# Override bases
+##def:bases,"Profane Wand" "Spine Bow" "Maraketh Bow"
+
 # Favourite maps
 ##def:favourite_maps,== "Underground Sea Map"
 
